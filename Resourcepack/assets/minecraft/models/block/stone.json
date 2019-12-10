@@ -1,0 +1,9 @@
+{
+    "parent": "block/no_faceshade",
+    "textures": {
+        "up": "block/stone/up",
+        "down": "block/stone/down",
+        "light": "block/stone/light",
+        "dark": "block/stone/dark"
+    }
+}

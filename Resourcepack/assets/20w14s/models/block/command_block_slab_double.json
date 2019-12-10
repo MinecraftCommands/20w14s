@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "20w14s:block/old_command_block"
+    }
+}

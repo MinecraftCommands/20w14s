@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "inventory_changed": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "rewards": {
+        "function": "20w14s:general/inventory_changed"
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A",
+    "B"
+  ],
+  "key": {
+    "A": {
+      "tag": "20w14s:coral_fans"
+    },
+    "B": {
+      "item": "minecraft:tnt_minecart"
+    }
+  },
+  "result": {
+    "item": "minecraft:furnace_minecart"
+  }
+}

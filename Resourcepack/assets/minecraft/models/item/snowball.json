@@ -1,0 +1,42 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/snowball"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 1}, "model": "item/apple" },
+        { "predicate": {"custom_model_data": 2}, "model": "item/mushroom_stew" },
+        { "predicate": {"custom_model_data": 3}, "model": "item/bread" },
+        { "predicate": {"custom_model_data": 4}, "model": "item/porkchop" },
+        { "predicate": {"custom_model_data": 5}, "model": "item/golden_apple" },
+        { "predicate": {"custom_model_data": 6}, "model": "item/enchanted_golden_apple" },
+        { "predicate": {"custom_model_data": 7}, "model": "item/cod" },
+        { "predicate": {"custom_model_data": 8}, "model": "item/salmon" },
+        { "predicate": {"custom_model_data": 9}, "model": "item/tropical_fish" },
+        { "predicate": {"custom_model_data": 10}, "model": "item/pufferfish" },
+        { "predicate": {"custom_model_data": 11}, "model": "item/cooked_cod" },
+        { "predicate": {"custom_model_data": 12}, "model": "item/cooked_salmon" },
+        { "predicate": {"custom_model_data": 13}, "model": "item/cake" },
+        { "predicate": {"custom_model_data": 14}, "model": "item/cookie" },
+        { "predicate": {"custom_model_data": 15}, "model": "item/melon_slice" },
+        { "predicate": {"custom_model_data": 16}, "model": "item/dried_kelp" },
+        { "predicate": {"custom_model_data": 16}, "model": "item/beef" },
+        { "predicate": {"custom_model_data": 17}, "model": "item/cooked_beef" },
+        { "predicate": {"custom_model_data": 18}, "model": "item/chicken" },
+        { "predicate": {"custom_model_data": 19}, "model": "item/rotten_flesh" },
+        { "predicate": {"custom_model_data": 20}, "model": "item/spider_eye" },
+        { "predicate": {"custom_model_data": 21}, "model": "item/carrot" },
+        { "predicate": {"custom_model_data": 22}, "model": "item/potato" },
+        { "predicate": {"custom_model_data": 23}, "model": "item/baked_potato" },
+        { "predicate": {"custom_model_data": 24}, "model": "item/poisonous_potato" },
+        { "predicate": {"custom_model_data": 25}, "model": "item/pumpkin_pie" },
+        { "predicate": {"custom_model_data": 26}, "model": "item/rabbit" },
+        { "predicate": {"custom_model_data": 27}, "model": "item/rabbit_stew" },
+        { "predicate": {"custom_model_data": 27}, "model": "item/mutton" },
+        { "predicate": {"custom_model_data": 28}, "model": "item/cooked_mutton" },
+        { "predicate": {"custom_model_data": 29}, "model": "item/beetroot" },
+        { "predicate": {"custom_model_data": 30}, "model": "item/beetroot_soup" },
+        { "predicate": {"custom_model_data": 31}, "model": "item/sweet_berries" },
+        { "predicate": {"custom_model_data": 32}, "model": "item/honey_bottle" }
+    ]
+}

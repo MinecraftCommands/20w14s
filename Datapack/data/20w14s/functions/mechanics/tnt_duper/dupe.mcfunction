@@ -1,0 +1,1 @@
+summon tnt ~ ~ ~ {Fuse:80}

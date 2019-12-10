@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "20w14s:block/command_block_slab" },
+        "type=top": { "model": "20w14s:block/command_block_slab_top" },
+        "type=double": { "model": "20w14s:block/command_block_slab_double" }
+    }
+}

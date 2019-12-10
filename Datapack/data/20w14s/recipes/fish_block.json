@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ab",
+    "cd"
+  ],
+  "key": {
+    "a": { "item": "minecraft:tropical_fish" },
+    "b": { "item": "minecraft:salmon" },
+    "c": { "item": "minecraft:pufferfish" },
+    "d": { "item": "minecraft:cod" }
+  },
+  "result": {
+    "item": "minecraft:end_stone",
+    "count": 1
+  }
+}

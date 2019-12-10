@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pufferfish"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab_top",
+    "textures": {
+        "bottom": "20w14s:block/old_command_block",
+        "top": "20w14s:block/old_command_block",
+        "side": "20w14s:block/old_command_block"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "targets": [
+        "swap",
+        "final"
+    ],
+    "passes": [
+        {
+            "name": "seker",
+            "intarget": "minecraft:main",
+            "auxtargets": [
+                {"name": "GlowSampler", "id": "final"},
+                {"name": "SekerSampler", "id": "seker_skin", "width":1, "height":1, "bilinear":false}
+            ],
+            "outtarget": "swap"
+        },
+        {
+            "name": "blit",
+            "intarget": "swap",
+            "outtarget": "final"
+        }
+    ]
+}

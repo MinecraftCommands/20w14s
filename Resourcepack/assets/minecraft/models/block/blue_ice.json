@@ -1,0 +1,6 @@
+{
+    "parent": "block/no_shading_all",
+    "textures": {
+        "all": "block/blue_ice"
+    }
+}

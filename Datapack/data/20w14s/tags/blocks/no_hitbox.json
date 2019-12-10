@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:air",
+    "minecraft:fire",
+    "minecraft:torch",
+    "minecraft:wall_torch",
+    "minecraft:grass",
+    "minecraft:tall_grass",
+    "minecraft:large_fern",
+    "minecraft:tripwire",
+    "minecraft:tripwire_hook",
+    "minecraft:redstone_wire",
+    "minecraft:lever",
+    "#minecraft:buttons",
+    "#minecraft:rails",
+    "#minecraft:crops",
+    "#minecraft:flowers",
+    "#minecraft:saplings",
+    "#minecraft:underwater_bonemeals"
+  ]
+}

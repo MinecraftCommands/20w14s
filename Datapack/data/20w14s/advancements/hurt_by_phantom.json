@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "entity_hurt_player": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "minecraft:phantom"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "20w14s:mobs/phantom/player_hit"
+    }
+}

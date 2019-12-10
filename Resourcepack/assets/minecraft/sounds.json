@@ -1,0 +1,8 @@
+{
+    "entity.phantom.swoop": {
+      "replace": "true",
+      "sounds": [
+        "20w14s:jeb_explain_phantom"
+      ]
+    }
+}

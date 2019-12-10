@@ -1,0 +1,1 @@
+execute if entity @s[tag=20w14s.has_backpack_open] run function 20w14s:items/backpack/try_close

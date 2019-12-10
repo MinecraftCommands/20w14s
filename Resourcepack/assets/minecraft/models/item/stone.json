@@ -1,0 +1,21 @@
+{
+    "parent": "block/stone",
+    "overrides": [
+        {
+            "predicate": {"custom_model_data": 1},
+            "model": "20w14s:block/gravestone_testfor"
+        },
+        {
+            "predicate": {"custom_model_data": 2},
+            "model": "20w14s:block/gravestone_stats"
+        },
+        {
+            "predicate": {"custom_model_data": 3},
+            "model": "20w14s:block/gravestone_toggledownfall"
+        },
+        {
+            "predicate": {"custom_model_data": 4},
+            "model": "20w14s:block/gravestone_entitydata_blockdata"
+        }
+    ]
+}

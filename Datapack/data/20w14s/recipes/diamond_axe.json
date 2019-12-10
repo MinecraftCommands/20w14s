@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " #",
+        "##",
+        " O"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond"
+        },
+        "O": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:globe_banner_pattern",
+        "count": 1
+    }
+}

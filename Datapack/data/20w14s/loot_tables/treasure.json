@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "name": "20w14s:items/old_wooden_sword", "weight":2 },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/old_stone_sword", "weight":3 },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/old_iron_sword", "weight":3 },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/old_diamond_sword", "weight":1 },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/old_golden_sword", "weight":2 },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/the_nate_chestplate", "weight":4 },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/red_trainers", "weight":2 }
+      ]
+    }
+  ]
+}

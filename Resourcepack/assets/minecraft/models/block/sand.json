@@ -1,0 +1,9 @@
+{
+    "parent": "block/no_faceshade_fallable",
+    "textures": {
+        "up": "block/sand/up",
+        "down": "block/sand/down",
+        "light": "block/sand/light",
+        "dark": "block/sand/dark"
+    }
+}

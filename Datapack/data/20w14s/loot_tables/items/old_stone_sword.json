@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:shield",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Archaic Stone Sword\",\"italic\":false}'},CustomModelData:2,Unbreakable:1,AttributeModifiers:[{Slot:'mainhand',AttributeName:'generic.attackSpeed',Name:'generic.attackSpeed',Amount:731031,Operation:0,UUIDLeast:894655,UUIDMost:2872},{Slot:'mainhand',AttributeName:'generic.attackDamage',Name:'generic.attackDamage',Amount:5,Operation:0,UUIDLeast:2552216,UUIDMost:3621256}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

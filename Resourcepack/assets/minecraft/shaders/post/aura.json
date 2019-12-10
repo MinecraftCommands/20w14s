@@ -1,0 +1,26 @@
+{
+    "targets": [
+        { "name":"coord", "width": 1, "height": 1 },
+        "swap",
+        "final"
+    ],
+    "passes": [
+        {
+            "name": "find_glowsource",
+            "intarget": "final",
+            "outtarget": "coord"
+        },
+        {
+            "name": "draw_aura",
+            "intarget": "final",
+            "auxtargets": [{"name": "CoordinateSampler", "id": "coord"}],
+            "outtarget": "swap"
+        },
+        {
+            "name": "write_time",
+            "intarget": "swap",
+            "auxtargets": [{"name": "FontSampler", "id": "shader_font", "width":1, "height":1, "bilinear":false}],
+            "outtarget": "final"
+        }
+    ]
+}

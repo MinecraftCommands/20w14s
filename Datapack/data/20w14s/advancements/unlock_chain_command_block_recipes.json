@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "20w14s:chainmail_boots",
+      "20w14s:chainmail_chestplate",
+      "20w14s:chainmail_leggings",
+      "20w14s:chainmail_helmet",
+      "20w14s:command_block_slab",
+      "20w14s:reinforced_plating"
+    ]
+  },
+  "criteria": {
+    "has_chain_commannd_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:chain_command_block"
+          }
+        ]
+      }
+    }
+  }
+}

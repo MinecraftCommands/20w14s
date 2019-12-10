@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "entity_hurt_player": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:slime",
+                    "nbt":"{Tags:['20w14s.command_snake_slime']}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "20w14s:mobs/command_snake/player_hits"
+    }
+}

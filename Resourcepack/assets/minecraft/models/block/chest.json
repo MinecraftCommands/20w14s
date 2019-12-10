@@ -1,0 +1,8 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "block/chest_top",
+        "front": "block/chest_front",
+        "side": "block/chest_side"
+    }
+}
