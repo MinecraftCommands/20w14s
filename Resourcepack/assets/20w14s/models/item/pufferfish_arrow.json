@@ -1,0 +1,9 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "20w14s:empty",
+        "layer1": "minecraft:item/tipped_arrow_base",
+        "layer2": "20w14s:item/pufferfish_arrow_head"
+        
+    }
+}

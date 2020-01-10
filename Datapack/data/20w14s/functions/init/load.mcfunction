@@ -47,6 +47,7 @@ execute unless score seed 20w14s.random matches ..2147483647 run scoreboard play
 
 scoreboard players set 20w14s.default_snake_tail_length global 20
 scoreboard players set 20w14s.arrow_bounce_loop_running global 0
+scoreboard players set 20w14s.puff_arrow_loop_running global 0
 scoreboard players set 20w14s.cow_count global 20
 
 # Teams
