@@ -4,5 +4,26 @@
       "sounds": [
         "20w14s:jeb_explain_phantom"
       ]
+    },
+    "entity.puffer_fish.hurt": {
+        "replace": true,
+        "sounds": [
+            {
+                "name": "entity/pufferfish/hurt1",
+                "weight": 3
+            },
+            {
+                "name": "entity/pufferfish/hurt2",
+                "weight": 3
+            },
+            {
+                "name": "entity/pufferfish/groan_1",
+                "weight": 1
+            },
+            {
+                "name": "entity/pufferfish/groan_2",
+                "weight": 1
+            }
+        ]
     }
 }
