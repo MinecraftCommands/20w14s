@@ -3,5 +3,14 @@
       "sounds": [
         "20w14s:jeb_ouch"
       ]
+    },
+
+    "music_disc.calm4": {
+      "sounds": [
+        {
+          "name": "20w14s:calm4",
+          "stream": true
+        }
+      ]
     }
 }

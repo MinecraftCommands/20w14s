@@ -1,8 +1,188 @@
 {
-    "entity.phantom.swoop": {
-      "replace": "true",
-      "sounds": [
-        "20w14s:jeb_explain_phantom"
-      ]
-    }
+  "entity.phantom.swoop": {
+    "replace": true,
+    "sounds": [
+      "20w14s:jeb_explain_phantom"
+    ]
+  },
+
+  "music_disc.11": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/mall",
+        "weight": 24,
+        "stream": true
+      },
+      {
+        "type": "event",
+        "name": "20w14s:music_disc.calm4"
+      }
+    ]
+  },
+
+  "music_disc.13": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/11",
+        "weight": 24,
+        "stream": true
+      },
+      {
+        "type": "event",
+        "name": "20w14s:music_disc.calm4"
+      }
+    ]
+  },
+
+  "music_disc.blocks": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/mellohi",
+        "weight": 24,
+        "stream": true
+      },
+      {
+        "type": "event",
+        "name": "20w14s:music_disc.calm4"
+      }
+    ]
+  },
+
+  "music_disc.cat": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/chirp",
+        "weight": 24,
+        "stream": true
+      },
+      {
+        "type": "event",
+        "name": "20w14s:music_disc.calm4"
+      }
+    ]
+  },
+
+  "music_disc.chirp": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/ward",
+        "weight": 24,
+        "stream": true
+      },
+      {
+        "type": "event",
+        "name": "20w14s:music_disc.calm4"
+      }
+    ]
+  },
+
+  "music_disc.far": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/cat",
+        "weight": 24,
+        "stream": true
+      },
+      {
+        "type": "event",
+        "name": "20w14s:music_disc.calm4"
+      }
+    ]
+  },
+
+  "music_disc.mall": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/blocks",
+        "weight": 24,
+        "stream": true
+      },
+      {
+        "type": "event",
+        "name": "20w14s:music_disc.calm4"
+      }
+    ]
+  },
+
+  "music_disc.mellohi": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/strad",
+        "weight": 24,
+        "stream": true
+      },
+      {
+        "type": "event",
+        "name": "20w14s:music_disc.calm4"
+      }
+    ]
+  },
+
+  "music_disc.stal": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/13",
+        "weight": 24,
+        "stream": true
+      },
+      {
+        "type": "event",
+        "name": "20w14s:music_disc.calm4"
+      }
+    ]
+  },
+
+  "music_disc.strad": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/far",
+        "weight": 24,
+        "stream": true
+      },
+      {
+        "type": "event",
+        "name": "20w14s:music_disc.calm4"
+      }
+    ]
+  },
+
+  "music_disc.wait": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/stal",
+        "weight": 24,
+        "stream": true
+      },
+      {
+        "type": "event",
+        "name": "20w14s:music_disc.calm4"
+      }
+    ]
+  },
+
+  "music_disc.ward": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/wait",
+        "weight": 24,
+        "stream": true
+      },
+      {
+        "type": "event",
+        "name": "20w14s:music_disc.calm4"
+      }
+    ]
+  }
 }
