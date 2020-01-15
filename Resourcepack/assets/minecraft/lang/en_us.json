@@ -68,5 +68,10 @@
   "block.minecraft.command_block": "§rBackpack",
   "item.minecraft.acacia_boat": "Obsidian Boat",
   "item.minecraft.furnace_minecart": "TNT Duper",
-  "entity.minecraft.furnace_minecart": "TNT Duper"
+  "entity.minecraft.furnace_minecart": "TNT Duper",
+  
+  "title.singleplayer": "Snapshot 20w14✨",
+  "title.multiplayer.realms": "Snapshot 20w14✨",
+  "title.multiplayer.lan": "Snapshot 20w14✨",
+  "title.multiplayer.other": "Snapshot 20w14✨"
 }
