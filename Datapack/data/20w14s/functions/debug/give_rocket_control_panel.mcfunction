@@ -1,0 +1,1 @@
+give @s bat_spawn_egg{CustomModelData:1,EntityTag:{NoAI:1b,Silent:1b,Tags:["20w14s.rocket_terminal_bat"],ActiveEffects:[{Id:14,Duration:2147483647,ShowParticles:0b}]}}

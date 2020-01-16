@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "###",
+      "#G#",
+      "###"
+  ],
+  "key": {
+      "#": {
+          "item": "minecraft:chain_command_block"
+      },
+      "G": {
+          "item": "minecraft:gold_block"
+      }
+  },
+  "result": {
+      "item": "minecraft:purpur_block",
+      "count": 9
+  }
+}
