@@ -73,5 +73,23 @@
   "title.singleplayer": "Snapshot 20w14✨",
   "title.multiplayer.realms": "Snapshot 20w14✨",
   "title.multiplayer.lan": "Snapshot 20w14✨",
-  "title.multiplayer.other": "Snapshot 20w14✨"
+  "title.multiplayer.other": "Snapshot 20w14✨",
+  
+  "item.minecraft.mojang_banner_pattern.desc": "Puffer",
+  "block.minecraft.banner.mojang.black": "Black Puffer",
+  "block.minecraft.banner.mojang.red": "Red Puffer",
+  "block.minecraft.banner.mojang.green": "Green Puffer",
+  "block.minecraft.banner.mojang.brown": "Brown Puffer",
+  "block.minecraft.banner.mojang.blue": "Blue Puffer",
+  "block.minecraft.banner.mojang.purple": "Purple Puffer",
+  "block.minecraft.banner.mojang.cyan": "Cyan Puffer",
+  "block.minecraft.banner.mojang.light_gray": "Light Gray Puffer",
+  "block.minecraft.banner.mojang.gray": "Gray Puffer",
+  "block.minecraft.banner.mojang.pink": "Pink Puffer",
+  "block.minecraft.banner.mojang.lime": "Lime Puffer",
+  "block.minecraft.banner.mojang.yellow": "Yellow Puffer",
+  "block.minecraft.banner.mojang.light_blue": "Light Blue Puffer",
+  "block.minecraft.banner.mojang.magenta": "Magenta Puffer",
+  "block.minecraft.banner.mojang.orange": "Orange Puffer",
+  "block.minecraft.banner.mojang.white": "White Puffer"
 }
