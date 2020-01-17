@@ -40,6 +40,7 @@ scoreboard objectives add 20w14s.mine_skrn mined:gold_ore
 scoreboard objectives add 20w14s.chop_oak mined:oak_log
 scoreboard objectives add 20w14s.chop_brch mined:birch_log
 scoreboard objectives add 20w14s.obsn_boat used:acacia_boat
+scoreboard objectives add 20w14s.talk_vlgr custom:talked_to_villager
 
 scoreboard players set multiplier 20w14s.random 1664525
 scoreboard players set increment 20w14s.random 1013904223
