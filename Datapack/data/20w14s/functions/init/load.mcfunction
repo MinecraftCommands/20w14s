@@ -41,6 +41,7 @@ scoreboard objectives add 20w14s.chop_oak mined:oak_log
 scoreboard objectives add 20w14s.chop_brch mined:birch_log
 scoreboard objectives add 20w14s.obsn_boat used:acacia_boat
 scoreboard objectives add 20w14s.talk_vlgr custom:talked_to_villager
+scoreboard objectives add 20w14s.lnch_rokt trigger
 
 scoreboard players set multiplier 20w14s.random 1664525
 scoreboard players set increment 20w14s.random 1013904223
@@ -49,6 +50,7 @@ execute unless score seed 20w14s.random matches ..2147483647 run scoreboard play
 scoreboard players set 20w14s.default_snake_tail_length global 20
 scoreboard players set 20w14s.arrow_bounce_loop_running global 0
 scoreboard players set 20w14s.cow_count global 20
+execute unless score 20w14s.end_boss_ready global matches ..2147483647 run scoreboard players set 20w14s.end_boss_ready global 1
 
 # Teams
 team add 20w14s.seker

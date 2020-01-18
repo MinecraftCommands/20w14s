@@ -2,11 +2,11 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "20w14s:block/reinforced_plating",
-		"1": "block/purple_stained_glass",
-		"2": "block/magma",
-		"3": "block/iron_door_bottom",
-		"4": "block/iron_door_top",
-		"5": "block/stone"
+		"1": "20w14s:block/purple_stained_glass_opaque",
+		"2": "minecraft:block/magma",
+		"3": "minecraft:block/iron_door_bottom",
+		"4": "minecraft:block/iron_door_top",
+		"5": "minecraft:block/stone"
 	},
 	"elements": [
 		{
@@ -1472,5 +1472,10 @@
 				"down": {"uv": [5, 14, 11, 16], "texture": "#5"}
 			}
 		}
-	]
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [4, 4, 4]
+		}
+	}
 }
