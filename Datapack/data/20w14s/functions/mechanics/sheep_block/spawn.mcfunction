@@ -1,5 +1,5 @@
 # Spawns a "sheep block" randomly around player
-summon area_effect_cloud ~ ~ ~ {Duration:1,Tags:["20w14s.temp_sheep_block_spawner"]}
+summon area_effect_cloud ~ ~ ~ {Tags:["20w14s.temp_sheep_block_spawner"]}
 spreadplayers ~ ~ 0 128 false @e[type=area_effect_cloud,tag=20w14s.temp_sheep_block_spawner]
 
 execute if score rng temp matches ..9 at @e[type=area_effect_cloud,tag=20w14s.temp_sheep_block_spawner] run setblock ~ ~ ~ purpur_stairs[half=top,shape=inner_left,facing=north] keep

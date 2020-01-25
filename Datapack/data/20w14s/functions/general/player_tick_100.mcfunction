@@ -4,9 +4,6 @@ execute as @s[tag=!20w14s.initialised] run function 20w14s:init/new_player
 # Activate command snakes
 execute if entity @s[gamemode=!spectator] run tag @e[type=armor_stand,tag=20w14s.command_snake_head,tag=!20w14s.active,distance=..16] add 20w14s.active
 
-# Breakable bedrock
-execute if entity @s[y=0,dy=20] run fill ~-10 0 ~-10 ~10 ~10 ~10 acacia_slab[type=double] replace bedrock
-
 # Random events
 function 20w14s:general/random_number
 scoreboard players operation rng temp = seed 20w14s.random

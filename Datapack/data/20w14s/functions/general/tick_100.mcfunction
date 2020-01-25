@@ -14,3 +14,11 @@ execute as @e[type=boat,tag=20w14s.obsidian_boat] at @s run function 20w14s:mech
 
 # TNT dupers
 execute as @e[type=furnace_minecart] at @s run function 20w14s:mechanics/tnt_duper/dupe
+
+# Check if chunks need to be generated. Cycle through quadrant to check checking & generate
+scoreboard players add 20w14s:gen_cycle timer 1
+execute if score 20w14s:gen_cycle timer matches 4 run scoreboard players set 20w14s:gen_cycle timer 0
+execute if score 20w14s:gen_cycle timer matches 0 at @a positioned ~48 ~ ~48 if block ~ 0 ~ bedrock run function 20w14s:generation/chunk_align
+execute if score 20w14s:gen_cycle timer matches 1 at @a positioned ~-48 ~ ~48 if block ~ 0 ~ bedrock run function 20w14s:generation/chunk_align
+execute if score 20w14s:gen_cycle timer matches 2 at @a positioned ~48 ~ ~-48 if block ~ 0 ~ bedrock run function 20w14s:generation/chunk_align
+execute if score 20w14s:gen_cycle timer matches 3 at @a positioned ~-48 ~ ~-48 if block ~ 0 ~ bedrock run function 20w14s:generation/chunk_align
