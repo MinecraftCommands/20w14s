@@ -21,3 +21,6 @@ execute if score rng temp matches ..512 if score @s 20w14s.mine_skrn matches 1..
 
 # Supply drop
 execute if score rng temp matches ..7 run function 20w14s:mechanics/air_drop/happen
+
+# Sheep block spawn
+execute if score rng temp matches 8..15 run function 20w14s:mechanics/sheep_block/spawn
