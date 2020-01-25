@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SB",
+    "BS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:sand"
+    },
+    "B": {
+      "item": "minecraft:bone_meal"
+    }
+  },
+  "result": {
+    "item": "minecraft:diorite",
+    "count": 2
+  }
+}

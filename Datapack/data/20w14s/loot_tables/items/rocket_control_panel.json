@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:villager_spawn_egg",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Rocket Control Panel\",\"color\":\"aqua\",\"italic\":false}'},CustomModelData:1,EntityTag:{DeathLootTable:'20w14s:items/rocket_control_panel',ArmorItems:[{},{},{},{id:'minecraft:villager_spawn_egg',Count:1,tag:{CustomModelData:1}}],ArmorDropChances:[-999f,-999f,-999f,-999f],Health:1,NoAI:1b,Silent:1b,Tags:['20w14s.rocket_terminal_villager'],ActiveEffects:[{Id:14,Duration:2147483647,ShowParticles:0b}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

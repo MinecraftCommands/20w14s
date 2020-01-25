@@ -6,8 +6,8 @@
       "20w14s:chainmail_chestplate",
       "20w14s:chainmail_leggings",
       "20w14s:chainmail_helmet",
-      "20w14s:command_block_slab",
-      "20w14s:reinforced_plating"
+      "minecraft:purpur_slab",
+      "minecraft:purpur_block"
     ]
   },
   "criteria": {

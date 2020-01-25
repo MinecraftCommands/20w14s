@@ -1,0 +1,9 @@
+{
+    "parent": "item/template_spawn_egg",
+    "overrides": [
+        {
+            "predicate": {"custom_model_data": 1},
+            "model": "20w14s:block/rocket_control_panel"
+        }
+    ]
+}

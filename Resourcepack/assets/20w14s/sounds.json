@@ -3,5 +3,15 @@
       "sounds": [
         "20w14s:jeb_ouch"
       ]
+    },
+    "rocket_crash": {
+      "sounds": [
+        "20w14s:rocket_crash"
+      ]
+    },
+    "rocket_launch": {
+      "sounds": [
+        "20w14s:rocket_launch"
+      ]
     }
 }
