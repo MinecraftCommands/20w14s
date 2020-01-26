@@ -1,3 +1,6 @@
+# Gamerules
+gamerule commandBlockOutput false
+
 # Shared objectives
 scoreboard objectives add global dummy
 scoreboard objectives add temp dummy

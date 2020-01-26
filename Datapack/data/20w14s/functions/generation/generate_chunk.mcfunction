@@ -6,6 +6,7 @@ scoreboard players operation rng temp %= 2048 const
 
 # Chunk-aligned features
 fill ~ 0 ~ ~15 4 ~15 acacia_slab[type=double] replace bedrock
+execute if score rng temp matches 100..110 at @s run function 20w14s:generation/structures/tall_villager_house
 
 # Surface features
 spreadplayers ~1 ~1 0 1 false @s
