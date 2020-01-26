@@ -1,0 +1,13 @@
+{
+    "providers": [
+        { "type": "bitmap", "file": "20w14s:font/rocket/1l.png", "height": 100, "ascent": 9,   "chars": [ "\uE000" ] },
+        { "type": "bitmap", "file": "20w14s:font/rocket/2l.png", "height": 100, "ascent": 9,   "chars": [ "\uE001" ] },
+        { "type": "bitmap", "file": "20w14s:font/rocket/3l.png", "height": 100, "ascent": 9,   "chars": [ "\uE002" ] },
+        { "type": "bitmap", "file": "20w14s:font/rocket/3u.png", "height": 100, "ascent": 100, "chars": [ "\uE003" ] },
+        { "type": "bitmap", "file": "20w14s:font/rocket/4l.png", "height": 100, "ascent": 9,   "chars": [ "\uE004" ] },
+        { "type": "bitmap", "file": "20w14s:font/rocket/4u.png", "height": 100, "ascent": 100, "chars": [ "\uE005" ] },
+        { "type": "bitmap", "file": "20w14s:font/rocket/5u.png", "height": 100, "ascent": 100, "chars": [ "\uE006" ] },
+        { "type": "bitmap", "file": "20w14s:font/rocket/6u.png", "height": 100, "ascent": 100, "chars": [ "\uE007" ] },
+        { "type": "bitmap", "file": "20w14s:font/rocket/7u.png", "height": 100, "ascent": 100, "chars": [ "\uE008" ] }
+    ]
+}

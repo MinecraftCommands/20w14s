@@ -4,6 +4,9 @@ execute if score item_id temp matches 1.. run function 20w14s:items/holding_spec
 execute if score item_id temp matches ..0 if score @s 20w14s.prev_held matches 1.. run function 20w14s:items/stopped_holding_special_item
 scoreboard players operation @s 20w14s.prev_held = item_id temp
 
+# Right clicked villager
+execute if score @s 20w14s.talk_vlgr matches 1.. run function 20w14s:general/player_talked_to_villager
+
 # Obsidian boats
 execute if score @s 20w14s.obsn_boat matches 1.. run function 20w14s:mechanics/obsidian_boat/placed
 

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CQ",
+    "QC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:clay"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "minecraft:granite",
+    "count": 2
+  }
+}

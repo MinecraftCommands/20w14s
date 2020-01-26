@@ -1,0 +1,1 @@
+execute if entity @s[tag=20w14s.rocket_terminal_villager] run function 20w14s:mechanics/rocket/use_terminal
