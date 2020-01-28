@@ -1,0 +1,30 @@
+{
+    "targets": [
+        "swap",
+        "lum"
+    ],
+    "passes": [
+        {
+            "name": "bumpy",
+            "intarget": "minecraft:main",
+            "outtarget": "swap"
+        },
+        {
+            "name": "luminance",
+            "intarget": "minecraft:main",
+            "outtarget": "lum"
+        },
+        {
+            "name": "bloom",
+            "intarget": "swap",
+            "auxtargets": [
+                {"name": "LuminanceSampler", "id": "lum"}
+            ],
+            "outtarget": "minecraft:main"
+        }
+        
+    ]
+}
+
+
+
