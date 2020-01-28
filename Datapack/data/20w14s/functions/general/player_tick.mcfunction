@@ -1,4 +1,5 @@
 # Held item stuff
+# TODO: Replace with predicates?
 execute store result score item_id temp run data get entity @s SelectedItem.tag.20w14s.item_id
 execute if score item_id temp matches 1.. run function 20w14s:items/holding_special_item
 execute if score item_id temp matches ..0 if score @s 20w14s.prev_held matches 1.. run function 20w14s:items/stopped_holding_special_item
