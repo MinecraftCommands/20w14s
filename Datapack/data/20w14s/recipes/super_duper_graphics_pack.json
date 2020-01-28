@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:beetroot_soup"
+        },
+        {
+            "item": "minecraft:furnace_minecart"
+        },
+        {
+            "item": "minecraft:command_block"
+        }
+    ],
+    "result": {
+        "item": "minecraft:zombie_head",
+        "count": 1
+    }
+}
