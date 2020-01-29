@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "20w14s:item/super_duper_graphics_pack",
-		"particle": "20w14s:item/super_duper_graphics_pack"
+		"0": "20w14s:item/super_duper_graphics_pack_goggles",
+		"particle": "20w14s:item/super_duper_graphics_pack_goggles"
 	},
 	"elements": [
 		{
