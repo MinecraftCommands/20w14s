@@ -1,4 +1,5 @@
 playsound 20w14s:magic_mirror master @s ~ 100000000 ~ 100000000
+particle end_rod ~ ~1 ~ 0.1 0.3 0.1 0.1 200
 
 gamemode spectator @s
 gamerule doImmediateRespawn true
