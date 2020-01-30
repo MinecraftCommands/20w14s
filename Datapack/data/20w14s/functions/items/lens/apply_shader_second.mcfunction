@@ -12,4 +12,4 @@ tp @s @e[type=spider,tag=20w14s.my_spectate_spider,sort=nearest,limit=1]
 kill @e[type=spider,tag=20w14s.my_spectate_spider]
 execute at @s run forceload remove ~ ~
 
-tellraw @s {"text":"COMING 2018","bold":true}
+tellraw @s {"text":"COMING 2018","bold":true,"color":"aqua"}
