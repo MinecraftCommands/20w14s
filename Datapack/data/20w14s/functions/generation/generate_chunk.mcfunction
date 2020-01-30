@@ -12,4 +12,5 @@ execute if score rng temp matches 2040..2048 at @s run function 20w14s:generatio
 execute if score rng temp matches ..120 run function 20w14s:generation/ascend_to_surface/start
 execute if score rng temp matches ..19 at @s run function 20w14s:generation/structures/void_platform
 execute if score rng temp matches 20..99 at @s if block ~ ~-1 ~ grass_block run function 20w14s:generation/structures/graveyard
-execute if score rng temp matches 100..120 at @s run function 20w14s:generation/structures/volcano
+execute if score rng temp matches 100..109 at @s run function 20w14s:generation/structures/volcano
+execute if score rng temp matches 110..120 at @s run function 20w14s:generation/structures/pufferfish_praise_parliament
