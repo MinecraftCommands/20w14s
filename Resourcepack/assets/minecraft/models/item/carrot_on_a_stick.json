@@ -7,6 +7,10 @@
         {
             "predicate": {"custom_model_data": 1},
             "model": "20w14s:item/magic_mirror"
+        },
+        {
+            "predicate": {"custom_model_data": 2},
+            "model": "20w14s:item/melon_uzi"
         }
     ]
 }
