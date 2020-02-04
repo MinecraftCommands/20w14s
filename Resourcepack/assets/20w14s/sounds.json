@@ -21,5 +21,10 @@
       "sounds": [
         "20w14s:rocket_launch"
       ]
+    },
+    "magic_mirror": {
+      "sounds": [
+        "20w14s:magic_mirror"
+      ]
     }
 }

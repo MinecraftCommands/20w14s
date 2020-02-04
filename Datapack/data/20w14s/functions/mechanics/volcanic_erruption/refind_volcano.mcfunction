@@ -1,0 +1,2 @@
+# Select volcano half way through errupting, since /schedule doesn't keep executor context
+execute as @e[type=area_effect_cloud,tag=20w14s.volcano_errupting] at @s run function 20w14s:mechanics/volcanic_erruption/happen

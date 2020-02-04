@@ -1,0 +1,2 @@
+# Select players half way through magic mirror use, since /schedule doesn't keep executor context
+execute as @a[tag=20w14s.temp_using_magic_mirror] at @s run function 20w14s:items/magic_mirror/reset_gamemode

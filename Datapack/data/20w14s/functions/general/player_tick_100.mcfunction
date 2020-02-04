@@ -21,3 +21,6 @@ execute if score rng temp matches ..7 run function 20w14s:mechanics/air_drop/hap
 
 # Sheep block spawn
 execute if score rng temp matches 8..15 run function 20w14s:mechanics/sheep_block/spawn
+
+# Volcano
+execute if score rng temp matches ..100 as @e[type=area_effect_cloud,tag=20w14s.volcano,distance=..64] at @s run function 20w14s:mechanics/volcanic_erruption/warning

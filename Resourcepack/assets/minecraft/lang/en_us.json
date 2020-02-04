@@ -68,6 +68,9 @@
   "item.minecraft.acacia_boat": "Obsidian Boat",
   "item.minecraft.furnace_minecart": "TNT Duper",
   "entity.minecraft.furnace_minecart": "TNT Duper",
+  "item.minecraft.popped_chorus_fruit": "Umbrella",
+  "item.minecraft.enchanted_golden_apple": "Original Pufferfish",
+  "block.minecraft.structure_void": "Super Duper Graphics Pack",
   
   "title.singleplayer": "Snapshot 20w14✨",
   "title.multiplayer.realms": "Snapshot 20w14✨",
@@ -105,7 +108,5 @@
   "block.minecraft.granite_slab": "Slate Slab",
   "block.minecraft.diorite_slab": "Limestone Slab",
   "block.minecraft.granite_wall": "Slate Wall",
-  "block.minecraft.diorite_wall": "Limestone Wall",
-  
-  "item.minecraft.enchanted_golden_apple": "Original Pufferfish"
+  "block.minecraft.diorite_wall": "Limestone Wall"
 }
