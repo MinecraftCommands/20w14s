@@ -65,5 +65,8 @@ forceload remove 731031 731031
 forceload add 731031 731031
 setblock 731031 0 731031 yellow_shulker_box
 
+# End arena
+execute unless score 20w14s.end_arena_created global matches 1 in the_end run function 20w14s:init/end_arena
+
 # Message
 tellraw @a {"text":"20w14✧ reloaded","color":"aqua"}
