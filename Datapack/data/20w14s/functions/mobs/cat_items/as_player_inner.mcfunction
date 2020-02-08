@@ -1,5 +1,3 @@
-tag @s remove 20w14s.catOwner
-
 # check if current player is the cat's owner
 data remove block 731031 0 731031 Items
 loot insert 731031 0 731031 loot 20w14s:entity/player_head
