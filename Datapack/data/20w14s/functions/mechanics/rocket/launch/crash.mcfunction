@@ -11,4 +11,4 @@ tag @a remove 20w14s.fighting_sun
 tag @a[tag=20w14s.in_rocket] add 20w14s.fighting_sun
 tag @a[tag=20w14s.in_rocket] remove 20w14s.in_rocket
 
-schedule function 20w14s:mobs/puffersun/start 20t
+schedule function 20w14s:mobs/sun/start 20t

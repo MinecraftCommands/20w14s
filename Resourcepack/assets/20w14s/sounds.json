@@ -26,5 +26,30 @@
       "sounds": [
         "20w14s:magic_mirror"
       ]
-    }
+    },
+
+    "puffersun_1": { "sounds": ["20w14s:puffersun/shine_1"] },
+    "puffersun_2": { "sounds": ["20w14s:puffersun/shine_2"] },
+    "puffersun_3": { "sounds": ["20w14s:puffersun/shine_3"] },
+    "puffersun_4": { "sounds": ["20w14s:puffersun/shine_4"] },
+    "puffersun_5": { "sounds": ["20w14s:puffersun/shine_5"] },
+    "puffersun_6": { "sounds": ["20w14s:puffersun/shine_6"] },
+    "puffersun_7": { "sounds": ["20w14s:puffersun/shine_7"] },
+    "puffersun_8": { "sounds": ["20w14s:puffersun/shine_8"] },
+    "puffersun_9": { "sounds": ["20w14s:puffersun/shine_9"] },
+    "puffersun_10": { "sounds": ["20w14s:puffersun/shine_10"] },
+    "puffersun_11": { "sounds": ["20w14s:puffersun/shine_11"] },
+    "puffersun_12": { "sounds": ["20w14s:puffersun/shine_12"] },
+    "puffersun_13": { "sounds": ["20w14s:puffersun/shine_13"] },
+    "puffersun_14": { "sounds": ["20w14s:puffersun/shine_14"] },
+    "puffersun_15": { "sounds": ["20w14s:puffersun/shine_15"] },
+    "puffersun_16": { "sounds": ["20w14s:puffersun/shine_16"] },
+    "puffersun_17": { "sounds": ["20w14s:puffersun/shine_17"] },
+    "puffersun_18": { "sounds": ["20w14s:puffersun/shine_18"] },
+    "puffersun_19": { "sounds": ["20w14s:puffersun/shine_19"] },
+    "puffersun_20": { "sounds": ["20w14s:puffersun/shine_20"] },
+    "puffersun_21": { "sounds": ["20w14s:puffersun/shine_21"] },
+    "puffersun_22": { "sounds": ["20w14s:puffersun/shine_22"] },
+    "puffersun_23": { "sounds": ["20w14s:puffersun/shine_23"] },
+    "puffersun_24": { "sounds": ["20w14s:puffersun/shine_24"] }
 }
