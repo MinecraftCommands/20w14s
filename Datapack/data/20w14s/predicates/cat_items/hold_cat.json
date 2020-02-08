@@ -7,7 +7,6 @@
         "predicate": {
           "equipment": {
             "mainhand": {
-              
               "nbt": "{20w14s:{cat_item:1b}}"
             }
           }
@@ -19,31 +18,15 @@
           "condition": "minecraft:alternative",
           "terms": [
             {
-              "condition": "minecraft:alternative",
-              "terms": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "equipment": {
-                      "mainhand": {
-                        "item": "minecraft:carrot_on_a_stick"
-                      }
-                    }
-                  }
-                },
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "equipment": {
-                      "mainhand": {
-                        "item": "minecraft:lead"
-                      }
-                    }
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "item": "minecraft:lead"
                   }
                 }
-              ]
+              }
             },
             {
               "condition": "minecraft:inverted",
@@ -53,7 +36,6 @@
                 "predicate": {
                   "equipment": {
                     "offhand": {
-                      
                       "nbt": "{20w14s:{cat_item:1b}}"
                     }
                   }
