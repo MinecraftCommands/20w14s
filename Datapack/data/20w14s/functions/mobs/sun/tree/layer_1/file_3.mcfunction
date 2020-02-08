@@ -1,5 +1,7 @@
-execute if score 20w14s.end_boss_tick global matches 3200 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_16 master @s 0 50000 0 731031
-execute if score 20w14s.end_boss_tick global matches 3400 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_17 master @s 0 50000 0 731031
-execute if score 20w14s.end_boss_tick global matches 3600 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_18 master @s 0 50000 0 731031
-execute if score 20w14s.end_boss_tick global matches 3800 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_19 master @s 0 50000 0 731031
-execute if score 20w14s.end_boss_tick global matches 4000 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_20 master @s 0 50000 0 731031
+execute if score 20w14s.end_boss_tick global matches 535..553 run function 20w14s:mobs/sun/tree/layer_2/file_21
+execute if score 20w14s.end_boss_tick global matches 556..574 run function 20w14s:mobs/sun/tree/layer_2/file_22
+execute if score 20w14s.end_boss_tick global matches 577..595 run function 20w14s:mobs/sun/tree/layer_2/file_23
+execute if score 20w14s.end_boss_tick global matches 598..613 run function 20w14s:mobs/sun/tree/layer_2/file_24
+execute if score 20w14s.end_boss_tick global matches 616..634 run function 20w14s:mobs/sun/tree/layer_2/file_25
+execute if score 20w14s.end_boss_tick global matches 637..655 run function 20w14s:mobs/sun/tree/layer_2/file_26
+execute if score 20w14s.end_boss_tick global matches 658..676 run function 20w14s:mobs/sun/tree/layer_2/file_27
