@@ -1,5 +1,5 @@
 {
-    "parent": "item/cat/root",
+    "parent": "20w14s:entity/cat/root",
     "textures": {
         "cat_type":"entity/cat/ragdoll"
     }

@@ -1,9 +1,13 @@
 {
-    "parent": "item/cat/root",
+    "parent": "20w14s:entity/cat/root",
     "textures": {
         "cat_type":"entity/cat/tabby"
     },
     "overrides": [
+        {
+            "predicate": {"custom_model_data": 10},
+            "model": "20w14s:entity/cat/tabby"
+        },
         {
             "predicate": {"custom_model_data": 11},
             "model": "20w14s:entity/cat/tuxedo"
