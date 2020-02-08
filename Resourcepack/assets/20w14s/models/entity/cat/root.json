@@ -3,6 +3,7 @@
 	"texture_size": [64, 32],
 	"textures": {
 		"0": "#cat_type",
+		"1": "entity/cat/cat_collar",
 		"particle": "#cat_type"
 	},
 	"elements": [
@@ -64,16 +65,45 @@
 		},
 		{
 			"name": "body",
-			"from": [-2, 4, -7],
+			"from": [-2, 4, -6],
 			"to": [2, 10, 9],
 			"rotation": {"angle": 0, "axis": "x", "origin": [0, 10, -7]},
 			"faces": {
-				"north": {"uv": [7.5, 3, 6.5, 0], "rotation": 180, "texture": "#0"},
 				"east": {"uv": [5, 3, 6.5, 11], "rotation": 90, "texture": "#0"},
 				"south": {"uv": [8.5, 0, 7.5, 3], "texture": "#0"},
 				"west": {"uv": [7.5, 3, 9, 11], "rotation": 270, "texture": "#0"},
 				"up": {"uv": [9, 3, 10, 11], "texture": "#0"},
 				"down": {"uv": [6.5, 3, 7.5, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "collar",
+			"from": [-2, 6, -7],
+			"to": [2, 10, -6],
+			"faces": {
+				"north": {"uv": [8, 1.5, 9, 3.5], "texture": "#1", "tintindex": 0},
+				"east": {"uv": [5, 3, 6, 3.5], "rotation": 90, "texture": "#1", "tintindex": 0},
+				"south": {"uv": [0, 0, 1, 3], "texture": "#1"},
+				"west": {"uv": [9, 3, 10, 3.5], "rotation": 90, "texture": "#1", "tintindex": 0},
+				"up": {"uv": [6.5, 1.5, 7.5, 2], "texture": "#1", "tintindex": 0},
+				"down": {"uv": [0, 0, 1, 0.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [-2, 4, -7],
+			"to": [2, 6, -6],
+			"faces": {
+				"north": {"uv": [6.5, 3, 7.5, 3.5], "texture": "#0"},
+				"east": {"uv": [6, 3, 6.5, 3.5], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [7.5, 3, 8, 3.5], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [6.75, 5.5, 7.75, 6], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-2, 7, -7],
+			"to": [2, 10, -6],
+			"faces": {
+				"north": {"uv": [6.5, 0, 7.5, 1.5], "texture": "#0"}
 			}
 		},
 		{
@@ -206,37 +236,37 @@
 		{
 			"name": "body",
 			"origin": [0, 12, -10],
-			"children": [4]
+			"children": [4, 5, 6, 7]
 		},
 		{
 			"name": "tail1",
 			"origin": [0, 9, 8],
-			"children": [5]
+			"children": [8]
 		},
 		{
 			"name": "tail2",
 			"origin": [0, 4, 13],
-			"children": [6]
+			"children": [9]
 		},
 		{
 			"name": "backLegL",
 			"origin": [-1.1, 6, 5],
-			"children": [7]
+			"children": [10]
 		},
 		{
 			"name": "backLegR",
 			"origin": [1.1, 6, 5],
-			"children": [8]
+			"children": [11]
 		},
 		{
 			"name": "frontLegL",
 			"origin": [-1.2, 10.2, -5],
-			"children": [9]
+			"children": [12]
 		},
 		{
 			"name": "frontLegR",
 			"origin": [1.2, 10.2, -5],
-			"children": [10]
+			"children": [13]
 		}
 	]
 }

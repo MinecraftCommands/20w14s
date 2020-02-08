@@ -1,0 +1,6 @@
+{
+    "parent": "item/cat/root",
+    "textures": {
+        "cat_type":"entity/cat/siamese"
+    }
+}
