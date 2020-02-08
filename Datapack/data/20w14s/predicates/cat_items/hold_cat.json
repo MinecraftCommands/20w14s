@@ -7,7 +7,7 @@
         "predicate": {
           "equipment": {
             "mainhand": {
-              "item": "minecraft:carrot_on_a_stick",
+              
               "nbt": "{20w14s:{cat_item:1b}}"
             }
           }
@@ -53,7 +53,7 @@
                 "predicate": {
                   "equipment": {
                     "offhand": {
-                      "item": "minecraft:carrot_on_a_stick",
+                      
                       "nbt": "{20w14s:{cat_item:1b}}"
                     }
                   }
