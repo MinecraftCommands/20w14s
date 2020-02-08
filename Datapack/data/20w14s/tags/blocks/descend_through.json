@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:leaves",
+    "#minecraft:logs",
+    "#20w14s:no_hitbox"
+  ]
+}

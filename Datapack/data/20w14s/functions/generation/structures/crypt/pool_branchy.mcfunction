@@ -13,6 +13,10 @@ execute if score rng temp matches ..499 run data modify block ~ ~ ~ name set val
 execute if score rng temp matches 500..1499 run data modify block ~ ~ ~ name set value "20w14s:crypt/crossroads"
 execute if score rng temp matches 1500.. run data modify block ~ ~ ~ name set value "20w14s:crypt/intersection"
 
+# Or force another descent
+execute store result score y temp run data get block ~ ~ ~ y
+execute if score y temp matches 54.. run data modify block ~ ~ ~ name set value "20w14s:crypt/descend"
+
 # Random mirroring
 scoreboard players operation rng temp %= 2 const
 execute if score rng temp matches 0 run data modify block ~ ~ ~ mirror set value "NONE"
