@@ -15,6 +15,9 @@ execute as @e[type=boat,tag=20w14s.obsidian_boat] at @s run function 20w14s:mech
 # TNT dupers
 execute as @e[type=furnace_minecart] at @s run function 20w14s:mechanics/tnt_duper/dupe
 
+# Make giants jump
+execute as @e[type=giant] at @s if entity @p[distance=..8] run function 20w14s:mobs/giant/jump_attack
+
 # Check if chunks need to be generated. Cycle through quadrant to check checking & generate
 scoreboard players add 20w14s:gen_cycle timer 1
 execute if score 20w14s:gen_cycle timer matches 4 run scoreboard players set 20w14s:gen_cycle timer 0

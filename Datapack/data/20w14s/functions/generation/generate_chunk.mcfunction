@@ -14,4 +14,6 @@ execute if score rng temp matches 00..09 at @s run function 20w14s:generation/st
 execute if score rng temp matches 10..39 at @s if block ~ ~-1 ~ #20w14s:ground run function 20w14s:generation/structures/graveyard
 execute if score rng temp matches 40..43 at @s if block ~ ~-1 ~ #20w14s:ground run function 20w14s:generation/structures/volcano
 execute if score rng temp matches 44..49 at @s if block ~ ~-1 ~ #20w14s:ground run function 20w14s:generation/structures/pufferfish_praise_parliament
-execute if score rng temp matches 50..95 at @s if block ~ ~-1 ~ #20w14s:ground run function 20w14s:generation/structures/crypt/start
+execute if score rng temp matches 50..59 at @s if block ~ ~-1 ~ #20w14s:ground run function 20w14s:generation/structures/crypt/start
+execute if score rng temp matches 60..69 at @s if block ~ ~-1 ~ #20w14s:ground run function 20w14s:mobs/giant/spawn
+execute if score rng temp matches 60..69 at @s if block ~ ~-1 ~ #20w14s:ground run function 20w14s:mobs/giant/spawn
