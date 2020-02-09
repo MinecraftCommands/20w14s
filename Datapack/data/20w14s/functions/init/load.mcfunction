@@ -59,6 +59,8 @@ execute unless score 20w14s.end_boss_ready global matches ..2147483647 run score
 # Teams
 team add 20w14s.seker
 team modify 20w14s.seker color dark_purple
+team add 20w14s.puffersun
+team modify 20w14s.puffersun color yellow
 
 # Load chunk
 forceload remove 731031 731031
