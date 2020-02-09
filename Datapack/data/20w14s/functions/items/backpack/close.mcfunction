@@ -1,6 +1,6 @@
 # Copy contents from minecart to a new closed backpack item
 setblock 731031 0 731031 air
-setblock 731031 0 731031 yellow_shulker_box{Items:[{id:"minecraft:command_block",Count:1,tag:{20w14s:{item_id:1}}}]}
+setblock 731031 0 731031 yellow_shulker_box{Items:[{id:"minecraft:command_block",Count:1b,tag:{20w14s:{item_id:1}}}]}
 data modify block 731031 0 731031 Items[0].tag.20w14s.backpack_items set from entity @e[type=chest_minecart,tag=20w14s.my_backpack_minecart,limit=1,sort=nearest] Items
 
 # Attempt to place in previous slot, else spawn at their feet

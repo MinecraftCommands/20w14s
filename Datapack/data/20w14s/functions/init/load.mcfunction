@@ -61,9 +61,15 @@ team add 20w14s.seker
 team modify 20w14s.seker color dark_purple
 
 # Load chunk
-forceload remove 731031 731031
-forceload add 731031 731031
-setblock 731031 0 731031 yellow_shulker_box
+execute in overworld run forceload remove 731031 731031
+execute in overworld run forceload add 731031 731031
+execute in overworld run setblock 731031 0 731031 yellow_shulker_box
+execute in the_nether run forceload remove 731031 731031
+execute in the_nether run forceload add 731031 731031
+execute in the_nether run setblock 731031 0 731031 yellow_shulker_box
+execute in the_end run forceload remove 731031 731031
+execute in the_end run forceload add 731031 731031
+execute in the_end run setblock 731031 0 731031 yellow_shulker_box
 
 # Message
 tellraw @a {"text":"20w14✧ reloaded","color":"aqua"}
