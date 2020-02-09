@@ -1,19 +1,12 @@
+# Breakable bedrock (conveniently keeps track of generated chunks)
+fill ~ 0 ~ ~15 0 ~15 acacia_slab[type=double] replace bedrock
+
 # For random structures (doesn't use seed)
 function 20w14s:general/random_number
 scoreboard players operation rng temp = seed 20w14s.random
 scoreboard players operation rng temp /= 2048 const
 scoreboard players operation rng temp %= 2048 const
 
-# Chunk-aligned features
-fill ~ 0 ~ ~15 0 ~15 acacia_slab[type=double] replace bedrock
-execute if score rng temp matches 2040..2048 at @s run function 20w14s:generation/structures/tall_villager_house
-
-# Surface features
-execute if score rng temp matches ..100 run function 20w14s:generation/ascend_to_surface/start
-execute if score rng temp matches 00..09 at @s run function 20w14s:generation/structures/void_platform
-execute if score rng temp matches 10..39 at @s if block ~ ~-1 ~ #20w14s:ground run function 20w14s:generation/structures/graveyard
-execute if score rng temp matches 40..43 at @s if block ~ ~-1 ~ #20w14s:ground run function 20w14s:generation/structures/volcano
-execute if score rng temp matches 44..49 at @s if block ~ ~-1 ~ #20w14s:ground run function 20w14s:generation/structures/pufferfish_praise_parliament
-execute if score rng temp matches 50..59 at @s if block ~ ~-1 ~ #20w14s:ground run function 20w14s:generation/structures/crypt/start
-execute if score rng temp matches 60..69 at @s if block ~ ~-1 ~ #20w14s:ground run function 20w14s:mobs/giant/spawn
-execute if score rng temp matches 60..69 at @s if block ~ ~-1 ~ #20w14s:ground run function 20w14s:mobs/giant/spawn
+# Dimension-specific stuff
+execute if predicate 20w14s:in_overworld run function 20w14s:generation/generate_overworld_chunk
+execute if predicate 20w14s:in_nether run function 20w14s:generation/generate_nether_chunk
