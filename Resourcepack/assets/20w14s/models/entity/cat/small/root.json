@@ -3,7 +3,7 @@
 	"texture_size": [64, 32],
 	"textures": {
 		"0": "#cat_type",
-		"1": "20w14s:entity/cat/cat_collar",
+		"1": "entity/cat/cat_collar",
 		"particle": "#cat_type"
 	},
 	"elements": [
