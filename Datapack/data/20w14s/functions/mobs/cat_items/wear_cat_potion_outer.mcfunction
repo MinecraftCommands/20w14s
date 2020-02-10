@@ -1,0 +1,1 @@
+execute as @a[tag=20w14s.wear_potion_helmet] run function 20w14s:mobs/cat_items/wear_cat_potion
