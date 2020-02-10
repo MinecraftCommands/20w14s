@@ -1,4 +1,6 @@
 execute store result score $CatType temp run data get entity @s CatType
+execute store result score $age temp run data get entity @s Age
+execute if score $age temp matches ..-1 run scoreboard players add $CatType temp 11
 data modify storage 20w14s:cat_items ResultItem set value {id:"minecraft:leather_helmet",Count:1b,Slot:0b,tag:{Unbreakable:1b,HideFlags:63,20w14s:{cat_item:1b}}}
 execute store result storage 20w14s:cat_items ResultItem.tag.CustomModelData int 1 run scoreboard players add $CatType temp 10
 data modify storage 20w14s:cat_items ResultItem.tag.20w14s.StoredCat set from entity @s {}

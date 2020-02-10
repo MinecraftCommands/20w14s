@@ -48,6 +48,50 @@
         {
             "predicate": {"custom_model_data": 20},
             "model": "20w14s:entity/cat/black"
+        },
+        {
+            "predicate": {"custom_model_data": 21},
+            "model": "20w14s:entity/cat/small/tabby"
+        },
+        {
+            "predicate": {"custom_model_data": 22},
+            "model": "20w14s:entity/cat/small/tuxedo"
+        },
+        {
+            "predicate": {"custom_model_data": 23},
+            "model": "20w14s:entity/cat/small/red"
+        },
+        {
+            "predicate": {"custom_model_data": 24},
+            "model": "20w14s:entity/cat/small/siamese"
+        },
+        {
+            "predicate": {"custom_model_data": 25},
+            "model": "20w14s:entity/cat/small/british_shorthair"
+        },
+        {
+            "predicate": {"custom_model_data": 26},
+            "model": "20w14s:entity/cat/small/calico"
+        },
+        {
+            "predicate": {"custom_model_data": 27},
+            "model": "20w14s:entity/cat/small/persian"
+        },
+        {
+            "predicate": {"custom_model_data": 28},
+            "model": "20w14s:entity/cat/small/ragdoll"
+        },
+        {
+            "predicate": {"custom_model_data": 29},
+            "model": "20w14s:entity/cat/small/white"
+        },
+        {
+            "predicate": {"custom_model_data": 30},
+            "model": "20w14s:entity/cat/small/jellie"
+        },
+        {
+            "predicate": {"custom_model_data": 31},
+            "model": "20w14s:entity/cat/small/black"
         }
     ]
 }
