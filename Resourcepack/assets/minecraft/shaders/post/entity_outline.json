@@ -1,21 +1,81 @@
 {
     "targets": [
-        "swap",
-        "final"
+        "skin",
+        "final",
+        "shine",
+        "combined"
     ],
     "passes": [
         {
-            "name": "seker",
+            "name": "skin",
             "intarget": "minecraft:main",
             "auxtargets": [
                 {"name": "GlowSampler", "id": "final"},
-                {"name": "SekerSampler", "id": "seker_skin", "width":1, "height":1, "bilinear":false}
+                {"name": "SekerSampler", "id": "seker_skin", "width":1, "height":1, "bilinear":false},
+                {"name": "SunSampler", "id": "sun_surface", "width":1, "height":1, "bilinear":false}
             ],
-            "outtarget": "swap"
+            "outtarget": "skin"
+        },
+
+
+
+
+        {
+            "name": "filter",
+            "intarget": "final",
+            "outtarget": "shine"
         },
         {
+            "name": "blur",
+            "intarget": "shine",
+            "outtarget": "final",
+            "uniforms": [
+                {
+                    "name": "BlurDir",
+                    "values": [ 1.0, 0.0 ]
+                },
+                {
+                    "name": "Radius",
+                    "values": [ 40.0 ]
+                }
+            ]
+        },
+        {
+            "name": "blur",
+            "intarget": "final",
+            "outtarget": "shine",
+            "uniforms": [
+                {
+                    "name": "BlurDir",
+                    "values": [ 0.0, 1.0 ]
+                },
+                {
+                    "name": "Radius",
+                    "values": [ 40.0 ]
+                }
+            ]
+        },
+        
+        {
+            "name": "combine_glow",
+            "intarget": "shine",
+            "auxtargets": [
+                {
+                    "name": "BackgroundSampler",
+                    "id": "minecraft:main"
+                },
+                {
+                    "name": "MaskSampler",
+                    "id": "skin"
+                }
+            ],
+            "outtarget": "combined"
+        },
+
+
+        {
             "name": "blit",
-            "intarget": "swap",
+            "intarget": "combined",
             "outtarget": "final"
         }
     ]

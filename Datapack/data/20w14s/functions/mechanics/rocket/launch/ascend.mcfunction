@@ -7,7 +7,7 @@ execute as @e[type=pig,tag=20w14s.spectate_pig,limit=1] at @s run tp @s ~ ~ ~ fa
 execute as @a[tag=20w14s.in_rocket] run spectate @e[type=pig,tag=20w14s.spectate_pig,limit=1]
 
 # Particles
-execute at @e[type=armor_stand,tag=20w14s.rocket] run particle minecraft:explosion_emitter ~ ~-15 ~ 1 5 1 0 10 force
+execute at @e[type=armor_stand,tag=20w14s.rocket] run particle explosion_emitter ~ ~-15 ~ 1 5 1 0 10 force
 execute at @e[type=armor_stand,tag=20w14s.rocket] run particle flame ~ ~-15 ~ 1 5 1 0.4 50 force
 execute as @e[type=armor_stand,tag=20w14s.rocket] at @s run tp @s ~ ~1 ~ ~3 ~
 execute if score worldborder_size temp matches 80.. run execute as @e[type=armor_stand,tag=20w14s.rocket] at @s run tp @s ~ ~1 ~ ~5 ~

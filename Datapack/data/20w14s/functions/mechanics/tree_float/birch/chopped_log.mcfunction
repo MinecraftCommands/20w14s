@@ -1,4 +1,4 @@
-scoreboard players set @s 20w14s.chop_oak 0
+scoreboard players set @s 20w14s.chop_brch 0
 playsound entity.bee.death master @a ~ ~ ~ 2 0
 
 # Start scanning tree, transforming all logs/leaves
