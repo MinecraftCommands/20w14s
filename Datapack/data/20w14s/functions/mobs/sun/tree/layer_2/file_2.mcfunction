@@ -1,7 +1,7 @@
-execute if score 20w14s.end_boss_tick global matches 142 run tp 00000000-0000-0001-0000-0000000b2797 72.41 73.73 584.50 132.76 -20.86
-execute if score 20w14s.end_boss_tick global matches 145 run tp 00000000-0000-0001-0000-0000000b2797 71.11 73.73 583.90 134.55 -20.51
-execute if score 20w14s.end_boss_tick global matches 148 run tp 00000000-0000-0001-0000-0000000b2797 69.94 72.71 583.27 136.11 -20.21
-execute if score 20w14s.end_boss_tick global matches 151 run tp 00000000-0000-0001-0000-0000000b2797 68.69 71.16 582.40 137.69 -19.97
-execute if score 20w14s.end_boss_tick global matches 154 run tp 00000000-0000-0001-0000-0000000b2797 67.34 70.09 581.30 139.21 -19.83
-execute if score 20w14s.end_boss_tick global matches 157 run tp 00000000-0000-0001-0000-0000000b2797 65.79 69.86 580.28 141.01 -19.84
-execute if score 20w14s.end_boss_tick global matches 160 run tp 00000000-0000-0001-0000-0000000b2797 64.33 69.81 579.35 142.99 -19.90
+execute if score 20w14s.end_boss_tick global matches 391..406 run function 20w14s:mobs/sun/tree/layer_3/file_14
+execute if score 20w14s.end_boss_tick global matches 409..427 run function 20w14s:mobs/sun/tree/layer_3/file_15
+execute if score 20w14s.end_boss_tick global matches 430..448 run function 20w14s:mobs/sun/tree/layer_3/file_16
+execute if score 20w14s.end_boss_tick global matches 451..469 run function 20w14s:mobs/sun/tree/layer_3/file_17
+execute if score 20w14s.end_boss_tick global matches 472..490 run function 20w14s:mobs/sun/tree/layer_3/file_18
+execute if score 20w14s.end_boss_tick global matches 493..511 run function 20w14s:mobs/sun/tree/layer_3/file_19
+execute if score 20w14s.end_boss_tick global matches 514..532 run function 20w14s:mobs/sun/tree/layer_3/file_20

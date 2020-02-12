@@ -1,10 +1,10 @@
 # Get current realtime since start
 execute store result score worldborder_size temp in the_end run worldborder get
 scoreboard players remove worldborder_size temp 30000000
-# tellraw @a [{"score":{"name":"20w14s.end_boss_tick","objective":"global"}}," : ",{"score":{"name":"worldborder_size","objective":"temp"}}]
 
 # Increment our tick by 1 when worldborder timer ahead of our tick
 execute if score worldborder_size temp > 20w14s.end_boss_tick global in the_end run function 20w14s:mobs/sun/tree/layer_0/file_0
+execute if score worldborder_size temp > 20w14s.end_boss_tick global in the_end as 00000000-0000-0002-0000-0000000b2797 at @s run function 20w14s:mobs/sun/pacesetter_move
 execute if score worldborder_size temp > 20w14s.end_boss_tick global run scoreboard players add 20w14s.end_boss_tick global 1
 
 # Decide whether to end
