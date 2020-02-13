@@ -46,6 +46,7 @@ scoreboard objectives add 20w14s.obsn_boat used:acacia_boat
 scoreboard objectives add 20w14s.use_coas used:carrot_on_a_stick
 scoreboard objectives add 20w14s.talk_vlgr custom:talked_to_villager
 scoreboard objectives add 20w14s.lnch_rokt trigger
+scoreboard objectives add 20w14s.mine_lead mined:emerald_ore
 
 scoreboard players set multiplier 20w14s.random 1664525
 scoreboard players set increment 20w14s.random 1013904223
