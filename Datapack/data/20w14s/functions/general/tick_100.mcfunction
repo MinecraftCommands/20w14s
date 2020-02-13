@@ -25,3 +25,6 @@ execute if score 20w14s:gen_cycle timer matches 0 at @a positioned ~48 ~ ~48 if 
 execute if score 20w14s:gen_cycle timer matches 1 at @a positioned ~-48 ~ ~48 if block ~ 0 ~ bedrock run function 20w14s:generation/chunk_align
 execute if score 20w14s:gen_cycle timer matches 2 at @a positioned ~48 ~ ~-48 if block ~ 0 ~ bedrock run function 20w14s:generation/chunk_align
 execute if score 20w14s:gen_cycle timer matches 3 at @a positioned ~-48 ~ ~-48 if block ~ 0 ~ bedrock run function 20w14s:generation/chunk_align
+
+# Cat items
+execute as @e[type=item,nbt={OnGround:1b,Item:{tag:{20w14s:{cat_item:1b}}}}] at @s run function 20w14s:mobs/cat_items/revive

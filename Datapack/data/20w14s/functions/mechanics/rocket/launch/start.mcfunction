@@ -14,7 +14,7 @@ fill ~-4 ~-5 ~-4 ~4 ~6 ~4 air replace iron_door
 fill ~-4 ~-5 ~-4 ~4 ~6 ~4 air replace purple_stained_glass
 fill ~-4 ~-5 ~-4 ~4 ~6 ~4 air replace magma_block
 fill ~-4 ~-5 ~-4 ~4 ~6 ~4 air replace purpur_block
-kill @s
+tp @s ~ -200 ~
 kill @e[type=armor_stand,tag=20w14s.rocket]
 execute align xyz run summon armor_stand ~0.125 ~-0.5 ~-0.15625 {Tags:["20w14s.rocket"],Invisible:1b,Invulnerable:1b,HandItems:[{},{id:"minecraft:command_block",Count:1b,tag:{CustomModelData:5}}],Pose:{LeftArm:[-90f,0f,0f]},NoGravity:1b}
 
