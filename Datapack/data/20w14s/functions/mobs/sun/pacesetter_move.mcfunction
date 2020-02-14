@@ -23,6 +23,6 @@ execute if score 20w14s.end_boss_tick global matches 4496..4557 run tp @s ~-0.2 
 # 4558..5100 = stationary 
 
 # Move players
-execute positioned ~-32 ~ ~-32 as @a[dz=64,dy=8,dx=32,tag=20w14s.fighting_sun] at @s run tp @s ~-1 ~ ~
-execute positioned ~-32 ~ ~-32 as @a[dz=64,dy=8,dx=28,tag=20w14s.fighting_sun] at @s run tp @s ~-1 ~ ~
-execute positioned ~-32 ~ ~-32 as @a[dz=64,dy=8,dx=24,tag=20w14s.fighting_sun] at @s run tp @s ~-1 ~ ~
+execute positioned ~-32 ~-16 ~-32 as @a[dz=64,dy=32,dx=32,tag=20w14s.fighting_sun] at @s run tp @s ~-1 ~ ~
+execute positioned ~-32 ~-16 ~-32 as @a[dz=64,dy=32,dx=28,tag=20w14s.fighting_sun] at @s run tp @s ~-1 ~ ~
+execute positioned ~-32 ~-16 ~-32 as @a[dz=64,dy=32,dx=24,tag=20w14s.fighting_sun] at @s run tp @s ~-1 ~ ~

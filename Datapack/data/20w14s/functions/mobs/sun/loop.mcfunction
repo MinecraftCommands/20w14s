@@ -7,6 +7,9 @@ execute if score worldborder_size temp > 20w14s.end_boss_tick global in the_end 
 execute if score worldborder_size temp > 20w14s.end_boss_tick global in the_end as 00000000-0000-0002-0000-0000000b2797 at @s run function 20w14s:mobs/sun/pacesetter_move
 execute if score worldborder_size temp > 20w14s.end_boss_tick global run scoreboard players add 20w14s.end_boss_tick global 1
 
+# Save players
+execute as @a[tag=20w14s.fighting_sun] at @s if entity @s[y=127,dy=-20] run function 20w14s:mobs/sun/save_player
+
 # Decide whether to end
 execute if score 20w14s.end_boss_tick global matches 5101.. run schedule function 20w14s:mobs/sun/end 1t
 # Else if we've caught up to worldborder, schedule loop again in 1 tick

@@ -1,7 +1,7 @@
-execute if score 20w14s.end_boss_tick global matches 200 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_1 master @s ~ 50000 ~ 731031
-execute if score 20w14s.end_boss_tick global matches 202 run tp 00000000-0000-0001-0000-0000000b2797 52.23 69.80 573.45 192.30 -24.25
-execute if score 20w14s.end_boss_tick global matches 205 run tp 00000000-0000-0001-0000-0000000b2797 51.96 69.80 573.34 196.82 -24.86
-execute if score 20w14s.end_boss_tick global matches 208 run tp 00000000-0000-0001-0000-0000000b2797 51.74 69.80 573.23 200.56 -25.50
-execute if score 20w14s.end_boss_tick global matches 211 run tp 00000000-0000-0001-0000-0000000b2797 51.48 69.80 572.95 204.10 -26.18
-execute if score 20w14s.end_boss_tick global matches 214 run tp 00000000-0000-0001-0000-0000000b2797 51.22 69.80 572.53 207.30 -26.82
-execute if score 20w14s.end_boss_tick global matches 217 run tp 00000000-0000-0001-0000-0000000b2797 50.97 69.80 572.12 210.30 -27.43
+execute if score 20w14s.end_boss_tick global matches 3200 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_16 master @s ~ 50000 ~ 731031
+execute if score 20w14s.end_boss_tick global matches 3400 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_17 master @s ~ 50000 ~ 731031
+execute if score 20w14s.end_boss_tick global matches 3600 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_18 master @s ~ 50000 ~ 731031
+execute if score 20w14s.end_boss_tick global matches 3800 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_19 master @s ~ 50000 ~ 731031
+execute if score 20w14s.end_boss_tick global matches 4000 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_20 master @s ~ 50000 ~ 731031
+execute if score 20w14s.end_boss_tick global matches 4200 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_21 master @s ~ 50000 ~ 731031
+execute if score 20w14s.end_boss_tick global matches 4400 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_22 master @s ~ 50000 ~ 731031
