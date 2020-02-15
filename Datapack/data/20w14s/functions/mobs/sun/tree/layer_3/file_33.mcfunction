@@ -1,7 +1,8 @@
-execute if score 20w14s.end_boss_tick global matches 778 run tp 00000000-0000-0001-0000-0000000b2797 59.28 100.95 564.42 -184.76 4.99
-execute if score 20w14s.end_boss_tick global matches 781 run tp 00000000-0000-0001-0000-0000000b2797 59.44 101.06 564.42 -188.36 3.61
-execute if score 20w14s.end_boss_tick global matches 784 run tp 00000000-0000-0001-0000-0000000b2797 59.60 101.17 564.42 -192.45 2.27
-execute if score 20w14s.end_boss_tick global matches 787 run tp 00000000-0000-0001-0000-0000000b2797 59.76 101.28 564.42 -197.49 .82
-execute if score 20w14s.end_boss_tick global matches 790 run tp 00000000-0000-0001-0000-0000000b2797 59.92 101.40 564.41 -201.92 -.53
-execute if score 20w14s.end_boss_tick global matches 793 run tp 00000000-0000-0001-0000-0000000b2797 60.08 101.51 564.40 -206.18 -2.20
-execute if score 20w14s.end_boss_tick global matches 796 run tp 00000000-0000-0001-0000-0000000b2797 60.23 101.64 564.39 -210.43 -4.09
+execute if score 20w14s.end_boss_tick global matches 652 run tp 00000000-0000-0001-0000-0000000b2797 53.02 96.22 563.04 -98.95 53.56
+execute if score 20w14s.end_boss_tick global matches 652 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 8
+execute if score 20w14s.end_boss_tick global matches 655 run tp 00000000-0000-0001-0000-0000000b2797 53.10 96.30 563.11 -100.20 53.64
+execute if score 20w14s.end_boss_tick global matches 656 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 7
+execute if score 20w14s.end_boss_tick global matches 658 run tp 00000000-0000-0001-0000-0000000b2797 53.25 96.45 563.25 -102.69 53.68
+execute if score 20w14s.end_boss_tick global matches 660 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 13
+execute if score 20w14s.end_boss_tick global matches 661 run tp 00000000-0000-0001-0000-0000000b2797 53.38 96.56 563.35 -104.82 53.61
+execute if score 20w14s.end_boss_tick global matches 661 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 6

@@ -1,0 +1,8 @@
+execute if score 20w14s.end_boss_tick global matches 4781 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -258.30 -89.54 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
+execute if score 20w14s.end_boss_tick global matches 4784 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -258.30 -89.54 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
+execute if score 20w14s.end_boss_tick global matches 4787 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -258.30 -89.54 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
+execute if score 20w14s.end_boss_tick global matches 4790 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -258.30 -89.54 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
+execute if score 20w14s.end_boss_tick global matches 4793 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -258.30 -89.54 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
+execute if score 20w14s.end_boss_tick global matches 4796 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -258.30 -89.54 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
+execute if score 20w14s.end_boss_tick global matches 4799 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -258.30 -89.54 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
+execute if score 20w14s.end_boss_tick global matches 4800 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_24 master @s ~ 50000 ~ 731031

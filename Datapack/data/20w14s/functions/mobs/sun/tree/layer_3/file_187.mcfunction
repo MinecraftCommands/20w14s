@@ -1,0 +1,8 @@
+execute if score 20w14s.end_boss_tick global matches 2621 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -43.59 -38.61 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
+execute if score 20w14s.end_boss_tick global matches 2624 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -46.21 -26.61 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
+execute if score 20w14s.end_boss_tick global matches 2627 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -64.05 -22.30 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
+execute if score 20w14s.end_boss_tick global matches 2630 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -80.05 -21.99 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
+execute if score 20w14s.end_boss_tick global matches 2633 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -91.43 -25.68 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
+execute if score 20w14s.end_boss_tick global matches 2636 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -102.20 -42.76 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
+execute if score 20w14s.end_boss_tick global matches 2639 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -78.20 -50.91 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
+execute if score 20w14s.end_boss_tick global matches 2642 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -73.59 -47.68 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15

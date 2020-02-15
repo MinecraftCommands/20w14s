@@ -1,7 +1,8 @@
-execute if score 20w14s.end_boss_tick global matches 631 run tp 00000000-0000-0001-0000-0000000b2797 52.59 95.43 562.15 -84.58 53.14
-execute if score 20w14s.end_boss_tick global matches 634 run tp 00000000-0000-0001-0000-0000000b2797 52.60 95.55 562.29 -86.51 53.01
-execute if score 20w14s.end_boss_tick global matches 637 run tp 00000000-0000-0001-0000-0000000b2797 52.63 95.66 562.43 -88.48 52.90
-execute if score 20w14s.end_boss_tick global matches 640 run tp 00000000-0000-0001-0000-0000000b2797 52.68 95.77 562.56 -90.86 52.94
-execute if score 20w14s.end_boss_tick global matches 643 run tp 00000000-0000-0001-0000-0000000b2797 52.75 95.88 562.68 -93.04 53.10
-execute if score 20w14s.end_boss_tick global matches 646 run tp 00000000-0000-0001-0000-0000000b2797 52.83 96.00 562.81 -95.17 53.26
-execute if score 20w14s.end_boss_tick global matches 649 run tp 00000000-0000-0001-0000-0000000b2797 52.92 96.11 562.92 -97.04 53.42
+execute if score 20w14s.end_boss_tick global matches 568 run tp 00000000-0000-0001-0000-0000000b2797 52.60 93.07 558.81 -39.18 49.02
+execute if score 20w14s.end_boss_tick global matches 568 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 7
+execute if score 20w14s.end_boss_tick global matches 571 run tp 00000000-0000-0001-0000-0000000b2797 52.57 93.18 558.97 -40.65 49.11
+execute if score 20w14s.end_boss_tick global matches 571 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 4
+execute if score 20w14s.end_boss_tick global matches 574 run tp 00000000-0000-0001-0000-0000000b2797 52.55 93.30 559.14 -42.44 49.27
+execute if score 20w14s.end_boss_tick global matches 576 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 7
+execute if score 20w14s.end_boss_tick global matches 577 run tp 00000000-0000-0001-0000-0000000b2797 52.53 93.41 559.30 -44.54 49.55
+execute if score 20w14s.end_boss_tick global matches 580 run tp 00000000-0000-0001-0000-0000000b2797 52.51 93.52 559.46 -46.64 49.91

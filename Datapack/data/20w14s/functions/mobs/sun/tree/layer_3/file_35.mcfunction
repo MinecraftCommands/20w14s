@@ -1,7 +1,8 @@
-execute if score 20w14s.end_boss_tick global matches 2000 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_10 master @s ~ 50000 ~ 731031
-execute if score 20w14s.end_boss_tick global matches 2200 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_11 master @s ~ 50000 ~ 731031
-execute if score 20w14s.end_boss_tick global matches 2400 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_12 master @s ~ 50000 ~ 731031
-execute if score 20w14s.end_boss_tick global matches 2600 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_13 master @s ~ 50000 ~ 731031
-execute if score 20w14s.end_boss_tick global matches 2800 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_14 master @s ~ 50000 ~ 731031
-execute if score 20w14s.end_boss_tick global matches 3000 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_15 master @s ~ 50000 ~ 731031
-execute if score 20w14s.end_boss_tick global matches 3200 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_16 master @s ~ 50000 ~ 731031
+execute if score 20w14s.end_boss_tick global matches 671 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 5
+execute if score 20w14s.end_boss_tick global matches 672 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 8
+execute if score 20w14s.end_boss_tick global matches 673 run tp 00000000-0000-0001-0000-0000000b2797 53.92 97.01 563.71 -112.75 52.91
+execute if score 20w14s.end_boss_tick global matches 676 run tp 00000000-0000-0001-0000-0000000b2797 54.06 97.12 563.79 -114.67 52.64
+execute if score 20w14s.end_boss_tick global matches 676 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 7
+execute if score 20w14s.end_boss_tick global matches 679 run tp 00000000-0000-0001-0000-0000000b2797 54.21 97.23 563.86 -116.53 52.38
+execute if score 20w14s.end_boss_tick global matches 679 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 8
+execute if score 20w14s.end_boss_tick global matches 680 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 5

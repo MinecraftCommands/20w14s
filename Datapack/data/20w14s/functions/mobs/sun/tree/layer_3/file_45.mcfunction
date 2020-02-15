@@ -1,7 +1,8 @@
-execute if score 20w14s.end_boss_tick global matches 4949 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -258.30 -89.54 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
-execute if score 20w14s.end_boss_tick global matches 4952 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -258.30 -89.54 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
-execute if score 20w14s.end_boss_tick global matches 4955 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -258.30 -89.54 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
-execute if score 20w14s.end_boss_tick global matches 4958 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -258.30 -89.54 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
-execute if score 20w14s.end_boss_tick global matches 4961 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -258.30 -89.54 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
-execute if score 20w14s.end_boss_tick global matches 4964 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -258.30 -89.54 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
-execute if score 20w14s.end_boss_tick global matches 4967 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -258.30 -89.54 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
+execute if score 20w14s.end_boss_tick global matches 787 run tp 00000000-0000-0001-0000-0000000b2797 59.76 101.28 564.42 -197.49 .82
+execute if score 20w14s.end_boss_tick global matches 789 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 7
+execute if score 20w14s.end_boss_tick global matches 790 run tp 00000000-0000-0001-0000-0000000b2797 59.92 101.40 564.41 -201.92 -.53
+execute if score 20w14s.end_boss_tick global matches 792 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 11
+execute if score 20w14s.end_boss_tick global matches 793 run tp 00000000-0000-0001-0000-0000000b2797 60.08 101.51 564.40 -206.18 -2.20
+execute if score 20w14s.end_boss_tick global matches 794 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 6
+execute if score 20w14s.end_boss_tick global matches 796 run tp 00000000-0000-0001-0000-0000000b2797 60.23 101.64 564.39 -210.43 -4.09
+execute if score 20w14s.end_boss_tick global matches 797 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 8

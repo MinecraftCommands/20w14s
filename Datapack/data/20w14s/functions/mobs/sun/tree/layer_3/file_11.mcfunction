@@ -1,7 +1,8 @@
-execute if score 20w14s.end_boss_tick global matches 4886 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -258.30 -89.54 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
-execute if score 20w14s.end_boss_tick global matches 4889 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -258.30 -89.54 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
-execute if score 20w14s.end_boss_tick global matches 4892 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -258.30 -89.54 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
-execute if score 20w14s.end_boss_tick global matches 4895 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -258.30 -89.54 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
-execute if score 20w14s.end_boss_tick global matches 4898 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -258.30 -89.54 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
-execute if score 20w14s.end_boss_tick global matches 4901 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -258.30 -89.54 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
-execute if score 20w14s.end_boss_tick global matches 4904 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -258.30 -89.54 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
+execute if score 20w14s.end_boss_tick global matches 358 run tp 00000000-0000-0001-0000-0000000b2797 63.82 81.01 559.64 134.60 2.77
+execute if score 20w14s.end_boss_tick global matches 361 run tp 00000000-0000-0001-0000-0000000b2797 63.91 81.24 559.34 129.93 4.47
+execute if score 20w14s.end_boss_tick global matches 364 run tp 00000000-0000-0001-0000-0000000b2797 63.96 81.46 559.03 125.33 6.17
+execute if score 20w14s.end_boss_tick global matches 367 run tp 00000000-0000-0001-0000-0000000b2797 63.99 81.69 558.71 121.37 7.67
+execute if score 20w14s.end_boss_tick global matches 370 run tp 00000000-0000-0001-0000-0000000b2797 63.99 81.91 558.39 117.28 9.18
+execute if score 20w14s.end_boss_tick global matches 373 run tp 00000000-0000-0001-0000-0000000b2797 63.97 82.14 558.08 113.70 10.49
+execute if score 20w14s.end_boss_tick global matches 376 run tp 00000000-0000-0001-0000-0000000b2797 63.93 82.36 557.76 109.80 11.95
+execute if score 20w14s.end_boss_tick global matches 379 run tp 00000000-0000-0001-0000-0000000b2797 63.87 82.59 557.45 106.70 13.13
