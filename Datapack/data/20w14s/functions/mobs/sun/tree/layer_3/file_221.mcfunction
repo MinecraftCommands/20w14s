@@ -1,8 +1,8 @@
-execute if score 20w14s.end_boss_tick global matches 3212 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 8
-execute if score 20w14s.end_boss_tick global matches 3212 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -108.20 -27.84 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
-execute if score 20w14s.end_boss_tick global matches 3215 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -116.51 -22.15 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
-execute if score 20w14s.end_boss_tick global matches 3218 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 3
-execute if score 20w14s.end_boss_tick global matches 3218 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -127.89 -22.45 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
-execute if score 20w14s.end_boss_tick global matches 3221 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 8
-execute if score 20w14s.end_boss_tick global matches 3221 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-64 ~ ~ rotated -130.20 -28.61 run tp 00000000-0000-0001-0000-0000000b2797 ^ ^ ^15
-execute if score 20w14s.end_boss_tick global matches 3223 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 5
+execute if score 20w14s.end_boss_tick global matches 3205 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 5
+execute if score 20w14s.end_boss_tick global matches 3206 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-48 ~ ~ rotated 96.36 -25.99 positioned ^ ^ ^15 run tp 00000000-0000-0001-0000-0000000b2797 ~ ~ ~ facing entity @p[tag=20w14s.fighting_sun,gamemode=!spectator]
+execute if score 20w14s.end_boss_tick global matches 3207 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 8
+execute if score 20w14s.end_boss_tick global matches 3209 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-48 ~ ~ rotated 102.20 -33.68 positioned ^ ^ ^15 run tp 00000000-0000-0001-0000-0000000b2797 ~ ~ ~ facing entity @p[tag=20w14s.fighting_sun,gamemode=!spectator]
+execute if score 20w14s.end_boss_tick global matches 3211 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 5
+execute if score 20w14s.end_boss_tick global matches 3212 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-48 ~ ~ rotated 108.20 -27.84 positioned ^ ^ ^15 run tp 00000000-0000-0001-0000-0000000b2797 ~ ~ ~ facing entity @p[tag=20w14s.fighting_sun,gamemode=!spectator]
+execute if score 20w14s.end_boss_tick global matches 3213 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 8
+execute if score 20w14s.end_boss_tick global matches 3215 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-48 ~ ~ rotated 116.51 -22.15 positioned ^ ^ ^15 run tp 00000000-0000-0001-0000-0000000b2797 ~ ~ ~ facing entity @p[tag=20w14s.fighting_sun,gamemode=!spectator]
