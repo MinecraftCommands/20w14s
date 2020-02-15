@@ -1,6 +1,6 @@
-execute if score 20w14s.end_boss_tick global matches 4277..4289 run function 20w14s:mobs/sun/tree/layer_3/file_288
-execute if score 20w14s.end_boss_tick global matches 4292..4302 run function 20w14s:mobs/sun/tree/layer_3/file_289
-execute if score 20w14s.end_boss_tick global matches 4304..4313 run function 20w14s:mobs/sun/tree/layer_3/file_290
+execute if score 20w14s.end_boss_tick global matches 4276..4287 run function 20w14s:mobs/sun/tree/layer_3/file_288
+execute if score 20w14s.end_boss_tick global matches 4289..4301 run function 20w14s:mobs/sun/tree/layer_3/file_289
+execute if score 20w14s.end_boss_tick global matches 4302..4313 run function 20w14s:mobs/sun/tree/layer_3/file_290
 execute if score 20w14s.end_boss_tick global matches 4314..4327 run function 20w14s:mobs/sun/tree/layer_3/file_291
 execute if score 20w14s.end_boss_tick global matches 4328..4337 run function 20w14s:mobs/sun/tree/layer_3/file_292
 execute if score 20w14s.end_boss_tick global matches 4340..4361 run function 20w14s:mobs/sun/tree/layer_3/file_293

@@ -4,5 +4,5 @@ execute if score 20w14s.end_boss_tick global matches 3002..3137 run function 20w
 execute if score 20w14s.end_boss_tick global matches 3139..3244 run function 20w14s:mobs/sun/tree/layer_2/file_27
 execute if score 20w14s.end_boss_tick global matches 3245..3344 run function 20w14s:mobs/sun/tree/layer_2/file_28
 execute if score 20w14s.end_boss_tick global matches 3347..3446 run function 20w14s:mobs/sun/tree/layer_2/file_29
-execute if score 20w14s.end_boss_tick global matches 3447..3578 run function 20w14s:mobs/sun/tree/layer_2/file_30
-execute if score 20w14s.end_boss_tick global matches 3580..3722 run function 20w14s:mobs/sun/tree/layer_2/file_31
+execute if score 20w14s.end_boss_tick global matches 3447..3576 run function 20w14s:mobs/sun/tree/layer_2/file_30
+execute if score 20w14s.end_boss_tick global matches 3578..3713 run function 20w14s:mobs/sun/tree/layer_2/file_31
