@@ -26,7 +26,7 @@
 	"display": {
 		"head": {
 			"rotation": [0, 90, 0],
-			"translation": [0, 20, -40],
+			"translation": [0, 27.5, -54],
 			"scale": [4, 4, 4]
 		}
 	}
