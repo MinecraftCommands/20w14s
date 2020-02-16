@@ -1,0 +1,8 @@
+# Mouth
+data merge entity 00000000-0000-0001-0000-0000000b2797 {Pose:{Head:[0.0f,0.2f,0.0f]}}
+data modify entity 00000000-0000-0001-0000-0000000b2797 Pose.Head[0] set from entity 00000000-0000-0001-0000-0000000b2797 Rotation[1]
+
+# Eyes
+data merge entity 00000000-0000-0003-0000-0000000b2797 {Pose:{Head:[0.0f,0.2f,0.0f]}}
+data modify entity 00000000-0000-0003-0000-0000000b2797 Pose.Head[0] set from entity 00000000-0000-0001-0000-0000000b2797 Rotation[1]
+data modify entity 00000000-0000-0003-0000-0000000b2797 Rotation[0] set from entity 00000000-0000-0001-0000-0000000b2797 Rotation[0]
