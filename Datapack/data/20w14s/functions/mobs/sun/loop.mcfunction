@@ -8,8 +8,7 @@ execute if score worldborder_size temp > 20w14s.end_boss_tick global in the_end 
 execute if score worldborder_size temp > 20w14s.end_boss_tick global run scoreboard players add 20w14s.end_boss_tick global 1
 
 # Mouth/eyes position sync
-scoreboard players add 20w14s.end_boss_sync timer 1
-execute if score 20w14s.end_boss_sync timer matches 3.. run function 20w14s:mobs/sun/face_sync
+function 20w14s:mobs/sun/face_sync
 
 # Save players from falling
 execute if score 20w14s.end_boss_tick global matches 933.. as @a[tag=20w14s.fighting_sun] at @s if entity @s[y=127,dy=-20] run function 20w14s:mobs/sun/save_player
