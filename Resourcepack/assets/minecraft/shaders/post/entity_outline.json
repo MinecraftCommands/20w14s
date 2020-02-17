@@ -1,8 +1,7 @@
 {
     "targets": [
-        "skin",
         "final",
-        "shine",
+        "swap",
         "combined"
     ],
     "passes": [
@@ -14,21 +13,14 @@
                 {"name": "SekerSampler", "id": "seker_skin", "width":1, "height":1, "bilinear":false},
                 {"name": "SunSampler", "id": "sun_surface", "width":1, "height":1, "bilinear":false}
             ],
-            "outtarget": "skin"
+            "outtarget": "swap"
         },
 
 
-
-
-        {
-            "name": "filter",
-            "intarget": "final",
-            "outtarget": "shine"
-        },
         {
             "name": "blur",
-            "intarget": "shine",
-            "outtarget": "final",
+            "intarget": "final",
+            "outtarget": "combined",
             "uniforms": [
                 {
                     "name": "BlurDir",
@@ -42,8 +34,8 @@
         },
         {
             "name": "blur",
-            "intarget": "final",
-            "outtarget": "shine",
+            "intarget": "combined",
+            "outtarget": "final",
             "uniforms": [
                 {
                     "name": "BlurDir",
@@ -55,10 +47,11 @@
                 }
             ]
         },
-        
+
+
         {
             "name": "combine_glow",
-            "intarget": "shine",
+            "intarget": "final",
             "auxtargets": [
                 {
                     "name": "BackgroundSampler",
@@ -66,7 +59,7 @@
                 },
                 {
                     "name": "MaskSampler",
-                    "id": "skin"
+                    "id": "swap"
                 }
             ],
             "outtarget": "combined"

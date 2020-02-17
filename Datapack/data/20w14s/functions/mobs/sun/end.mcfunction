@@ -1,5 +1,8 @@
 say end
 
+# Stop loop (if this function is ran manually to end early)
+schedule clear 20w14s:mobs/sun/loop
+
 # Kill sun
 kill 00000000-0000-0001-0000-0000000b2797
 kill 00000000-0000-0003-0000-0000000b2797
