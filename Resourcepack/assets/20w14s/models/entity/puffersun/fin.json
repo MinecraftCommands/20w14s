@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "20w14s:entity/puffersun/fin",
+		"particle": "20w14s:entity/puffersun/fin"
+	},
+	"elements": [
+		{
+			"from": [-16, 0, -4.5],
+			"to": [9, 0.7, 20.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 11.2, 7.7]},
+			"faces": {
+				"up": {"uv": [16, 0, 0, 16], "texture": "#0"},
+				"down": {"uv": [16, 0, 0, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 5.5, -60],
+			"scale": [4, 4, 4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 5.5, -60],
+			"scale": [4, 4, 4]
+		}
+	}
+}

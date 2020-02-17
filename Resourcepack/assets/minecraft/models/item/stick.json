@@ -17,6 +17,9 @@
         { "predicate": {"custom_model_data": 11}, "model": "20w14s:entity/puffersun/mouth_l" },
         { "predicate": {"custom_model_data": 12}, "model": "20w14s:entity/puffersun/mouth_mbp" },
         { "predicate": {"custom_model_data": 13}, "model": "20w14s:entity/puffersun/mouth_wq" },
-        { "predicate": {"custom_model_data": 14}, "model": "20w14s:entity/puffersun/eyes_open" }
+        { "predicate": {"custom_model_data": 14}, "model": "20w14s:entity/puffersun/eyes_open" },
+        { "predicate": {"custom_model_data": 15}, "model": "20w14s:entity/puffersun/eyes_open" },
+        { "predicate": {"custom_model_data": 16}, "model": "20w14s:entity/puffersun/eyes_open" },
+        { "predicate": {"custom_model_data": 17}, "model": "20w14s:entity/puffersun/fin" }
     ]
 }

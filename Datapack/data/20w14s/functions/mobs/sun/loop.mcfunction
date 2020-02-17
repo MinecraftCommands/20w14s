@@ -10,6 +10,9 @@ execute if score worldborder_size temp > 20w14s.end_boss_tick global run scorebo
 # Mouth/eyes position sync
 function 20w14s:mobs/sun/face_sync
 
+# Fins idle animation
+execute as 00000000-0000-0003-0000-0000000b2797 if entity @s[tag=!20w14s.fins_animating] run function 20w14s:mobs/sun/fins_idle
+
 # Save players from falling
 execute if score 20w14s.end_boss_tick global matches 933.. as @a[tag=20w14s.fighting_sun] at @s if entity @s[y=127,dy=-20] run function 20w14s:mobs/sun/save_player
 
