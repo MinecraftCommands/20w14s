@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:stone",
+      "minecraft:andesite",
+      "minecraft:granite",
+      "minecraft:grass_block",
+      "minecraft:podzol",
+      "minecraft:dirt",
+      "minecraft:coarse_dirt",
+      "minecraft:gravel",
+      "minecraft:sand"
+    ]
+  }

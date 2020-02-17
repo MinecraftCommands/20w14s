@@ -21,14 +21,9 @@
 
 
         {
-            "name": "filter",
-            "intarget": "final",
-            "outtarget": "shine"
-        },
-        {
             "name": "blur",
-            "intarget": "shine",
-            "outtarget": "final",
+            "intarget": "final",
+            "outtarget": "shine",
             "uniforms": [
                 {
                     "name": "BlurDir",
@@ -42,8 +37,8 @@
         },
         {
             "name": "blur",
-            "intarget": "final",
-            "outtarget": "shine",
+            "intarget": "shine",
+            "outtarget": "final",
             "uniforms": [
                 {
                     "name": "BlurDir",
@@ -58,7 +53,7 @@
         
         {
             "name": "combine_glow",
-            "intarget": "shine",
+            "intarget": "final",
             "auxtargets": [
                 {
                     "name": "BackgroundSampler",
