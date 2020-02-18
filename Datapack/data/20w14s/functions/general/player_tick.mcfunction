@@ -15,3 +15,6 @@ execute if score @s 20w14s.obsn_boat matches 1.. run function 20w14s:mechanics/o
 # Flying trees
 execute if score @s 20w14s.chop_oak matches 1.. run function 20w14s:mechanics/tree_float/oak/chopped_log
 execute if score @s 20w14s.chop_brch matches 1.. run function 20w14s:mechanics/tree_float/birch/chopped_log
+
+# Kill emerald experience
+execute if score @s 20w14s.mine_lead matches 1.. run function 20w14s:mechanics/mine_lead
