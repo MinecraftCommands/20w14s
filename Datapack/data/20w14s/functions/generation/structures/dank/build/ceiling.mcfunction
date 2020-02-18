@@ -17,4 +17,3 @@ execute if score $rng.483692383f93 temp matches 2 run fill ~ ~-1 ~ ~ ~-2 ~ minec
 execute if score $rng.483692383f93 temp matches 2 run setblock ~ ~-3 ~ minecraft:soul_fire_lantern[hanging=true]
 execute if score $rng.483692383f93 temp matches 3 run fill ~ ~-1 ~ ~ ~-3 ~ minecraft:iron_bars
 execute if score $rng.483692383f93 temp matches 3 run setblock ~ ~-4 ~ minecraft:soul_fire_lantern[hanging=true]
-execute if score $rng.483692383f93 temp matches 4.. run setblock ~ ~ ~ minecraft:emerald_ore
