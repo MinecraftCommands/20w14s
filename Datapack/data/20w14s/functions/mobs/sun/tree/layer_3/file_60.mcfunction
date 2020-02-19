@@ -1,8 +1,8 @@
-execute if score 20w14s.end_boss_tick global matches 949 run tp 00000000-0000-0001-0000-0000000b2797 54.04 134.13 588.75 -187.44 50.56
-execute if score 20w14s.end_boss_tick global matches 950 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 8
-execute if score 20w14s.end_boss_tick global matches 952 run tp 00000000-0000-0001-0000-0000000b2797 54.40 135.15 589.42 -187.45 50.10
-execute if score 20w14s.end_boss_tick global matches 953 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 5
-execute if score 20w14s.end_boss_tick global matches 955 run tp 00000000-0000-0001-0000-0000000b2797 54.47 135.81 589.92 -187.46 49.67
-execute if score 20w14s.end_boss_tick global matches 955 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 7
-execute if score 20w14s.end_boss_tick global matches 958 run tp 00000000-0000-0001-0000-0000000b2797 54.45 135.95 590.10 -187.12 49.31
-execute if score 20w14s.end_boss_tick global matches 960 run data modify entity 00000000-0000-0001-0000-0000000b2797 ArmorItems[3].tag.CustomModelData set value 8
+execute if score 20w14s.end_boss_tick global matches 932 run tp @a[tag=20w14s.fighting_sun] 59 138 560
+execute if score 20w14s.end_boss_tick global matches 932 run effect give @a[tag=20w14s.fighting_sun] slow_falling 3 1 true
+execute if score 20w14s.end_boss_tick global matches 932 run effect clear @a[tag=20w14s.fighting_sun] levitation
+execute if score 20w14s.end_boss_tick global matches 932 run particle end_rod 60.00 138.74 561.45 0.2 0.2 0.2 0.2 50
+execute if score 20w14s.end_boss_tick global matches 932 run setblock 47 133 548 structure_block{mode:"LOAD",name:"20w14s:puffersun/platform"}
+execute if score 20w14s.end_boss_tick global matches 932 run setblock 47 132 548 redstone_block
+execute if score 20w14s.end_boss_tick global matches 932 run fill 47 132 548 47 133 548 air
+execute if score 20w14s.end_boss_tick global matches 932 run clone 38 133 562 44 133 558 45 133 558 masked

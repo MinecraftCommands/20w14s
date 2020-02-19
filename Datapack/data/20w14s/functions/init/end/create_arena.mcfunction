@@ -1,4 +1,6 @@
-# Make sure chunks are loaded
+tellraw @a {"text":"Initialising some stuff (one-time only) - lag incoming!","color":"red"}
+
+# Make sure necessary chunks are loaded
 forceload add 65 551 56 570
 
 forceload remove 0 500
@@ -32,3 +34,11 @@ fill -758 81 536 -758 80 536 air
 setblock -2949 120 544 structure_block{mode:"LOAD",name:"20w14s:puffersun/heart"}
 setblock -2949 119 544 redstone_block
 fill -2949 119 544 -2949 120 544 air
+
+# Mutex to stop a battle starting when one is in progress
+scoreboard players set 20w14s.end_boss_ready global 1
+
+# Start off pre-loading of the path
+scoreboard players set 20w14s.end_chunks_progress global 230
+
+tellraw @a {"text":"Done","color":"aqua"}

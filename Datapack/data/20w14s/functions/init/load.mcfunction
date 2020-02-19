@@ -7,6 +7,7 @@ scoreboard objectives add temp dummy
 scoreboard objectives add timer dummy
 scoreboard objectives add const dummy
 
+scoreboard players set -1 const -1
 scoreboard players set 1 const 1
 scoreboard players set 2 const 2
 scoreboard players set 3 const 3
@@ -54,7 +55,6 @@ execute unless score seed 20w14s.random matches ..2147483647 run scoreboard play
 scoreboard players set 20w14s.default_snake_tail_length global 20
 scoreboard players set 20w14s.arrow_bounce_loop_running global 0
 scoreboard players set 20w14s.cow_count global 20
-execute unless score 20w14s.end_boss_ready global matches ..2147483647 run scoreboard players set 20w14s.end_boss_ready global 1
 
 # Teams
 team add 20w14s.seker
@@ -74,7 +74,7 @@ execute in the_end run forceload add 731031 731031
 execute in the_end run setblock 731031 0 731031 yellow_shulker_box
 
 # End arena
-execute unless score 20w14s.end_arena_created global matches 1 in the_end run function 20w14s:init/end_arena
+execute unless score 20w14s.end_arena_created global matches 1 run schedule function 20w14s:init/end/create_arena_now 10s
 
 # Message
 tellraw @a {"text":"20w14✧ reloaded","color":"aqua"}
