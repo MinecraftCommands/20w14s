@@ -42,21 +42,21 @@ execute if block ~ ~ ~ #20w14s:command_blocks[facing=down] run data modify stora
 # TODO We can probably simplify this with modulo. #refactor
 scoreboard players set $rot temp 0
 # east
-execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "east"} if data storage 20w14s:generation/structures/_util/advance input{ facing: "south" } run scoreboard players set $rot temp 3
-execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "east"} if data storage 20w14s:generation/structures/_util/advance input{ facing: "west" } run scoreboard players set $rot temp 2
-execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "east"} if data storage 20w14s:generation/structures/_util/advance input{ facing: "north" } run scoreboard players set $rot temp 1
+execute if data storage 20w14s:generation/structures/_util/advance {temp: {facing: "east"}, input: {facing: "south"}} run scoreboard players set $rot temp 3
+execute if data storage 20w14s:generation/structures/_util/advance {temp: {facing: "east"}, input: {facing: "west"}} run scoreboard players set $rot temp 2
+execute if data storage 20w14s:generation/structures/_util/advance {temp: {facing: "east"}, input: {facing: "north"}} run scoreboard players set $rot temp 1
 # south
-execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "south"} if data storage 20w14s:generation/structures/_util/advance input{ facing: "east" } run scoreboard players set $rot temp 1
-execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "south"} if data storage 20w14s:generation/structures/_util/advance input{ facing: "west" } run scoreboard players set $rot temp 3
-execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "south"} if data storage 20w14s:generation/structures/_util/advance input{ facing: "north" } run scoreboard players set $rot temp 2
+execute if data storage 20w14s:generation/structures/_util/advance {temp: {facing: "south"}, input: {facing: "east"}} run scoreboard players set $rot temp 1
+execute if data storage 20w14s:generation/structures/_util/advance {temp: {facing: "south"}, input: {facing: "west"}} run scoreboard players set $rot temp 3
+execute if data storage 20w14s:generation/structures/_util/advance {temp: {facing: "south"}, input: {facing: "north"}} run scoreboard players set $rot temp 2
 # west
-execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "west"} if data storage 20w14s:generation/structures/_util/advance input{ facing: "east" } run scoreboard players set $rot temp 2
-execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "west"} if data storage 20w14s:generation/structures/_util/advance input{ facing: "south" } run scoreboard players set $rot temp 1
-execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "west"} if data storage 20w14s:generation/structures/_util/advance input{ facing: "north" } run scoreboard players set $rot temp 3
+execute if data storage 20w14s:generation/structures/_util/advance {temp: {facing: "west"}, input: {facing: "east"}} run scoreboard players set $rot temp 2
+execute if data storage 20w14s:generation/structures/_util/advance {temp: {facing: "west"}, input: {facing: "south"}} run scoreboard players set $rot temp 1
+execute if data storage 20w14s:generation/structures/_util/advance {temp: {facing: "west"}, input: {facing: "north"}} run scoreboard players set $rot temp 3
 # north
-execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "north"} if data storage 20w14s:generation/structures/_util/advance input{ facing: "east" } run scoreboard players set $rot temp 3
-execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "north"} if data storage 20w14s:generation/structures/_util/advance input{ facing: "south" } run scoreboard players set $rot temp 2
-execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "north"} if data storage 20w14s:generation/structures/_util/advance input{ facing: "west" } run scoreboard players set $rot temp 1
+execute if data storage 20w14s:generation/structures/_util/advance {temp: {facing: "north"}, input: {facing: "east"}} run scoreboard players set $rot temp 3
+execute if data storage 20w14s:generation/structures/_util/advance {temp: {facing: "north"}, input: {facing: "south"}} run scoreboard players set $rot temp 2
+execute if data storage 20w14s:generation/structures/_util/advance {temp: {facing: "north"}, input: {facing: "west"}} run scoreboard players set $rot temp 1
 
 # adjust offsets based on the calculated rotation
 # clockwise 90
