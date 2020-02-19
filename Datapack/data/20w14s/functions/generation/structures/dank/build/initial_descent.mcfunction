@@ -1,6 +1,6 @@
 #> 20w14s:generation/structures/dank/build/initial_descent
 
-data modify storage 20w14s:generation/structures/_util/advance input set value { name: "20w14s:dank/initial_descent/base", size: [ 9, 9, 9 ], offset: [ -4, -31, -4 ] }
+data modify storage 20w14s:generation/structures/_util/advance input set value { name: "20w14s:dank/initial_descent/base", "anchor": "none", size: [ 9, 9, 9 ], offset: [ -4, -31, -4 ] }
 
 data modify storage 20w14s:generation/structures/_util/advance input.layers set value []
 data modify storage 20w14s:generation/structures/_util/advance input.layers append value { name: "20w14s:dank/initial_descent/cracked", integrity: 0.4f }

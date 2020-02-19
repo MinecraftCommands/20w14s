@@ -8,8 +8,9 @@
 #           The name of the structure.
 #       input.integrity: float
 #           The integrity of the structure.
-#       input.facing: east/south/west/north
-#           The direction you're facing when looking at the entry point, if applicable.
+#       input.anchor: east/south/west/north/up/down/none
+#           The direction in which the entry point is facing in the base structure, or `none` if
+#           this is not relevant for the structure being placed.
 #       input.size: [x, y, z]
 #           The size of the structure in each dimension x, y, and z.
 #       input.offset: [x, y, z]
@@ -44,10 +45,10 @@ execute if data storage 20w14s:generation/structures/_util/advance temp{facing: 
 execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "west"} run scoreboard players set $rot temp 2
 execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "north"} run scoreboard players set $rot temp 3
 # then wrap (in reverse) according to the base rotation of the entry point
-execute if data storage 20w14s:generation/structures/_util/advance input{facing: "east"} run scoreboard players add $rot temp 0
-execute if data storage 20w14s:generation/structures/_util/advance input{facing: "south"} run scoreboard players add $rot temp 3
-execute if data storage 20w14s:generation/structures/_util/advance input{facing: "west"} run scoreboard players add $rot temp 2
-execute if data storage 20w14s:generation/structures/_util/advance input{facing: "north"} run scoreboard players add $rot temp 1
+execute if data storage 20w14s:generation/structures/_util/advance input{anchor: "east"} run scoreboard players add $rot temp 2
+execute if data storage 20w14s:generation/structures/_util/advance input{anchor: "south"} run scoreboard players add $rot temp 1
+execute if data storage 20w14s:generation/structures/_util/advance input{anchor: "west"} run scoreboard players add $rot temp 0
+execute if data storage 20w14s:generation/structures/_util/advance input{anchor: "north"} run scoreboard players add $rot temp 3
 # use modulo to wrap around
 scoreboard players operation $rot temp %= $4 temp
 
@@ -62,7 +63,7 @@ execute if score $rot temp matches 2 run scoreboard players operation $offset_z 
 execute if score $rot temp matches 3 run scoreboard players operation $offset_z temp >< $offset_x temp
 execute if score $rot temp matches 3 run scoreboard players operation $offset_z temp *= $-1 temp
 
-# push one block in the horizontal axis corresponding to the facing direction
+# push one block in the horizontal axis corresponding to the command block's facing direction
 execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "east"} run scoreboard players add $offset_x temp 1
 execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "south"} run scoreboard players add $offset_z temp 1
 execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "west"} run scoreboard players remove $offset_x temp 1
