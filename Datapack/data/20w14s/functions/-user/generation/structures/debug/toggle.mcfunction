@@ -1,4 +1,4 @@
-#> 20w14s:-user/generation/structures/toggle_debug
+#> 20w14s:-user/generation/structures/debug/toggle
 
 execute store success storage 20w14s:generation/structures debug byte 1.0 if data storage 20w14s:generation/structures { debug: false }
 
