@@ -20,4 +20,4 @@ execute if score $rng.e326ae65068f temp matches 160..179 run function 20w14s:gen
 execute if score $rng.e326ae65068f temp matches 180..184 run function 20w14s:generation/structures/dank/check/high_halls/lower_doorway
 execute if score $rng.e326ae65068f temp matches 185..189 run function 20w14s:generation/structures/dank/check/high_halls/upper_doorway
 execute if score $rng.e326ae65068f temp matches 190..199 run function 20w14s:generation/structures/dank/check/arcade/doorway
-execute if score $rng.e326ae65068f temp matches 200.. run function 20w14s:generation/structures/dank/build/doorway/wall
+execute if score $rng.e326ae65068f temp matches 200.. run function 20w14s:generation/structures/dank/build/doorway/wall.dead_end
