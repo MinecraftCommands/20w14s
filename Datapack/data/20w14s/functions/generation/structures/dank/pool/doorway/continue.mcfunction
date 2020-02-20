@@ -11,6 +11,9 @@ execute if predicate 20w14s:chance_50 run scoreboard players add $rng.e326ae6506
 execute if predicate 20w14s:chance_50 run scoreboard players add $rng.e326ae65068f temp 64
 execute if predicate 20w14s:chance_50 run scoreboard players add $rng.e326ae65068f temp 128
 
+# NOTE Set this here in case it's not set by the RNG functions.
+scoreboard players set $continue temp 0
+
 # Choose a structure to build next based on RNG.
 execute if score $rng.e326ae65068f temp matches 0..99 run function 20w14s:generation/structures/dank/check/single/doorway
 execute if score $rng.e326ae65068f temp matches 100..119 run function 20w14s:generation/structures/dank/check/spiraling_rooms/lower_doorway
