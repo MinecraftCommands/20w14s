@@ -20,6 +20,14 @@
 #               The name of the structure for this layer.
 #           integrity: float
 #               The integrity of the structure for this layer.
+#       input.nudge: int
+#           By how many blocks to push the structure in the direction the command block is facing.
+#           Defaults to `1` under the assumption that this is a branching structure.
+#       input.passive: boolean
+#           Whether to avoid blanking nearby command blocks. The default behaviour is to assume
+#           the structure being placed is a branching structure containing auto command blocks at
+#           each exit point, and to proceed blanking the one we are entering from. Pass `false` to
+#           override this behaviour, which can be useful for procedural sub-structures.
 
 # set some constants
 scoreboard players set $-1 temp -1
@@ -63,11 +71,15 @@ execute if score $rot temp matches 2 run scoreboard players operation $offset_z 
 execute if score $rot temp matches 3 run scoreboard players operation $offset_z temp >< $offset_x temp
 execute if score $rot temp matches 3 run scoreboard players operation $offset_z temp *= $-1 temp
 
-# push one block in the horizontal axis corresponding to the command block's facing direction
-execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "east"} run scoreboard players add $offset_x temp 1
-execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "south"} run scoreboard players add $offset_z temp 1
-execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "west"} run scoreboard players remove $offset_x temp 1
-execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "north"} run scoreboard players remove $offset_z temp 1
+# calculate nudge distance
+execute if data storage 20w14s:generation/structures/_util/advance input.nudge store result score $nudge temp run data get storage 20w14s:generation/structures/_util/advance input.nudge
+execute unless data storage 20w14s:generation/structures/_util/advance input.nudge run scoreboard players set $nudge temp 1
+
+# push along the horizontal axis corresponding to the command block's facing direction
+execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "east"} run scoreboard players operation $offset_x temp += $nudge temp
+execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "south"} run scoreboard players operation $offset_z temp += $nudge temp
+execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "west"} run scoreboard players operation $offset_x temp -= $nudge temp
+execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "north"} run scoreboard players operation $offset_z temp -= $nudge temp
 
 # build each layer, starting with the base layer
 data modify storage 20w14s:generation/structures/_util/advance input.layers prepend value {}
@@ -82,8 +94,8 @@ execute if block ~ ~1 ~ minecraft:redstone_block run setblock ~ ~1 ~ minecraft:a
 # Remove any adjacent command blocks that may have been placed by the structure. This will stop
 # another structure from branching in the same spot. Alternatively, we could recall from earlier
 # precisely which direction we're facing to accurately replace a single command block... but, eh.
-execute if data storage 20w14s:generation/structures {debug: true} run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:purple_carpet replace #20w14s:command_blocks
-fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:air replace #20w14s:command_blocks
+execute if data storage 20w14s:generation/structures {debug: true} unless data storage 20w14s:generation/structures/_util/advance input.passive run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:purple_carpet replace #20w14s:command_blocks
+execute unless data storage 20w14s:generation/structures/_util/advance input.passive run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:air replace #20w14s:command_blocks
 
 # clear input arguments after we're done
 data remove storage 20w14s:generation/structures/_util/advance input
