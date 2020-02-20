@@ -15,3 +15,6 @@ execute if score $rng.74e674a0cd9a temp matches 6..7 run function 20w14s:generat
 execute if score $rng.74e674a0cd9a temp matches 8..9 run function 20w14s:generation/structures/dank/check/high_halls/lower_doorway
 execute if score $rng.74e674a0cd9a temp matches 10..11 run function 20w14s:generation/structures/dank/check/high_halls/upper_doorway
 execute if score $rng.74e674a0cd9a temp matches 12..15 run function 20w14s:generation/structures/dank/check/arcade/doorway
+
+# Block off any initial doorways with iron bars.
+execute if score $continue temp matches 1.. run function 20w14s:generation/structures/dank/build/doorway/obstacle/bars

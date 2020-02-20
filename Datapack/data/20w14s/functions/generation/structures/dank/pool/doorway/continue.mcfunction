@@ -21,3 +21,6 @@ execute if score $rng.e326ae65068f temp matches 180..184 run function 20w14s:gen
 execute if score $rng.e326ae65068f temp matches 185..189 run function 20w14s:generation/structures/dank/check/high_halls/upper_doorway
 execute if score $rng.e326ae65068f temp matches 190..199 run function 20w14s:generation/structures/dank/check/arcade/doorway
 execute if score $rng.e326ae65068f temp matches 200.. run function 20w14s:generation/structures/dank/build/doorway/wall.dead_end
+
+# If we branched to another room, choose a random doorway obstacle.
+execute if score $continue temp matches 1.. unless score $rng.e326ae65068f temp matches 200.. run function 20w14s:generation/structures/dank/build/doorway/obstacle
