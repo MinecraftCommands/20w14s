@@ -76,7 +76,8 @@ data modify storage 20w14s:generation/structures/_util/advance input.layers[0].n
 function 20w14s:generation/structures/_util/advance/layer
 
 # Clean up the structure block and the redstone block used to load structures.
-fill ~ ~ ~ ~ ~1 ~ minecraft:air
+execute if block ~ ~ ~ minecraft:structure_block run setblock ~ ~ ~ minecraft:air
+execute if block ~ ~1 ~ minecraft:redstone_block run setblock ~ ~1 ~ minecraft:air
 
 # Remove any adjacent command blocks that may have been placed by the structure. This will stop
 # another structure from branching in the same spot. Alternatively, we could recall from earlier
