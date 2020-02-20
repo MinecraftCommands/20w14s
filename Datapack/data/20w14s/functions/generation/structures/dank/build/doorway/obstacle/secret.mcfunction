@@ -1,9 +1,11 @@
 #> 20w14s:generation/structures/dank/build/doorway/obstacle/secret
 
-execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "north"} run fill ~-1 ~ ~ ~1 ~3 ~ minecraft:stone
-execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "south"} run fill ~-1 ~ ~ ~1 ~3 ~ minecraft:stone
-execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "west"} run fill ~ ~ ~-1 ~ ~3 ~1 minecraft:stone
-execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "east"} run fill ~ ~ ~-1 ~ ~3 ~1 minecraft:stone
+# NOTE We need to fake the command block because it's already been overwritten.
+execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "north"} run setblock ~ ~ ~ minecraft:repeating_command_block[facing=north]
+execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "south"} run setblock ~ ~ ~ minecraft:repeating_command_block[facing=south]
+execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "west"} run setblock ~ ~ ~ minecraft:repeating_command_block[facing=west]
+execute if data storage 20w14s:generation/structures/_util/advance temp{facing: "east"} run setblock ~ ~ ~ minecraft:repeating_command_block[facing=east]
+function 20w14s:generation/structures/dank/build/doorway/wall
 
 scoreboard players set $rng.156b3622bbb5 temp 0
 execute if predicate 20w14s:chance_50 run scoreboard players add $rng.156b3622bbb5 temp 1
