@@ -88,8 +88,8 @@
 
     "portal_gun.portal_open.red_rock": {
       "sounds": [
-        { "name": "20w14s:portal_gun/portal_open/red_rock_1" },
-        { "name": "20w14s:portal_gun/portal_open/red_rock_2" }
+        { "name": "20w14s:portal_gun/portal_open/red_rock_1", "volume": 0.5 },
+        { "name": "20w14s:portal_gun/portal_open/red_rock_2", "volume": 0.5 }
       ]
     },
 

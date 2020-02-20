@@ -1,0 +1,2 @@
+execute if score portal_color 20w14s.prtl_gun matches 0 run particle minecraft:item minecraft:lapis_lazuli ~ ~ ~ 0.0001 0.0001 0.0001 0.05 20 force
+execute if score portal_color 20w14s.prtl_gun matches 1 run particle minecraft:item minecraft:orange_dye ~ ~ ~ 0.0001 0.0001 0.0001 0.05 20 force

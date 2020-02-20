@@ -28,6 +28,7 @@ scoreboard players set 64 const 64
 scoreboard players set 128 const 128
 scoreboard players set 256 const 256
 scoreboard players set 512 const 512
+scoreboard players set 1000 const 1000
 scoreboard players set 1024 const 1024
 scoreboard players set 2048 const 2048
 
@@ -48,7 +49,14 @@ scoreboard objectives add 20w14s.talk_vlgr custom:talked_to_villager
 scoreboard objectives add 20w14s.lnch_rokt trigger
 scoreboard objectives add 20w14s.mine_lead mined:emerald_ore
 scoreboard objectives add 20w14s.prtl_gun dummy
+scoreboard objectives add 20w14s.prtl_rc dummy
 scoreboard objectives add 20w14s.prtl_spid dummy
+scoreboard objectives add 20w14s.prtl_id dummy
+scoreboard objectives add 20w14s.prtl_dir dummy
+scoreboard objectives add 20w14s.prtl_ct dummy
+scoreboard objectives add 20w14s.prtl_bpct dummy
+scoreboard objectives add 20w14s.prtl_opct dummy
+scoreboard objectives add 20w14s.prtl_anim dummy
 
 scoreboard players set multiplier 20w14s.random 1664525
 scoreboard players set increment 20w14s.random 1013904223
