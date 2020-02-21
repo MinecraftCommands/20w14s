@@ -1,8 +1,7 @@
 # Prevent fall damage, apply damage based on health remaining
 effect give @s slow_falling 2 0 true
-effect give @s[scores={20w14s.health=7..}] instant_damage 1 0 true
-effect give @s[scores={20w14s.health=2..6}] wither 1 1 true
-effect give @s[scores={20w14s.health=1}] poison 1 1 true
+effect give @s[scores={20w14s.health=8..}] instant_damage 1 0 true
+effect give @s[scores={20w14s.health=3..7}] wither 1 1 true
 
 # Find safe spot to teleport back up to
 execute if block ~-2 133 ~-9 yellow_stained_glass run tp @s ~ 134 ~-9

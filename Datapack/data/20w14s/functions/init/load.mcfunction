@@ -40,6 +40,7 @@ scoreboard objectives add 20w14s.random dummy
 scoreboard objectives add 20w14s.bounce dummy
 scoreboard objectives add 20w14s.prev_held dummy
 scoreboard objectives add 20w14s.bkpk_slot dummy
+scoreboard objectives add 20w14s.health health
 scoreboard objectives add 20w14s.mine_skrn mined:gold_ore
 scoreboard objectives add 20w14s.chop_oak mined:oak_log
 scoreboard objectives add 20w14s.chop_brch mined:birch_log

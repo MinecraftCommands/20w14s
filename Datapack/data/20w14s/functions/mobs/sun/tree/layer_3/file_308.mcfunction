@@ -1,8 +1,8 @@
-execute if score 20w14s.end_boss_tick global matches 4589 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-48 ~ ~ rotated 309.57 -90.00 positioned ^ ^ ^15 run tp 00000000-0000-0001-0000-0000000b2797 ~ ~ ~ facing entity @p[tag=20w14s.fighting_sun,gamemode=!spectator]
-execute if score 20w14s.end_boss_tick global matches 4592 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-48 ~ ~ rotated 321.57 -90.00 positioned ^ ^ ^15 run tp 00000000-0000-0001-0000-0000000b2797 ~ ~ ~ facing entity @p[tag=20w14s.fighting_sun,gamemode=!spectator]
-execute if score 20w14s.end_boss_tick global matches 4595 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-48 ~ ~ rotated 336.34 -89.85 positioned ^ ^ ^15 run tp 00000000-0000-0001-0000-0000000b2797 ~ ~ ~ facing entity @p[tag=20w14s.fighting_sun,gamemode=!spectator]
-execute if score 20w14s.end_boss_tick global matches 4598 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-48 ~ ~ rotated 350.96 -89.54 positioned ^ ^ ^15 run tp 00000000-0000-0001-0000-0000000b2797 ~ ~ ~ facing entity @p[tag=20w14s.fighting_sun,gamemode=!spectator]
+execute if score 20w14s.end_boss_tick global matches 4589 run execute as 00000000-0000-0001-0000-0000000b2797 at @s run tp @s ~ ~0.5 ~ ~40 ~
+execute if score 20w14s.end_boss_tick global matches 4592 run execute as 00000000-0000-0001-0000-0000000b2797 at @s run tp @s ~ ~0.5 ~ ~40 ~
+execute if score 20w14s.end_boss_tick global matches 4595 run execute as 00000000-0000-0001-0000-0000000b2797 at @s run tp @s ~ ~0.5 ~ ~40 ~
+execute if score 20w14s.end_boss_tick global matches 4598 run execute as 00000000-0000-0001-0000-0000000b2797 at @s run tp @s ~ ~0.5 ~ ~40 ~
 execute if score 20w14s.end_boss_tick global matches 4600 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_23 master @s ~ 50000 ~ 731031
-execute if score 20w14s.end_boss_tick global matches 4601 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-48 ~ ~ rotated 2.34 -88.62 positioned ^ ^ ^15 run tp 00000000-0000-0001-0000-0000000b2797 ~ ~ ~ facing entity @p[tag=20w14s.fighting_sun,gamemode=!spectator]
-execute if score 20w14s.end_boss_tick global matches 4604 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-48 ~ ~ rotated 11.88 -87.39 positioned ^ ^ ^15 run tp 00000000-0000-0001-0000-0000000b2797 ~ ~ ~ facing entity @p[tag=20w14s.fighting_sun,gamemode=!spectator]
-execute if score 20w14s.end_boss_tick global matches 4607 run execute at 00000000-0000-0002-0000-0000000b2797 positioned ~-48 ~ ~ rotated 19.88 -85.08 positioned ^ ^ ^15 run tp 00000000-0000-0001-0000-0000000b2797 ~ ~ ~ facing entity @p[tag=20w14s.fighting_sun,gamemode=!spectator]
+execute if score 20w14s.end_boss_tick global matches 4601 run execute as 00000000-0000-0001-0000-0000000b2797 at @s run tp @s ~ ~0.5 ~ ~40 ~
+execute if score 20w14s.end_boss_tick global matches 4604 run execute as 00000000-0000-0001-0000-0000000b2797 at @s run tp @s ~ ~0.5 ~ ~40 ~
+execute if score 20w14s.end_boss_tick global matches 4607 run execute as 00000000-0000-0001-0000-0000000b2797 at @s run tp @s ~ ~0.5 ~ ~40 ~
