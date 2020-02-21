@@ -18,3 +18,6 @@ execute if score @s 20w14s.chop_brch matches 1.. run function 20w14s:mechanics/t
 
 # Kill emerald experience
 execute if score @s 20w14s.mine_lead matches 1.. run function 20w14s:mechanics/mine_lead
+
+# Swap portal gun colors
+execute if predicate 20w14s:portal_gun/portal_gun_in_offhand run function 20w14s:items/portal_gun/swap_color

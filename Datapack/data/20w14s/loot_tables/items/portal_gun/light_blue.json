@@ -10,7 +10,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"translate\":\"item.20w14s.red_portal_gun\",\"color\":\"red\",\"italic\":false}'},CustomModelData:5,20w14s:{item_id:9}}"
+                "tag": "{display:{Name:'{\"translate\":\"item.20w14s.light_blue_portal_gun\",\"color\":\"dark_aqua\",\"italic\":false}'},CustomModelData:7,20w14s:{item_id:11,portal_gun:1b,portal_color:4}}"
               }
             ]
           }

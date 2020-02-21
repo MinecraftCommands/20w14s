@@ -1,1 +1,1 @@
-loot give @s loot 20w14s:items/orange_portal_gun
+loot give @s loot 20w14s:items/portal_gun/orange

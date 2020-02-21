@@ -1,1 +1,1 @@
-loot give @s loot 20w14s:items/light_blue_portal_gun
+loot give @s loot 20w14s:items/portal_gun/light_blue
