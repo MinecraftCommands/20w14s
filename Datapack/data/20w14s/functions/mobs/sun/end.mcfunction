@@ -15,6 +15,7 @@ fill 49 133 548 71 133 572 air
 
 # Give players reward
 execute as @a[tag=20w14s.fighting_sun] run function 20w14s:items/puffer_head/give
+effect give @a[tag=20w14s.fighting_sun] regeneration 5 20
 
 # Clear tags
 tag @a[tag=20w14s.fighting_sun] remove 20w14s.fighting_sun
