@@ -26,5 +26,9 @@ execute if score 20w14s:gen_cycle timer matches 1 at @a positioned ~-48 ~ ~48 if
 execute if score 20w14s:gen_cycle timer matches 2 at @a positioned ~48 ~ ~-48 if block ~ 0 ~ bedrock run function 20w14s:generation/chunk_align
 execute if score 20w14s:gen_cycle timer matches 3 at @a positioned ~-48 ~ ~-48 if block ~ 0 ~ bedrock run function 20w14s:generation/chunk_align
 
+# Pre-gen the end chunks so it doesn't lag during boss fight
+execute if score 20w14s.end_chunks_progress global matches 1.. in the_end run function 20w14s:init/end/pregen_chunks
+
+
 # Cat items
 execute as @e[type=item,nbt={OnGround:1b,Item:{tag:{20w14s:{cat_item:1b}}}}] at @s run function 20w14s:mobs/cat_items/revive
