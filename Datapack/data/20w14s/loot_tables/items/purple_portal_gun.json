@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"translate\":\"item.20w14s.purple_portal_gun\",\"color\":\"dark_purple\",\"italic\":false}'},CustomModelData:8,20w14s:{item_id:12}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

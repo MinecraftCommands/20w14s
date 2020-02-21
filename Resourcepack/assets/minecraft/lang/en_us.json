@@ -33,6 +33,10 @@
 
   "item.20w14s.blue_portal_gun": "Blue Portal Gun",
   "item.20w14s.orange_portal_gun": "Orange Portal Gun",
+  "item.20w14s.red_portal_gun": "Red Portal Gun",
+  "item.20w14s.yellow_portal_gun": "Yellow Portal Gun",
+  "item.20w14s.light_blue_portal_gun": "Light Blue Portal Gun",
+  "item.20w14s.purple_portal_gun": "Purple Portal Gun",
 
   "menu.online": "Realms+",
   "menu.quit": "Marketplace",

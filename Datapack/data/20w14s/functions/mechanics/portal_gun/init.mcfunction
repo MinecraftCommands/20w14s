@@ -6,6 +6,10 @@ tag @s remove 20w14s.new_portal
 scoreboard players operation player_id 20w14s.prtl_gun = @s 20w14s.prtl_spid
 scoreboard players set portal_color 20w14s.prtl_gun 0
 execute if entity @s[tag=20w14s.orange_portal_spawn_point] run scoreboard players set portal_color 20w14s.prtl_gun 1
+execute if entity @s[tag=20w14s.red_portal_spawn_point] run scoreboard players set portal_color 20w14s.prtl_gun 2
+execute if entity @s[tag=20w14s.yellow_portal_spawn_point] run scoreboard players set portal_color 20w14s.prtl_gun 3
+execute if entity @s[tag=20w14s.light_blue_portal_spawn_point] run scoreboard players set portal_color 20w14s.prtl_gun 4
+execute if entity @s[tag=20w14s.purple_portal_spawn_point] run scoreboard players set portal_color 20w14s.prtl_gun 5
 
 # Calculate direction
 function 20w14s:mechanics/portal_gun/get_direction/calculate

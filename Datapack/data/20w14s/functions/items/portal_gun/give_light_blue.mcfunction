@@ -1,0 +1,1 @@
+loot give @s loot 20w14s:items/light_blue_portal_gun

@@ -57,6 +57,10 @@ scoreboard objectives add 20w14s.prtl_dir dummy
 scoreboard objectives add 20w14s.prtl_ct dummy
 scoreboard objectives add 20w14s.prtl_bpct dummy
 scoreboard objectives add 20w14s.prtl_opct dummy
+scoreboard objectives add 20w14s.prtl_rpct dummy
+scoreboard objectives add 20w14s.prtl_ypct dummy
+scoreboard objectives add 20w14s.prtl_lpct dummy
+scoreboard objectives add 20w14s.prtl_ppct dummy
 scoreboard objectives add 20w14s.prtl_main dummy
 scoreboard objectives add 20w14s.prtl_anim dummy
 scoreboard objectives add 20w14s.prtl_tp dummy
