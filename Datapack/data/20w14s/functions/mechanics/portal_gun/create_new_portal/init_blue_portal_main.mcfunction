@@ -40,5 +40,3 @@ execute if score direction 20w14s.prtl_gun matches 11 rotated -90 90 run functio
 # Play opening sounds
 playsound 20w14s:portal_gun.portal_open.blue ambient @a ~ ~ ~ 1
 playsound 20w14s:portal_gun.portal_open.red_rock ambient @a ~ ~ ~ 1
-
-say Spawned Blue

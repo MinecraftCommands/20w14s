@@ -25,6 +25,7 @@ scoreboard players set 15 const 15
 scoreboard players set 16 const 16
 scoreboard players set 32 const 32
 scoreboard players set 64 const 64
+scoreboard players set 90 const 90
 scoreboard players set 128 const 128
 scoreboard players set 256 const 256
 scoreboard players set 512 const 512
@@ -56,7 +57,9 @@ scoreboard objectives add 20w14s.prtl_dir dummy
 scoreboard objectives add 20w14s.prtl_ct dummy
 scoreboard objectives add 20w14s.prtl_bpct dummy
 scoreboard objectives add 20w14s.prtl_opct dummy
+scoreboard objectives add 20w14s.prtl_main dummy
 scoreboard objectives add 20w14s.prtl_anim dummy
+scoreboard objectives add 20w14s.prtl_tp dummy
 
 scoreboard players set multiplier 20w14s.random 1664525
 scoreboard players set increment 20w14s.random 1013904223
