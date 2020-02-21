@@ -53,3 +53,4 @@ scoreboard players set 20w14s.end_boss_ready global 1
 scoreboard players set 20w14s.end_chunks_progress global 230
 
 tellraw @a {"text":"Done","color":"aqua"}
+scoreboard players set 20w14s.end_arena_created global 1
