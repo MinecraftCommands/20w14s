@@ -4,7 +4,8 @@
 execute store result score held_portal_color temp run data get entity @s Inventory[{Slot:-106b}].tag.20w14s.portal_color
 replaceitem entity @s weapon.offhand minecraft:air
 
-# TODO: Fix issue where non portal gun items swapped back into mainhand are deleted
+# Copy non portal gun item that moved from offhand to mainhand back to offhand
+execute if data entity @s SelectedItem.Count run function 20w14s:items/portal_gun/copy_item
 
 # Give portal gun
 execute if score held_portal_color temp matches 0 run loot replace entity @s weapon.mainhand loot 20w14s:items/portal_gun/orange

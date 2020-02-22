@@ -2,7 +2,7 @@
 #  Should only be called by a function where the portal direction is already known
 
 # Copy score and remove portal
-scoreboard players operation removal_id 20w14s.prtl_gun = checked_portal_id 20w14s.prtl_main
+scoreboard players operation removal_id 20w14s.prtl_gun = checked_portal_id temp
 function 20w14s:mechanics/portal_gun/remove_portal/structure/orange
 
 # Play closing sound
