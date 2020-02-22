@@ -9,6 +9,9 @@
       "minecraft:dirt",
       "minecraft:coarse_dirt",
       "minecraft:gravel",
-      "minecraft:sand"
+      "minecraft:sand",
+      "minecraft:red_sand",
+      "minecraft:terracotta",
+      "minecraft:cave_air"
     ]
   }
