@@ -13,8 +13,6 @@ execute if score $rng.55b8dab15448 temp matches 12..13 run function 20w14s:gener
 execute if score $rng.55b8dab15448 temp matches 14 run function 20w14s:generation/structures/dank/spawner/silverfish
 execute if score $rng.55b8dab15448 temp matches 15 run function 20w14s:generation/structures/dank/spawner/creeper
 
-# data modify block ~ ~ ~ Delay set value 1
-
 scoreboard players set $rng.55b8dab15448 temp 0
 execute if predicate 20w14s:chance_50 run scoreboard players add $rng.55b8dab15448 temp 1
 execute if predicate 20w14s:chance_50 run scoreboard players add $rng.55b8dab15448 temp 2

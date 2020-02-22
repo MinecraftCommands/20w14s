@@ -15,5 +15,5 @@ execute if score $rng.5f1f55fd152d temp matches 18..19 run function 20w14s:gener
 execute if score $rng.5f1f55fd152d temp matches 20 run setblock ~ ~ ~ minecraft:potted_fern
 execute if score $rng.5f1f55fd152d temp matches 21 run setblock ~ ~ ~ minecraft:potted_dead_bush
 execute if score $rng.5f1f55fd152d temp matches 22 run setblock ~ ~ ~ minecraft:potted_wither_rose
-execute if score $rng.5f1f55fd152d temp matches 23 run setblock ~ ~ ~ minecraft:lantern
+execute if score $rng.5f1f55fd152d temp matches 23 run setblock ~ ~ ~ minecraft:soul_fire_lantern
 execute if score $rng.5f1f55fd152d temp matches 24.. run setblock ~ ~ ~ minecraft:air

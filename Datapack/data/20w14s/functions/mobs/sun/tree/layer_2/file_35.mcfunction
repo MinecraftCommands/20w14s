@@ -1,7 +1,8 @@
-execute if score 20w14s.end_boss_tick global matches 2400 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_12 master @s ~ 50000 ~ 731031
-execute if score 20w14s.end_boss_tick global matches 2600 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_13 master @s ~ 50000 ~ 731031
-execute if score 20w14s.end_boss_tick global matches 2800 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_14 master @s ~ 50000 ~ 731031
-execute if score 20w14s.end_boss_tick global matches 3000 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_15 master @s ~ 50000 ~ 731031
-execute if score 20w14s.end_boss_tick global matches 3200 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_16 master @s ~ 50000 ~ 731031
-execute if score 20w14s.end_boss_tick global matches 3400 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_17 master @s ~ 50000 ~ 731031
-execute if score 20w14s.end_boss_tick global matches 3600 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_18 master @s ~ 50000 ~ 731031
+execute if score 20w14s.end_boss_tick global matches 4085..4094 run function 20w14s:mobs/sun/tree/layer_3/file_280
+execute if score 20w14s.end_boss_tick global matches 4098..4109 run function 20w14s:mobs/sun/tree/layer_3/file_281
+execute if score 20w14s.end_boss_tick global matches 4111..4127 run function 20w14s:mobs/sun/tree/layer_3/file_282
+execute if score 20w14s.end_boss_tick global matches 4130..4151 run function 20w14s:mobs/sun/tree/layer_3/file_283
+execute if score 20w14s.end_boss_tick global matches 4154..4175 run function 20w14s:mobs/sun/tree/layer_3/file_284
+execute if score 20w14s.end_boss_tick global matches 4178..4199 run function 20w14s:mobs/sun/tree/layer_3/file_285
+execute if score 20w14s.end_boss_tick global matches 4200..4217 run function 20w14s:mobs/sun/tree/layer_3/file_286
+execute if score 20w14s.end_boss_tick global matches 4220..4232 run function 20w14s:mobs/sun/tree/layer_3/file_287

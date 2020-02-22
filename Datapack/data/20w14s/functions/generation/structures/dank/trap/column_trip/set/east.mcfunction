@@ -1,9 +1,13 @@
 #> 20w14s:generation/structures/dank/trap/column_trip/set/east
 
-setblock ~ ~ ~-3 minecraft:tripwire_hook[facing=south, attached=true]
-fill ~ ~1 ~-4 ~ ~4 ~-4 minecraft:tnt
+setblock ~ ~ ~ minecraft:air
 
-setblock ~ ~ ~3 minecraft:tripwire_hook[facing=north, attached=true]
-fill ~ ~1 ~4 ~ ~4 ~4 minecraft:tnt
+fill ~ ~-1 ~-4 ~ ~1 ~-4 minecraft:tnt
+setblock ~ ~2 ~-4 minecraft:tripwire_hook[facing=south,attached=true]
 
-fill ~ ~ ~-2 ~ ~ ~2 minecraft:tripwire
+fill ~ ~-1 ~4 ~ ~1 ~4 minecraft:tnt
+setblock ~ ~2 ~4 minecraft:tripwire_hook[facing=north,attached=true]
+
+fill ~ ~-2 ~-3 ~ ~-2 ~3 minecraft:tnt replace #20w14s:structures/dank/usable
+
+fill ~ ~2 ~-3 ~ ~2 ~3 minecraft:tripwire

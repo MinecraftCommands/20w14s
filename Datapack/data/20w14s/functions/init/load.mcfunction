@@ -7,6 +7,7 @@ scoreboard objectives add temp dummy
 scoreboard objectives add timer dummy
 scoreboard objectives add const dummy
 
+scoreboard players set -1 const -1
 scoreboard players set 1 const 1
 scoreboard players set 2 const 2
 scoreboard players set 3 const 3
@@ -41,6 +42,7 @@ scoreboard objectives add 20w14s.random dummy
 scoreboard objectives add 20w14s.bounce dummy
 scoreboard objectives add 20w14s.prev_held dummy
 scoreboard objectives add 20w14s.bkpk_slot dummy
+scoreboard objectives add 20w14s.health health
 scoreboard objectives add 20w14s.mine_skrn mined:gold_ore
 scoreboard objectives add 20w14s.chop_oak mined:oak_log
 scoreboard objectives add 20w14s.chop_brch mined:birch_log
@@ -92,7 +94,7 @@ execute in the_end run forceload add 731031 731031
 execute in the_end run setblock 731031 0 731031 yellow_shulker_box
 
 # End arena
-execute unless score 20w14s.end_arena_created global matches 1 in the_end run function 20w14s:init/end_arena
+execute unless score 20w14s.end_arena_created global matches 1 run schedule function 20w14s:init/end/create_arena_now 10s
 
 # Message
 tellraw @a {"text":"20w14✧ reloaded","color":"aqua"}
