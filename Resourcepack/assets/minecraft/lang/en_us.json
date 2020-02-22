@@ -41,8 +41,6 @@
   "block.minecraft.loom": "Lööm",
   "container.loom": "Lööm",
   "stat.minecraft.interact_with_loom":"Interactions with Lööm",
-
-  "block.minecraft.purpur_slab": "Command Block Slab",
   
   "block.minecraft.gold_ore": "Sekernite Ore",
   "block.minecraft.gold_block": "Block of Sekernite",
@@ -62,6 +60,7 @@
   "item.minecraft.golden_horse_armor": "Sekernite Horse Armor",
   "subtitles.item.armor.equip_gold": "Sekernite armor clinks",
   
+  "block.minecraft.purpur_slab": "Command Block Slab",
   "block.minecraft.purpur_block": "Reinforced Plating",
   "block.minecraft.end_stone": "Fish Block",
   "block.minecraft.command_block": "§rBackpack",
@@ -72,6 +71,11 @@
   "item.minecraft.enchanted_golden_apple": "Original Pufferfish",
   "block.minecraft.structure_void": "Super Duper Graphics Pack",
   "block.minecraft.infested_chiseled_stone_bricks": "Infested Netherrack",
+  "block.minecraft.emerald_ore": "Lead Ore",
+  
+  "item.minecraft.elytra": "Jetpack",
+  "stat.minecraft.aviate_one_cm": "Distance by Jetpack",
+  "subtitles.item.armor.equip_elytra": "Jetpack clangs",
   
   "title.singleplayer": "Snapshot 20w14✨",
   "title.multiplayer.realms": "Snapshot 20w14✨",
@@ -109,7 +113,5 @@
   "block.minecraft.granite_slab": "Slate Slab",
   "block.minecraft.diorite_slab": "Limestone Slab",
   "block.minecraft.granite_wall": "Slate Wall",
-  "block.minecraft.diorite_wall": "Limestone Wall",
-
-  "block.minecraft.emerald_ore": "Lead Ore"
+  "block.minecraft.diorite_wall": "Limestone Wall"
 }
