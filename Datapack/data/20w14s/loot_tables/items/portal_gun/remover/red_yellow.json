@@ -10,7 +10,71 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"translate\":\"item.20w14s.portal_gun.remove\",\"color\":\"gray\",\"italic\":false},{\"translate\":\"item.20w14s.portal_gun.color.red\",\"color\":\"red\",\"bold\":true,\"italic\":false},{\"translate\":\"item.20w14s.portal_gun.slash\",\"color\":\"gray\",\"italic\":false},{\"translate\":\"item.20w14s.portal_gun.color.yellow\",\"color\":\"yellow\",\"bold\":true,\"italic\":false},{\"translate\":\"item.20w14s.portal_gun.portals\",\"color\":\"gray\",\"italic\":false}]',Lore:['[{\"translate\":\"item.20w14s.portal_gun.opening_bracket\",\"color\":\"yellow\",\"italic\":false},{\"keybind\":\"key.use\",\"color\":\"yellow\",\"italic\":false},{\"translate\":\"item.20w14s.portal_gun.closing_bracket\",\"color\":\"yellow\",\"italic\":false},{\"translate\":\"item.20w14s.portal_gun.separator\",\"color\":\"gray\",\"italic\":false},{\"translate\":\"item.20w14s.portal_gun.remove_portals\",\"color\":\"white\",\"italic\":false}]']},Unbreakable:1b,HideFlags:63,CustomModelData:10,20w14s:{item_id:14}}"
+              "tag": "{Unbreakable:1b,HideFlags:63,CustomModelData:10,20w14s:{item_id:14}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "item.20w14s.portal_gun.remove",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "item.20w14s.portal_gun.color.red",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "translate": "item.20w14s.portal_gun.slash",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "item.20w14s.portal_gun.color.yellow",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "translate": "item.20w14s.portal_gun.portals",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "translate": "item.20w14s.portal_gun.opening_bracket",
+                    "color": "yellow",
+                    "italic": false
+                  },
+                  {
+                    "keybind": "key.use",
+                    "color": "yellow",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.20w14s.portal_gun.closing_bracket",
+                    "color": "yellow",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.20w14s.portal_gun.separator",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.20w14s.portal_gun.remove_portals",
+                    "color": "white",
+                    "italic": false
+                  }
+                ]
+              ]
             }
           ]
         }
