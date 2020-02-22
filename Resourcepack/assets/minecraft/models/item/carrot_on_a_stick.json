@@ -11,6 +11,42 @@
         {
             "predicate": {"custom_model_data": 2},
             "model": "20w14s:item/melon_uzi"
+        },
+        {
+            "predicate": {"custom_model_data": 3},
+            "model": "20w14s:item/melon_uzi"
+        },
+        {
+            "predicate": {"custom_model_data": 4},
+            "model": "20w14s:item/melon_uzi"
+        },
+        {
+            "predicate": {"custom_model_data": 5},
+            "model": "20w14s:item/melon_uzi"
+        },
+        {
+            "predicate": {"custom_model_data": 6},
+            "model": "20w14s:item/melon_uzi"
+        },
+        {
+            "predicate": {"custom_model_data": 7},
+            "model": "20w14s:item/melon_uzi"
+        },
+        {
+            "predicate": {"custom_model_data": 8},
+            "model": "20w14s:item/melon_uzi"
+        },
+        {
+            "predicate": {"custom_model_data": 9},
+            "model": "20w14s:item/magic_mirror"
+        },
+        {
+            "predicate": {"custom_model_data": 10},
+            "model": "20w14s:item/magic_mirror"
+        },
+        {
+            "predicate": {"custom_model_data": 11},
+            "model": "20w14s:item/magic_mirror"
         }
     ]
 }

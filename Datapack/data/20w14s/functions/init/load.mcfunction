@@ -26,9 +26,11 @@ scoreboard players set 15 const 15
 scoreboard players set 16 const 16
 scoreboard players set 32 const 32
 scoreboard players set 64 const 64
+scoreboard players set 90 const 90
 scoreboard players set 128 const 128
 scoreboard players set 256 const 256
 scoreboard players set 512 const 512
+scoreboard players set 1000 const 1000
 scoreboard players set 1024 const 1024
 scoreboard players set 2048 const 2048
 
@@ -49,8 +51,20 @@ scoreboard objectives add 20w14s.use_coas used:carrot_on_a_stick
 scoreboard objectives add 20w14s.talk_vlgr custom:talked_to_villager
 scoreboard objectives add 20w14s.lnch_rokt trigger
 scoreboard objectives add 20w14s.mine_lead mined:emerald_ore
-scoreboard objectives add 20w14s.jtpk_hvr custom:sneak_time
-scoreboard objectives add 20w14s.jtpk_bst custom:aviate_one_cm
+scoreboard objectives add 20w14s.prtl_gun dummy
+scoreboard objectives add 20w14s.prtl_rc dummy
+scoreboard objectives add 20w14s.prtl_spid dummy
+scoreboard objectives add 20w14s.prtl_id dummy
+scoreboard objectives add 20w14s.prtl_dir dummy
+scoreboard objectives add 20w14s.prtl_ct dummy
+scoreboard objectives add 20w14s.prtl_bpct dummy
+scoreboard objectives add 20w14s.prtl_opct dummy
+scoreboard objectives add 20w14s.prtl_rpct dummy
+scoreboard objectives add 20w14s.prtl_ypct dummy
+scoreboard objectives add 20w14s.prtl_lpct dummy
+scoreboard objectives add 20w14s.prtl_ppct dummy
+scoreboard objectives add 20w14s.prtl_anim dummy
+scoreboard objectives add 20w14s.prtl_tp dummy
 
 scoreboard players set multiplier 20w14s.random 1664525
 scoreboard players set increment 20w14s.random 1013904223
@@ -59,6 +73,8 @@ execute unless score seed 20w14s.random matches ..2147483647 run scoreboard play
 scoreboard players set 20w14s.default_snake_tail_length global 20
 scoreboard players set 20w14s.arrow_bounce_loop_running global 0
 scoreboard players set 20w14s.cow_count global 20
+scoreboard players set 20w14s.portal_gun_raycast_length global 2560
+execute unless score 20w14s.end_boss_ready global matches ..2147483647 run scoreboard players set 20w14s.end_boss_ready global 1
 
 # Teams
 team add 20w14s.seker

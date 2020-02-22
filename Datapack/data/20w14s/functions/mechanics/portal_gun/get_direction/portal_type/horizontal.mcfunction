@@ -1,0 +1,4 @@
+execute if score block_dx 20w14s.prtl_gun matches 0 if score block_dz 20w14s.prtl_gun matches 1 run scoreboard players set direction 20w14s.prtl_gun 0
+execute if score block_dx 20w14s.prtl_gun matches -1 if score block_dz 20w14s.prtl_gun matches 0 run scoreboard players set direction 20w14s.prtl_gun 1
+execute if score block_dx 20w14s.prtl_gun matches 0 if score block_dz 20w14s.prtl_gun matches -1 run scoreboard players set direction 20w14s.prtl_gun 2
+execute if score block_dx 20w14s.prtl_gun matches 1 if score block_dz 20w14s.prtl_gun matches 0 run scoreboard players set direction 20w14s.prtl_gun 3
