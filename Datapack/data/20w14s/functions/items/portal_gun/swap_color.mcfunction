@@ -8,9 +8,9 @@ replaceitem entity @s weapon.offhand minecraft:air
 execute if data entity @s SelectedItem.Count run function 20w14s:items/portal_gun/copy_item
 
 # Give portal gun
-execute if score held_portal_color temp matches 0 run loot replace entity @s weapon.mainhand loot 20w14s:items/portal_gun/orange
-execute if score held_portal_color temp matches 1 run loot replace entity @s weapon.mainhand loot 20w14s:items/portal_gun/blue
-execute if score held_portal_color temp matches 2 run loot replace entity @s weapon.mainhand loot 20w14s:items/portal_gun/yellow
-execute if score held_portal_color temp matches 3 run loot replace entity @s weapon.mainhand loot 20w14s:items/portal_gun/red
-execute if score held_portal_color temp matches 4 run loot replace entity @s weapon.mainhand loot 20w14s:items/portal_gun/purple
-execute if score held_portal_color temp matches 5 run loot replace entity @s weapon.mainhand loot 20w14s:items/portal_gun/light_blue
+execute if score held_portal_color temp matches 0 run loot replace entity @s weapon.mainhand loot 20w14s:items/portal_gun/guns/orange
+execute if score held_portal_color temp matches 1 run loot replace entity @s weapon.mainhand loot 20w14s:items/portal_gun/guns/blue
+execute if score held_portal_color temp matches 2 run loot replace entity @s weapon.mainhand loot 20w14s:items/portal_gun/guns/yellow
+execute if score held_portal_color temp matches 3 run loot replace entity @s weapon.mainhand loot 20w14s:items/portal_gun/guns/red
+execute if score held_portal_color temp matches 4 run loot replace entity @s weapon.mainhand loot 20w14s:items/portal_gun/guns/purple
+execute if score held_portal_color temp matches 5 run loot replace entity @s weapon.mainhand loot 20w14s:items/portal_gun/guns/light_blue
