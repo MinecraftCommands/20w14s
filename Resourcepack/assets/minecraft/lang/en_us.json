@@ -37,12 +37,23 @@
   "item.20w14s.portal_gun.yellow": "Yellow Portal Gun",
   "item.20w14s.portal_gun.light_blue": "Light Blue Portal Gun",
   "item.20w14s.portal_gun.purple": "Purple Portal Gun",
+  
+  "item.20w14s.portal_gun.remove": "Remove ",
+  "item.20w14s.portal_gun.color.blue": "Blue",
+  "item.20w14s.portal_gun.color.orange": "Orange",
+  "item.20w14s.portal_gun.color.red": "Red",
+  "item.20w14s.portal_gun.color.yellow": "Yellow",
+  "item.20w14s.portal_gun.color.light_blue": "Light Blue",
+  "item.20w14s.portal_gun.color.purple": "Purple",
+  "item.20w14s.portal_gun.portals": " Portals",
 
   "item.20w14s.portal_gun.opening_bracket": "[",
   "item.20w14s.portal_gun.closing_bracket": "]",
   "item.20w14s.portal_gun.separator": " : ",
+  "item.20w14s.portal_gun.slash": "/",
   "item.20w14s.portal_gun.shoot": "Shoot Portal",
   "item.20w14s.portal_gun.change_color": "Change Color",
+  "item.20w14s.portal_gun.remove_portals": "Remove Portals",
 
   "menu.online": "Realms+",
   "menu.quit": "Marketplace",
