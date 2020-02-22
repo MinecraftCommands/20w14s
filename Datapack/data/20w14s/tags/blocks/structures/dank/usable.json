@@ -1,17 +1,21 @@
 {
     "replace": false,
     "values": [
-      "minecraft:stone",
-      "minecraft:andesite",
-      "minecraft:granite",
       "minecraft:grass_block",
       "minecraft:podzol",
-      "minecraft:dirt",
       "minecraft:coarse_dirt",
+      "minecraft:dirt",
       "minecraft:gravel",
       "minecraft:sand",
       "minecraft:red_sand",
       "minecraft:terracotta",
+      "minecraft:stone",
+      "minecraft:andesite",
+      "minecraft:granite",
+      "minecraft:diorite",
+      "minecraft:coal_ore",
+      "minecraft:iron_ore",
+      "minecraft:gold_ore",
       "minecraft:cave_air"
     ]
   }
