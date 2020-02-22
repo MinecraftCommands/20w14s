@@ -10,4 +10,4 @@ execute if entity @s[tag=20w14s.purple_portal_main] run function 20w14s:mechanic
 
 # Particle animation timer
 scoreboard players add @s 20w14s.prtl_anim 1
-execute if score @s 20w14s.prtl_anim matches 48 run scoreboard players set @s 20w14s.prtl_anim 0
+execute if score @s 20w14s.prtl_anim matches 64 run scoreboard players set @s 20w14s.prtl_anim 0
