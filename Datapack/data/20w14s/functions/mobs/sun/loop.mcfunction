@@ -1,20 +1,11 @@
 # Get current realtime since start
 execute store result score worldborder_size temp in the_end run worldborder get
 scoreboard players remove worldborder_size temp 30000000
+# tellraw @a [{"score":{"name":"20w14s.end_boss_tick","objective":"global"}}," : ",{"score":{"name":"worldborder_size","objective":"temp"}}]
 
 # Increment our tick by 1 when worldborder timer ahead of our tick
 execute if score worldborder_size temp > 20w14s.end_boss_tick global in the_end run function 20w14s:mobs/sun/tree/layer_0/file_0
-execute if score worldborder_size temp > 20w14s.end_boss_tick global in the_end as 00000000-0000-0002-0000-0000000b2797 at @s run function 20w14s:mobs/sun/pacesetter_move
 execute if score worldborder_size temp > 20w14s.end_boss_tick global run scoreboard players add 20w14s.end_boss_tick global 1
-
-# Mouth/eyes position sync
-function 20w14s:mobs/sun/face_sync
-
-# Fins idle animation
-execute as 00000000-0000-0003-0000-0000000b2797 if entity @s[tag=!20w14s.fins_animating] run function 20w14s:mobs/sun/fins_idle
-
-# Save players from falling
-execute if score 20w14s.end_boss_tick global matches 933.. as @a[tag=20w14s.fighting_sun] at @s if entity @s[y=127,dy=-20] run function 20w14s:mobs/sun/save_player
 
 # Decide whether to end
 execute if score 20w14s.end_boss_tick global matches 5101.. run schedule function 20w14s:mobs/sun/end 1t
