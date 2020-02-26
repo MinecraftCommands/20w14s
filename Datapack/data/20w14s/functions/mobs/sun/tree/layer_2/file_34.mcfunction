@@ -1,7 +1,8 @@
-execute if score 20w14s.end_boss_tick global matches 1000 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_5 master @s ~ 50000 ~ 731031
-execute if score 20w14s.end_boss_tick global matches 1200 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_6 master @s ~ 50000 ~ 731031
-execute if score 20w14s.end_boss_tick global matches 1400 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_7 master @s ~ 50000 ~ 731031
-execute if score 20w14s.end_boss_tick global matches 1600 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_8 master @s ~ 50000 ~ 731031
-execute if score 20w14s.end_boss_tick global matches 1800 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_9 master @s ~ 50000 ~ 731031
-execute if score 20w14s.end_boss_tick global matches 2000 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_10 master @s ~ 50000 ~ 731031
-execute if score 20w14s.end_boss_tick global matches 2200 run execute as @a[tag=20w14s.fighting_sun] at @s run playsound 20w14s:puffersun_11 master @s ~ 50000 ~ 731031
+execute if score 20w14s.end_boss_tick global matches 3947..3967 run function 20w14s:mobs/sun/tree/layer_3/file_272
+execute if score 20w14s.end_boss_tick global matches 3968..3980 run function 20w14s:mobs/sun/tree/layer_3/file_273
+execute if score 20w14s.end_boss_tick global matches 3983..3993 run function 20w14s:mobs/sun/tree/layer_3/file_274
+execute if score 20w14s.end_boss_tick global matches 3995..4003 run function 20w14s:mobs/sun/tree/layer_3/file_275
+execute if score 20w14s.end_boss_tick global matches 4004..4022 run function 20w14s:mobs/sun/tree/layer_3/file_276
+execute if score 20w14s.end_boss_tick global matches 4025..4040 run function 20w14s:mobs/sun/tree/layer_3/file_277
+execute if score 20w14s.end_boss_tick global matches 4043..4061 run function 20w14s:mobs/sun/tree/layer_3/file_278
+execute if score 20w14s.end_boss_tick global matches 4064..4084 run function 20w14s:mobs/sun/tree/layer_3/file_279

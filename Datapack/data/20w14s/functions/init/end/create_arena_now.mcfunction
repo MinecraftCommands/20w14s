@@ -1,0 +1,2 @@
+# Wouldn't it be cool if schedule kept context, so I didn't need to create these functions that do nothing but call another function with context?
+execute in the_end run function 20w14s:init/end/create_arena
