@@ -2,5 +2,11 @@
     "parent": "block/cube_all",
     "textures": {
         "all": "20w14s:block/auto-misspeller"
+    },
+    "display": {
+        "head": {
+            "scale": [1.604, 1.604, 1.604],
+            "translation": [0.0, -30.4, 0.0]
+        }
     }
 }
