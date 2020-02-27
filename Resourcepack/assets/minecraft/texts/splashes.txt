@@ -14,8 +14,8 @@ Spigot 1.8!
 Bedrock Edition!
 {CustomModelData:10000001}
 Compatible with other leading brands!
-N n n n. .. . . †!
-£'%:%:!;;&("";;;**;;%%:%:!
+N n n n. .. . . â€ !
+Â£'%:%:!;;&("";;;**;;%%:%:!
 v2!
 Verified!
 Always Active!
@@ -47,3 +47,4 @@ summon cow named foo ~ ~ ~ minecraft:become_brown!
 Cruelly telling Minecraft to ignore the creeper structure!
 Spiritual parity!
 In excess of 50!
+Ä°s this server have girls?
