@@ -20,7 +20,115 @@
             "predicate": {
                 "custom_model_data": 3
             },
-            "model": "20w14s:item/container/progress_0"
+            "model": "20w14s:item/container/progress/0"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 4
+            },
+            "model": "20w14s:item/container/progress/1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 5
+            },
+            "model": "20w14s:item/container/progress/2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6
+            },
+            "model": "20w14s:item/container/progress/3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7
+            },
+            "model": "20w14s:item/container/progress/4"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8
+            },
+            "model": "20w14s:item/container/progress/5"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9
+            },
+            "model": "20w14s:item/container/progress/6"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10
+            },
+            "model": "20w14s:item/container/progress/7"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 11
+            },
+            "model": "20w14s:item/container/progress/8"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 12
+            },
+            "model": "20w14s:item/container/progress/9"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 13
+            },
+            "model": "20w14s:item/container/progress/10"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14
+            },
+            "model": "20w14s:item/container/progress/11"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 15
+            },
+            "model": "20w14s:item/container/progress/12"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 16
+            },
+            "model": "20w14s:item/container/progress/13"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 17
+            },
+            "model": "20w14s:item/container/progress/14"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18
+            },
+            "model": "20w14s:item/container/progress/15"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 19
+            },
+            "model": "20w14s:item/container/progress/16"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20
+            },
+            "model": "20w14s:item/container/progress/17"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 21
+            },
+            "model": "20w14s:item/container/progress/18"
         }
     ]
 }

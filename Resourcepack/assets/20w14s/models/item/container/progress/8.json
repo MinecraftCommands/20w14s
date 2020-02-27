@@ -1,0 +1,6 @@
+{
+    "parent": "20w14s:item/container/root",
+    "textures": {
+        "texture": "20w14s:item/container/progress/8"
+    }
+}
