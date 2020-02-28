@@ -1,0 +1,9 @@
+{
+    "parent": "block/no_faceshade",
+    "textures": {
+        "up": "block/coal_ore/up",
+        "down": "block/coal_ore/down",
+        "light": "block/coal_ore/light",
+        "dark": "block/coal_ore/dark"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "parent": "block/no_faceshade",
+    "textures": {
+        "up": "block/lead_ore/up",
+        "down": "block/lead_ore/down",
+        "light": "block/lead_ore/light",
+        "dark": "block/lead_ore/dark"
+    }
+}
