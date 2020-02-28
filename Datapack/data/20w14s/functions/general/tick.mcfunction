@@ -1,5 +1,7 @@
 execute as @a at @s run function 20w14s:general/player_tick
 
+function 20w14s:generation/structures/_tick
+
 # Portal gun
 execute as @e[type=area_effect_cloud,name=20w14s.portal_spawn_point,tag=20w14s.portal_spawn_point,tag=20w14s.new_portal] at @s run function 20w14s:mechanics/portal_gun/init
 execute as @e[type=area_effect_cloud,name=20w14s.portal_main,tag=20w14s.portal_main,tag=!20w14s.new_portal_main] at @s run function 20w14s:mechanics/portal_gun/portal_main/tick
