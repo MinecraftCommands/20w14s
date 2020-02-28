@@ -31,6 +31,30 @@
   "item.minecraft.globe_banner_pattern": "Diamond Axe",
   "item.minecraft.globe_banner_pattern.desc": "Possibly?",
 
+  "item.20w14s.portal_gun.blue": "Blue Portal Gun",
+  "item.20w14s.portal_gun.orange": "Orange Portal Gun",
+  "item.20w14s.portal_gun.red": "Red Portal Gun",
+  "item.20w14s.portal_gun.yellow": "Yellow Portal Gun",
+  "item.20w14s.portal_gun.light_blue": "Light Blue Portal Gun",
+  "item.20w14s.portal_gun.purple": "Purple Portal Gun",
+  
+  "item.20w14s.portal_gun.remove": "Remove ",
+  "item.20w14s.portal_gun.color.blue": "Blue",
+  "item.20w14s.portal_gun.color.orange": "Orange",
+  "item.20w14s.portal_gun.color.red": "Red",
+  "item.20w14s.portal_gun.color.yellow": "Yellow",
+  "item.20w14s.portal_gun.color.light_blue": "Light Blue",
+  "item.20w14s.portal_gun.color.purple": "Purple",
+  "item.20w14s.portal_gun.portals": " Portals",
+
+  "item.20w14s.portal_gun.opening_bracket": "[",
+  "item.20w14s.portal_gun.closing_bracket": "]",
+  "item.20w14s.portal_gun.separator": " : ",
+  "item.20w14s.portal_gun.slash": "/",
+  "item.20w14s.portal_gun.shoot": "Shoot Portal",
+  "item.20w14s.portal_gun.change_color": "Change Color",
+  "item.20w14s.portal_gun.remove_portals": "Remove Portals",
+
   "menu.online": "Realms+",
   "menu.quit": "Marketplace",
   "options.entityShadows": "Claw Night",
@@ -41,8 +65,6 @@
   "block.minecraft.loom": "Lööm",
   "container.loom": "Lööm",
   "stat.minecraft.interact_with_loom":"Interactions with Lööm",
-
-  "block.minecraft.purpur_slab": "Command Block Slab",
   
   "block.minecraft.gold_ore": "Sekernite Ore",
   "block.minecraft.gold_block": "Block of Sekernite",
@@ -62,6 +84,7 @@
   "item.minecraft.golden_horse_armor": "Sekernite Horse Armor",
   "subtitles.item.armor.equip_gold": "Sekernite armor clinks",
   
+  "block.minecraft.purpur_slab": "Command Block Slab",
   "block.minecraft.purpur_block": "Reinforced Plating",
   "block.minecraft.end_stone": "Fish Block",
   "block.minecraft.command_block": "§rBackpack",
@@ -72,6 +95,11 @@
   "item.minecraft.enchanted_golden_apple": "Original Pufferfish",
   "block.minecraft.structure_void": "Super Duper Graphics Pack",
   "block.minecraft.infested_chiseled_stone_bricks": "Infested Netherrack",
+  "block.minecraft.emerald_ore": "Lead Ore",
+  
+  "item.minecraft.elytra": "Jetpack",
+  "stat.minecraft.aviate_one_cm": "Distance by Jetpack",
+  "subtitles.item.armor.equip_elytra": "Jetpack clangs",
   
   "title.singleplayer": "Snapshot 20w14✨",
   "title.multiplayer.realms": "Snapshot 20w14✨",
@@ -109,7 +137,5 @@
   "block.minecraft.granite_slab": "Slate Slab",
   "block.minecraft.diorite_slab": "Limestone Slab",
   "block.minecraft.granite_wall": "Slate Wall",
-  "block.minecraft.diorite_wall": "Limestone Wall",
-
-  "block.minecraft.emerald_ore": "Lead Ore"
+  "block.minecraft.diorite_wall": "Limestone Wall"
 }

@@ -20,6 +20,10 @@
         {
             "predicate": {"custom_model_data": 5},
             "model": "20w14s:entity/rocket"
+        },
+        {
+            "predicate": {"custom_model_data": 6},
+            "model": "20w14s:entity/puffersun/stop"
         }
     ]
 }
