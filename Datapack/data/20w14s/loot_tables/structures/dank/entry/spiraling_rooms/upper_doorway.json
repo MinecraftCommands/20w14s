@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{__ltr__: {structure: 'spiraling_rooms/upper_doorway'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

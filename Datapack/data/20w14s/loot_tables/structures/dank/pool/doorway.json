@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "weight":  56, "name": "20w14s:structures/dank/entry/wall" },
+        { "type": "minecraft:loot_table", "weight": 100, "name": "20w14s:structures/dank/entry/single/doorway" },
+        { "type": "minecraft:loot_table", "weight":  20, "name": "20w14s:structures/dank/entry/spiraling_rooms/lower_doorway" },
+        { "type": "minecraft:loot_table", "weight":  20, "name": "20w14s:structures/dank/entry/spiraling_rooms/upper_doorway" },
+        { "type": "minecraft:loot_table", "weight":  20, "name": "20w14s:structures/dank/entry/pitfall/lower_doorway" },
+        { "type": "minecraft:loot_table", "weight":  20, "name": "20w14s:structures/dank/entry/pitfall/upper_doorway" },
+        { "type": "minecraft:loot_table", "weight":   5, "name": "20w14s:structures/dank/entry/high_halls/lower_doorway" },
+        { "type": "minecraft:loot_table", "weight":   5, "name": "20w14s:structures/dank/entry/high_halls/upper_doorway" },
+        { "type": "minecraft:loot_table", "weight":  10, "name": "20w14s:structures/dank/entry/arcade/doorway" }
+      ]
+    }
+  ]
+}
