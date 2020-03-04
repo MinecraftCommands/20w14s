@@ -76,6 +76,10 @@ scoreboard players set 20w14s.cow_count global 20
 scoreboard players set 20w14s.portal_gun_raycast_length global 2560
 execute unless score 20w14s.end_boss_ready global matches ..2147483647 run scoreboard players set 20w14s.end_boss_ready global 1
 
+# initialize structures config
+execute unless data storage 20w14s:generation/structures debug run data modify storage 20w14s:generation/structures debug set value false
+execute unless data storage 20w14s:generation/structures throttle run data modify storage 20w14s:generation/structures throttle set value 1
+
 # Teams
 team add 20w14s.seker
 team modify 20w14s.seker color dark_purple

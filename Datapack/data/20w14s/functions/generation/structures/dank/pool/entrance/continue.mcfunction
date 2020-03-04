@@ -1,3 +1,4 @@
 #> 20w14s:generation/structures/dank/pool/entrance/continue
 
-function 20w14s:generation/structures/dank/check/entrance
+# Always build the entrance.
+function 20w14s:generation/structures/dank/build/entrance
