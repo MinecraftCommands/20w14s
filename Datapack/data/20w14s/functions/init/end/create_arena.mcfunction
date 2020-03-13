@@ -18,6 +18,9 @@ forceload add -2949 544
 forceload remove -3558 550
 forceload add -3558 550
 
+forceload remove -128 -128
+forceload add -128 -128
+
 # Load in meteor
 setblock 0 0 500 structure_block{mode:"LOAD",name:"20w14s:puffersun/meteor"}
 setblock 0 1 500 redstone_block
@@ -45,6 +48,9 @@ fill -3558 133 550 -3558 132 550 air
 
 # End portal back to overworld
 setblock 58 20 569 end_portal
+
+# Load in red dragon arena
+setblock -128 64 -128 structure_block{mode:"LOAD",name:"20w14s:red_dragon_arena"}
 
 # Mutex to stop a battle starting when one is in progress
 scoreboard players set 20w14s.end_boss_ready global 1
