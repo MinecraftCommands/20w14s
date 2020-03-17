@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "entered_end": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:overworld"
+      }
+    }
+  },
+  "rewards": {
+      "function": "20w14s:player/leave_end"
+  }
+}

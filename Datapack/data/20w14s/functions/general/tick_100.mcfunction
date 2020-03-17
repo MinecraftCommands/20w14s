@@ -1,6 +1,6 @@
 scoreboard players set 20w14s:tick_100 timer 0
 
-execute as @a at @s run function 20w14s:general/player_tick_100
+execute as @a at @s run function 20w14s:player/tick_100
 
 # Entity initialisation stuff
 execute as @e[tag=!20w14s.initialised] at @s run function 20w14s:mobs/new_natural_spawn

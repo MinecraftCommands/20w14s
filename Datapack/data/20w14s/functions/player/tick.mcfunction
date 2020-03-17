@@ -11,8 +11,8 @@ execute if predicate 20w14s:wearing_sekernite
 execute if predicate 20w14s:wearing_pufferfish
 
 # Right click detection
-execute if score @s 20w14s.talk_vlgr matches 1.. run function 20w14s:general/player_talked_to_villager
-execute if score @s 20w14s.use_coas matches 1.. run function 20w14s:general/player_used_carrot_on_a_stick
+execute if score @s 20w14s.talk_vlgr matches 1.. run function 20w14s:player/talked_to_villager
+execute if score @s 20w14s.use_coas matches 1.. run function 20w14s:player/used_carrot_on_a_stick
 
 # Obsidian boats
 execute if score @s 20w14s.obsn_boat matches 1.. run function 20w14s:mechanics/obsidian_boat/placed

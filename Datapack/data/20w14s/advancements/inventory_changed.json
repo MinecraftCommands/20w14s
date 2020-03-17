@@ -5,6 +5,6 @@
         }
     },
     "rewards": {
-        "function": "20w14s:general/inventory_changed"
+        "function": "20w14s:player/inventory_changed"
     }
 }

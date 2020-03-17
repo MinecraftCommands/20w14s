@@ -1,4 +1,4 @@
-execute as @a at @s run function 20w14s:general/player_tick
+execute as @a at @s run function 20w14s:player/tick
 
 # Slower ticks
 scoreboard players add 20w14s:tick_5 timer 1
