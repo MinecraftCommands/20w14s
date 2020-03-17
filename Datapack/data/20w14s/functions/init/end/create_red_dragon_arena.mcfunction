@@ -1,0 +1,12 @@
+# Load chunks
+execute in the_end run forceload remove -731031 -731031
+execute in the_end run forceload add -731031 -731031
+
+# Load in red dragon arena
+execute in the_end run setblock -731031 64 -731031 structure_block{mode:"LOAD",name:"20w14s:red_dragon_arena"}
+execute in the_end run setblock -731031 65 -731031 redstone_block
+
+# Progress message
+tellraw @a {"text":"50%","color":"gold"}
+
+execute if score 20w14s.end_gen_progress global matches 1 run scoreboard players set 20w14s.end_gen_progress global 2

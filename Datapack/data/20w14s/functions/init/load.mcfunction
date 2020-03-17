@@ -66,7 +66,7 @@ team modify 20w14s.seker color dark_purple
 team add 20w14s.puffersun
 team modify 20w14s.puffersun color yellow
 
-# Load chunk
+# Load shulker box chunks
 execute in overworld run forceload remove 731031 731031
 execute in overworld run forceload add 731031 731031
 execute in overworld run setblock 731031 0 731031 yellow_shulker_box
@@ -77,8 +77,11 @@ execute in the_end run forceload remove 731031 731031
 execute in the_end run forceload add 731031 731031
 execute in the_end run setblock 731031 0 731031 yellow_shulker_box
 
-# End arena
-execute unless score 20w14s.end_arena_created global matches 1 run schedule function 20w14s:init/end/create_arena_now 10s
+# End gen
+scoreboard players add 20w14s.end_fight_happening global 0
+scoreboard players add 20w14s.end_gen_progress global 0
+execute if score 20w14s.end_gen_progress global matches 0 run schedule function 20w14s:init/end/create_meteor 2s
+execute if score 20w14s.end_gen_progress global matches ..1 run schedule function 20w14s:init/end/create_red_dragon_arena 8s
 
 # Message
 tellraw @a {"text":"20w14✧ reloaded","color":"aqua"}
