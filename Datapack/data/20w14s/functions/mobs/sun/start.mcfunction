@@ -11,7 +11,7 @@ execute in the_end run summon armor_stand 63 67 581 {UUIDLeast:731031L,UUIDMost:
 # Create pacesetter
 execute in the_end run forceload remove 90 561
 execute in the_end run forceload add 90 561
-execute in the_end run summon armor_stand 90 134 561 {UUIDLeast:731031L,UUIDMost:2L,Tags:["20w14s.sun_pacesetter"],NoGravity:1b,Invulnerable:1b,Rotation:[90.0f,0.0f]}
+execute in the_end run summon armor_stand 90 134 561 {UUIDLeast:731031L,UUIDMost:2L,Tags:["20w14s.sun_pacesetter"],NoGravity:1b,Invulnerable:1b,Invisible:1b,Rotation:[90.0f,0.0f]}
 
 # Worldborder timer
 execute in the_end run worldborder set 30000000
