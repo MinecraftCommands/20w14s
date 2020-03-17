@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "20w14s:items/jetpack"
+        }
+      ]
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dragon_head",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "20w14s:treasure",
+          "weight": 5
+        }
+      ]
+    }
+  ]
+}
