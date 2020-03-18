@@ -86,6 +86,10 @@ execute in the_end run forceload remove 731031 731031
 execute in the_end run forceload add 731031 731031
 execute in the_end run setblock 731031 0 731031 yellow_shulker_box
 
+# Position-getter chunk
+execute in overworld run forceload remove 0 0
+execute in overworld run forceload add 0 0
+
 # End gen
 scoreboard players add 20w14s.end_fight_happening global 0
 scoreboard players add 20w14s.end_gen_progress global 0
