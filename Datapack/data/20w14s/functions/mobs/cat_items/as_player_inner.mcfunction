@@ -1,7 +1,7 @@
 # check if current player is the cat's owner
 data remove block 731031 0 731031 Items
 loot insert 731031 0 731031 loot 20w14s:entity/player_head
-execute store success score $isNotOwner temp run data modify block 731031 0 731031 Items[0].tag.SkullOwner.Id set from storage 20w14s:cat_items StoredCat.OwnerUUID
+execute store success score $isNotOwner temp run data modify block 731031 0 731031 Items[0].tag.SkullOwner.Id set from storage 20w14s:cat_items StoredCat.Owner
 
 
 # if they are the owner of the tag, they are to be remembered for future generations.
