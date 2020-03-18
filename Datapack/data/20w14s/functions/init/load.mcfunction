@@ -68,6 +68,13 @@ team modify 20w14s.seker color dark_purple
 team add 20w14s.puffersun
 team modify 20w14s.puffersun color yellow
 
+# Bossbars
+bossbar add 20w14s:red_dragon_health {"text":"Red Dragon","color":"red"}
+bossbar set 20w14s:red_dragon_health color red
+bossbar set 20w14s:red_dragon_health max 40000
+bossbar set 20w14s:red_dragon_health style notched_6
+
+
 # Load shulker box chunks
 execute in overworld run forceload remove 731031 731031
 execute in overworld run forceload add 731031 731031
