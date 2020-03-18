@@ -1,20 +1,43 @@
 {
-    "type": "minecraft:generic",
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:shield",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Archaic Golden Sword\",\"italic\":false}'},CustomModelData:5,Unbreakable:1,AttributeModifiers:[{Slot:'mainhand',AttributeName:'generic.attackSpeed',Name:'generic.attackSpeed',Amount:731031,Operation:0,UUIDLeast:894658,UUIDMost:2872},{Slot:'mainhand',AttributeName:'generic.attackDamage',Name:'generic.attackDamage',Amount:4,Operation:0,UUIDLeast:2552219,UUIDMost:3621256}]}"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attackDamage",
+                  "name": "a",
+                  "amount": 4,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.attackSpeed",
+                  "name": "b",
+                  "amount": 731031,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text":"Archaic Golden Sword", "italic":false},
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:5,Unbreakable:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
