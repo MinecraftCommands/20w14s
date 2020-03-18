@@ -12,4 +12,4 @@ function 20w14s:mobs/dragon/respawn
 # Progress message
 tellraw @a {"text":"50%","color":"gold"}
 
-execute if score 20w14s.end_gen_progress global matches 1 run scoreboard players set 20w14s.end_gen_progress global 2
+execute if score 20w14s.end_gen_progress global matches 2 run scoreboard players set 20w14s.end_gen_progress global 3

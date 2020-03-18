@@ -1,4 +1,5 @@
-tellraw @a {"text":"Initialising some stuff (one-time only) - lag incoming!","color":"red"}
+tellraw @a {"text":"Initialising some stuff (one-time only)","color":"red"}
+tellraw @a {"text":"Prepare for ~3 minutes of lag","color":"red"}
 
 # Load chunks
 execute in the_end run forceload add 65 551 56 570

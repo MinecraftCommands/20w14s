@@ -94,7 +94,8 @@ execute in overworld run forceload add 0 0
 scoreboard players add 20w14s.end_fight_happening global 0
 scoreboard players add 20w14s.end_gen_progress global 0
 execute if score 20w14s.end_gen_progress global matches 0 run schedule function 20w14s:init/end/create_meteor 2s
-execute if score 20w14s.end_gen_progress global matches ..1 run schedule function 20w14s:init/end/create_red_dragon_arena 8s
+execute if score 20w14s.end_gen_progress global matches ..1 run schedule function 20w14s:init/end/load_red_dragon_arena 6s
+execute if score 20w14s.end_gen_progress global matches ..2 run schedule function 20w14s:init/end/create_red_dragon_arena 8s
 
 # Schedule loops
 schedule function 20w14s:mobs/dragon/loop_check 5s

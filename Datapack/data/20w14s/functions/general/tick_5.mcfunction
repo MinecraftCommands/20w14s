@@ -7,4 +7,4 @@ execute as @e[type=armor_stand,tag=20w14s.command_snake_head,tag=20w14s.active] 
 execute if score 20w14s.arrow_bounce_loop_running global matches 0 if entity @e[type=arrow] run function 20w14s:mechanics/bouncy_arrow/main_loop
 
 # Pre-gen the end chunks so it doesn't lag during boss fight
-execute if score 20w14s.end_gen_progress global matches 2..230 in the_end run function 20w14s:init/end/pregen_chunks
+execute if score 20w14s.end_gen_progress global matches 3..230 in the_end run function 20w14s:init/end/pregen_chunks
