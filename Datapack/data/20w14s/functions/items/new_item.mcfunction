@@ -1,4 +1,4 @@
-# Adds NBT to crafted items, sets 20w14s.item_id for use in player_tick
+# Adds NBT to crafted items, sets 20w14s.item_id for use in player tick
 
 # Copy string ID to storage for fast comparison
 data modify storage 20w14s: temp_item_name set from entity @s SelectedItem.id

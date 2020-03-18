@@ -1,4 +1,4 @@
-execute as @a at @s run function 20w14s:general/player_tick
+execute as @a at @s run function 20w14s:player/tick
 
 function 20w14s:generation/structures/_tick
 

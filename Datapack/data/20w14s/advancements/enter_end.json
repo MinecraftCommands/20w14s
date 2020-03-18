@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "entered_end": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_end"
+      }
+    }
+  },
+  "rewards": {
+      "function": "20w14s:player/enter_end"
+  }
+}

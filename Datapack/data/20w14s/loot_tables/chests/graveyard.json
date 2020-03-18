@@ -45,7 +45,7 @@
           {
             "type": "minecraft:loot_table",
             "name": "20w14s:treasure",
-            "weight": 10
+            "weight": 5
           }
         ]
       },

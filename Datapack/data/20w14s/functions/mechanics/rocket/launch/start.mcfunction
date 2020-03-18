@@ -1,5 +1,7 @@
+say start
+
 # Block other rockets because I can't be bothered to make whole boss fight instanced
-scoreboard players set 20w14s.end_boss_ready global 0
+scoreboard players set 20w14s.end_fight_happening global 1
 
 # Players
 tag @a remove 20w14s.in_rocket

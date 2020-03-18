@@ -20,6 +20,22 @@
     "#minecraft:crops",
     "#minecraft:flowers",
     "#minecraft:saplings",
-    "#minecraft:underwater_bonemeals"
+    "#minecraft:underwater_bonemeals",
+    "#minecraft:corals",
+    "minecraft:dead_tube_coral",
+    "minecraft:dead_brain_coral",
+    "minecraft:dead_bubble_coral",
+    "minecraft:dead_fire_coral",
+    "minecraft:dead_horn_coral",
+    "minecraft:dead_tube_coral_fan",
+    "minecraft:dead_brain_coral_fan",
+    "minecraft:dead_bubble_coral_fan",
+    "minecraft:dead_fire_coral_fan",
+    "minecraft:dead_horn_coral_fan",
+    "minecraft:crimson_fungus",
+    "minecraft:warped_fungus",
+    "minecraft:brown_mushroom",
+    "minecraft:red_mushroom",
+    "minecraft:weeping_vines_plant"
   ]
 }
