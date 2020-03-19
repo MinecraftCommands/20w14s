@@ -1,20 +1,60 @@
 {
-    "type": "minecraft:generic",
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:leather_chestplate",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"The Nate Chestplate\",\"color\":\"yellow\",\"italic\":false}',color:16776960},HideFlags:32,Unbreakable:1b,CustomModelData:1,AttributeModifiers:[{AttributeName:'generic.armorToughness',Name:'generic.armorToughness',Amount:2,Operation:0,UUIDLeast:708305,UUIDMost:351683,Slot:'chest'},{AttributeName:'generic.armor',Name:'generic.armor',Amount:8,Operation:0,UUIDLeast:116958,UUIDMost:127599,Slot:'chest'},{AttributeName:'generic.maxHealth',Name:'generic.maxHealth',Amount:4,Operation:0,UUIDLeast:833493,UUIDMost:74386,Slot:'chest'}]}"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "The Nate Chestplate",
+                "color": "yellow",
+                "italic": false
+              },
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:32,Unbreakable:1b,CustomModelData:1,display:{color:16776960}}"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.armorToughness",
+                  "name": "a",
+                  "amount": 2,
+                  "operation": "addition",
+                  "slot": [
+                    "chest"
+                  ]
+                },
+                {
+                  "attribute": "generic.armor",
+                  "name": "b",
+                  "amount": 8,
+                  "operation": "addition",
+                  "slot": [
+                    "chest"
+                  ]
+                },
+                {
+                  "attribute": "generic.maxHealth",
+                  "name": "c",
+                  "amount": 4,
+                  "operation": "addition",
+                  "slot": [
+                    "chest"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
