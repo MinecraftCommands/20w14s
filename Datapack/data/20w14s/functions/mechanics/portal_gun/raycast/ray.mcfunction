@@ -9,7 +9,7 @@ execute if score raycast_color 20w14s.prtl_rc matches 2..3 run function 20w14s:m
 execute if score raycast_color 20w14s.prtl_rc matches 4..5 run function 20w14s:mechanics/portal_gun/raycast/particles/light_blue_purple
 
 # Check if the block the ray is currently in is a valid block to pass through
-execute align xyz unless block ~0.5 ~0.5 ~0.5 #20w14s:no_hitbox run scoreboard players set ray_can_move 20w14s.prtl_rc 0
+execute align xyz unless block ~0.5 ~0.5 ~0.5 #20w14s:portal_raycast run scoreboard players set ray_can_move 20w14s.prtl_rc 0
 
 # Place portal spawn point if we reached the end of the raycast
 execute if score ray_can_move 20w14s.prtl_rc matches 0 run function 20w14s:mechanics/portal_gun/raycast/portal_spawn_point/place
