@@ -39,7 +39,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "20w14s:umbrella"
+        "recipe": "20w14s:super_duper_graphics_pack"
       }
     }
   },
