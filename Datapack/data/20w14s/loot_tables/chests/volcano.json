@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 10,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "20w14s:treasure",
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  }

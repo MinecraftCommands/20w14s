@@ -1,20 +1,60 @@
 {
-    "type": "minecraft:generic",
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:leather_boots",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Red Trainers\",\"color\":\"blue\",\"italic\":false}',color:16711680},Unbreakable:1b,AttributeModifiers:[{AttributeName:'generic.armorToughness',Name:'generic.armorToughness',Amount:2,Operation:0,UUIDLeast:806598,UUIDMost:148628,Slot:'feet'},{AttributeName:'generic.armor',Name:'generic.armor',Amount:3,Operation:0,UUIDLeast:257116,UUIDMost:342281,Slot:'feet'},{AttributeName:'generic.movementSpeed',Name:'generic.movementSpeed',Amount:0.25,Operation:1,UUIDLeast:848550,UUIDMost:589786,Slot:'feet'}]}"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Red Trainers",
+                "color": "red",
+                "italic": false
+              },
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:32,Unbreakable:1b,display:{color:16711680}}"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.armorToughness",
+                  "name": "a",
+                  "amount": 2,
+                  "operation": "addition",
+                  "slot": [
+                    "feet"
+                  ]
+                },
+                {
+                  "attribute": "generic.armor",
+                  "name": "b",
+                  "amount": 3,
+                  "operation": "addition",
+                  "slot": [
+                    "feet"
+                  ]
+                },
+                {
+                  "attribute": "generic.movementSpeed",
+                  "name": "c",
+                  "amount": 0.25,
+                  "operation": "multiply_base",
+                  "slot": [
+                    "feet"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

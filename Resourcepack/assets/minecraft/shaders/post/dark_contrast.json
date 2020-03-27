@@ -1,0 +1,34 @@
+{
+    "targets": [
+        "swap",
+        "lum"
+    ],
+    "passes": [
+        {
+            "name": "color_convolve",
+            "intarget": "minecraft:main",
+            "outtarget": "swap",
+            "uniforms": [
+                {
+                    "name": "Saturation",
+                    "values": [ 2.0 ]
+                }
+            ]
+        },
+        {
+            "name": "contrast",
+            "intarget": "swap",
+            "outtarget": "minecraft:main",
+            "uniforms": [
+                {
+                    "name": "Darken",
+                    "values": [ 0.3 ]
+                }
+            ]
+        }
+        
+    ]
+}
+
+
+

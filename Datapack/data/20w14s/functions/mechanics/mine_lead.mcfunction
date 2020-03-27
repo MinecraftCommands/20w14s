@@ -1,0 +1,2 @@
+execute at @s anchored eyes positioned ^ ^ ^ at @e[type=item,nbt={Item:{id:"minecraft:emerald_ore"}},distance=..6] run kill @e[type=minecraft:experience_orb,distance=..1,nbt={Age:0s}]
+scoreboard players reset @s 20w14s.mine_lead

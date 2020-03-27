@@ -1,0 +1,1 @@
+setblock ~ ~ ~ spawner{SpawnData:{id:"minecraft:skeleton"}}

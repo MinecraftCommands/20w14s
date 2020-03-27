@@ -1,21 +1,74 @@
 {
     "targets": [
+        "final",
         "swap",
-        "final"
+        "combined"
     ],
     "passes": [
         {
-            "name": "seker",
+            "name": "skin",
             "intarget": "minecraft:main",
             "auxtargets": [
                 {"name": "GlowSampler", "id": "final"},
-                {"name": "SekerSampler", "id": "seker_skin", "width":1, "height":1, "bilinear":false}
+                {"name": "SekerSampler", "id": "seker_skin", "width":1, "height":1, "bilinear":false},
+                {"name": "SunSampler", "id": "sun_surface", "width":1, "height":1, "bilinear":false}
             ],
             "outtarget": "swap"
         },
+
+
+        {
+            "name": "blur",
+            "intarget": "final",
+            "outtarget": "combined",
+            "uniforms": [
+                {
+                    "name": "BlurDir",
+                    "values": [ 1.0, 0.0 ]
+                },
+                {
+                    "name": "Radius",
+                    "values": [ 40.0 ]
+                }
+            ]
+        },
+        {
+            "name": "blur",
+            "intarget": "combined",
+            "outtarget": "final",
+            "uniforms": [
+                {
+                    "name": "BlurDir",
+                    "values": [ 0.0, 1.0 ]
+                },
+                {
+                    "name": "Radius",
+                    "values": [ 40.0 ]
+                }
+            ]
+        },
+
+
+        {
+            "name": "combine_glow",
+            "intarget": "final",
+            "auxtargets": [
+                {
+                    "name": "BackgroundSampler",
+                    "id": "minecraft:main"
+                },
+                {
+                    "name": "MaskSampler",
+                    "id": "swap"
+                }
+            ],
+            "outtarget": "combined"
+        },
+
+
         {
             "name": "blit",
-            "intarget": "swap",
+            "intarget": "combined",
             "outtarget": "final"
         }
     ]

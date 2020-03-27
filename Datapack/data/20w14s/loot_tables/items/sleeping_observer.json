@@ -1,0 +1,24 @@
+{
+    "type": "generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:observer",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{BlockStateTag:{powered:\"true\"},CustomModelData:1}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": { "translate": "block.20w14s.sleeping_observer" }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "targets": [
+        "swap",
+        "shiny",
+        "combined"
+    ],
+    "passes": [
+        {
+            "name": "color_convolve",
+            "intarget": "minecraft:main",
+            "outtarget": "swap",
+            "uniforms": [
+                {
+                    "name": "Saturation",
+                    "values": [ 3.0 ]
+                }
+            ]
+        },
+        {
+            "name": "contrast",
+            "intarget": "swap",
+            "outtarget": "shiny",
+            "uniforms": [
+                {
+                    "name": "Darken",
+                    "values": [ -0.5 ]
+                }
+            ]
+        },
+        {
+            "name": "blur",
+            "intarget": "shiny",
+            "outtarget": "swap",
+            "uniforms": [
+                {
+                    "name": "BlurDir",
+                    "values": [ 1.0, 0.0 ]
+                },
+                {
+                    "name": "Radius",
+                    "values": [ 40.0 ]
+                }
+            ]
+        },
+        {
+            "name": "blur",
+            "intarget": "swap",
+            "outtarget": "shiny",
+            "uniforms": [
+                {
+                    "name": "BlurDir",
+                    "values": [ 0.0, 1.0 ]
+                },
+                {
+                    "name": "Radius",
+                    "values": [ 40.0 ]
+                }
+            ]
+        },
+
+        {
+            "name": "color_convolve",
+            "intarget": "minecraft:main",
+            "outtarget": "swap",
+            "uniforms": [
+                {
+                    "name": "Saturation",
+                    "values": [ 0.2 ]
+                }
+            ]
+        },
+
+
+        {
+            "name": "add",
+            "intarget": "swap",
+            "outtarget": "combined",
+            "auxtargets": [
+                {
+                    "name": "AddSampler",
+                    "id": "shiny"
+                }
+            ]
+        },
+
+        {
+            "name": "blit",
+            "intarget": "combined",
+            "outtarget": "minecraft:main"
+        }
+        
+    ]
+}
+
+
+

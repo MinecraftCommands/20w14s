@@ -1,0 +1,60 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:white_wool"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:purpur_stairs",
+            "properties": {
+              "half": "top",
+              "shape": "inner_left"
+            }
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:mutton",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              },
+              {
+                "function": "minecraft:apply_bonus",
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:uniform_bonus_count",
+                "parameters": {
+                  "bonusMultiplier": 3
+                }
+              }
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:purpur_stairs",
+            "properties": {
+              "half": "top",
+              "shape": "inner_left"
+            }
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,6 @@
+{
+    "parent": "20w14s:entity/cat/small/root",
+    "textures": {
+        "cat_type": "entity/cat/all_black"
+    }
+}

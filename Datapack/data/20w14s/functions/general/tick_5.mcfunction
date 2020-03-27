@@ -8,3 +8,6 @@ execute if score 20w14s.puff_arrow_loop_running global matches 0 if entity @e[ty
 
 # Bouncy arrows
 execute if score 20w14s.arrow_bounce_loop_running global matches 0 if entity @e[type=arrow] run function 20w14s:mechanics/bouncy_arrow/main_loop
+
+# Pre-gen the end chunks so it doesn't lag during boss fight
+execute if score 20w14s.end_gen_progress global matches 3..230 in the_end run function 20w14s:init/end/pregen_chunks

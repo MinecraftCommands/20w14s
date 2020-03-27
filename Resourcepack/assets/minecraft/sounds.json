@@ -1,29 +1,260 @@
 {
-    "entity.phantom.swoop": {
-      "replace": "true",
-      "sounds": [
-        "20w14s:jeb_explain_phantom"
-      ]
-    },
-    "entity.puffer_fish.hurt": {
-        "replace": true,
-        "sounds": [
-            {
-                "name": "entity/pufferfish/hurt1",
-                "weight": 3
-            },
-            {
-                "name": "entity/pufferfish/hurt2",
-                "weight": 3
-            },
-            {
-                "name": "entity/pufferfish/groan_1",
-                "weight": 1
-            },
-            {
-                "name": "entity/pufferfish/groan_2",
-                "weight": 1
-            }
-        ]
-    }
+  "entity.puffer_fish.hurt": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "entity/pufferfish/hurt1",
+        "weight": 3
+      },
+      {
+        "name": "entity/pufferfish/hurt2",
+        "weight": 3
+      },
+      {
+        "name": "entity/pufferfish/groan_1",
+        "weight": 1
+      },
+      {
+        "name": "entity/pufferfish/groan_2",
+        "weight": 1
+      }
+    ]
+  },
+  "entity.phantom.swoop": {
+    "replace": true,
+    "sounds": [
+      "20w14s:jeb_explain_phantom"
+    ]
+  },
+  "entity.cow.ambient": {
+    "replace": true,
+    "sounds": [
+      "mob/blaze/breathe1",
+      "mob/blaze/breathe2",
+      "mob/blaze/breathe3",
+      "mob/blaze/breathe4"
+    ]
+  },
+  "entity.cow.death": {
+    "replace": true,
+    "sounds": [
+      "mob/blaze/death"
+    ]
+  },
+  "entity.cow.hurt": {
+    "replace": true,
+    "sounds": [
+      "mob/blaze/hit1",
+      "mob/blaze/hit2",
+      "mob/blaze/hit3",
+      "mob/blaze/hit4"
+    ]
+  },
+  "entity.cow.milk": {
+    "replace": true,
+    "sounds": [
+      "mob/ghast/fireball4"
+    ]
+  },
+  "entity.blaze.ambient": {
+    "replace": true,
+    "sounds": [
+      "mob/cow/say1",
+      "mob/cow/say2",
+      "mob/cow/say3",
+      "mob/cow/say4"
+    ]
+  },
+  "entity.blaze.death": {
+    "replace": true,
+    "sounds": [
+      "mob/cow/hurt1",
+      "mob/cow/hurt2",
+      "mob/cow/hurt3"
+    ]
+  },
+  "entity.blaze.hurt": {
+    "replace": true,
+    "sounds": [
+      "mob/cow/hurt1",
+      "mob/cow/hurt2",
+      "mob/cow/hurt3"
+    ]
+  },
+  "entity.blaze.shoot": {
+    "replace": true,
+    "sounds": [
+      "entity/cow/milk1",
+      "entity/cow/milk2",
+      "entity/cow/milk3"
+    ]
+  },
+  "music_disc.11": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/mall",
+        "weight": 24,
+        "stream": true
+      },
+      {
+        "type": "event",
+        "name": "20w14s:music_disc.calm4"
+      }
+    ]
+  },
+  "music_disc.13": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/11",
+        "weight": 24,
+        "stream": true
+      },
+      {
+        "type": "event",
+        "name": "20w14s:music_disc.calm4"
+      }
+    ]
+  },
+  "music_disc.blocks": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/mellohi",
+        "weight": 24,
+        "stream": true
+      },
+      {
+        "type": "event",
+        "name": "20w14s:music_disc.calm4"
+      }
+    ]
+  },
+  "music_disc.cat": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/chirp",
+        "weight": 24,
+        "stream": true
+      },
+      {
+        "type": "event",
+        "name": "20w14s:music_disc.calm4"
+      }
+    ]
+  },
+  "music_disc.chirp": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/ward",
+        "weight": 24,
+        "stream": true
+      },
+      {
+        "type": "event",
+        "name": "20w14s:music_disc.calm4"
+      }
+    ]
+  },
+  "music_disc.far": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/cat",
+        "weight": 24,
+        "stream": true
+      },
+      {
+        "type": "event",
+        "name": "20w14s:music_disc.calm4"
+      }
+    ]
+  },
+  "music_disc.mall": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/blocks",
+        "weight": 24,
+        "stream": true
+      },
+      {
+        "type": "event",
+        "name": "20w14s:music_disc.calm4"
+      }
+    ]
+  },
+  "music_disc.mellohi": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/strad",
+        "weight": 24,
+        "stream": true
+      },
+      {
+        "type": "event",
+        "name": "20w14s:music_disc.calm4"
+      }
+    ]
+  },
+  "music_disc.stal": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/13",
+        "weight": 24,
+        "stream": true
+      },
+      {
+        "type": "event",
+        "name": "20w14s:music_disc.calm4"
+      }
+    ]
+  },
+  "music_disc.strad": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/far",
+        "weight": 24,
+        "stream": true
+      },
+      {
+        "type": "event",
+        "name": "20w14s:music_disc.calm4"
+      }
+    ]
+  },
+  "music_disc.wait": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/stal",
+        "weight": 24,
+        "stream": true
+      },
+      {
+        "type": "event",
+        "name": "20w14s:music_disc.calm4"
+      }
+    ]
+  },
+  "music_disc.ward": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/wait",
+        "weight": 24,
+        "stream": true
+      },
+      {
+        "type": "event",
+        "name": "20w14s:music_disc.calm4"
+      }
+    ]
+  }
 }

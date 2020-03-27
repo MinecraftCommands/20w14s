@@ -4,9 +4,22 @@
         "layer0": "item/stick"
     },
     "overrides": [
-        {
-            "predicate": {"custom_model_data": 1},
-            "model": "20w14s:entity/seker"
-        }
+        { "predicate": {"custom_model_data": 1}, "model": "20w14s:entity/seker" },
+        { "predicate": {"custom_model_data": 2}, "model": "20w14s:entity/puffersun/body" },
+        { "predicate": {"custom_model_data": 3}, "model": "20w14s:entity/puffersun/mouth_rest" },
+        { "predicate": {"custom_model_data": 4}, "model": "20w14s:entity/puffersun/mouth_ai" },
+        { "predicate": {"custom_model_data": 5}, "model": "20w14s:entity/puffersun/mouth_e" },
+        { "predicate": {"custom_model_data": 6}, "model": "20w14s:entity/puffersun/mouth_o" },
+        { "predicate": {"custom_model_data": 7}, "model": "20w14s:entity/puffersun/mouth_u" },
+        { "predicate": {"custom_model_data": 8}, "model": "20w14s:entity/puffersun/mouth_cdgknrsyz" },
+        { "predicate": {"custom_model_data": 9}, "model": "20w14s:entity/puffersun/mouth_fv" },
+        { "predicate": {"custom_model_data": 10}, "model": "20w14s:entity/puffersun/mouth_th" },
+        { "predicate": {"custom_model_data": 11}, "model": "20w14s:entity/puffersun/mouth_l" },
+        { "predicate": {"custom_model_data": 12}, "model": "20w14s:entity/puffersun/mouth_mbp" },
+        { "predicate": {"custom_model_data": 13}, "model": "20w14s:entity/puffersun/mouth_wq" },
+        { "predicate": {"custom_model_data": 14}, "model": "20w14s:entity/puffersun/eyes_open" },
+        { "predicate": {"custom_model_data": 15}, "model": "20w14s:entity/puffersun/eyes_open" },
+        { "predicate": {"custom_model_data": 16}, "model": "20w14s:entity/puffersun/eyes_open" },
+        { "predicate": {"custom_model_data": 17}, "model": "20w14s:entity/puffersun/fin" }
     ]
 }

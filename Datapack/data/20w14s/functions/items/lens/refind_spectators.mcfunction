@@ -1,0 +1,2 @@
+# Select players half way through shader application, since /schedule doesn't keep executor context
+execute as @a[tag=20w14s.temp_having_shader_applied] at @s run function 20w14s:items/lens/apply_shader_second

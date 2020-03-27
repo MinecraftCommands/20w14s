@@ -1,4 +1,4 @@
-playsound entity.blaze.hurt master @a
+playsound entity.cow.hurt master @a
 particle block repeating_command_block ~ ~0.2 ~ 0.5 0.5 0.5 1 30
 
 scoreboard players operation prev_snake_tail_length temp = snake_tail_length temp

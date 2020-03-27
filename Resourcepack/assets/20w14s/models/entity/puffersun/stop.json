@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "20w14s:entity/puffersun/stop_sign",
+		"particle": "20w14s:entity/puffersun/stop_sign"
+	},
+	"elements": [
+		{
+			"from": [-16, -16, 0],
+			"to": [32, 32, 1],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 80, 0],
+			"scale": [4, 4, 4]
+		}
+	}
+}

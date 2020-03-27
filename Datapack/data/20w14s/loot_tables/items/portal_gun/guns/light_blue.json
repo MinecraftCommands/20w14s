@@ -1,0 +1,88 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Unbreakable:1b,HideFlags:63,CustomModelData:7,20w14s:{item_id:11,portal_gun:1b,portal_color:4}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.20w14s.portal_gun.light_blue",
+                "color": "aqua",
+                "bold": true,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "translate": "item.20w14s.portal_gun.opening_bracket",
+                    "color": "yellow",
+                    "italic": false
+                  },
+                  {
+                    "keybind": "key.use",
+                    "color": "yellow",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.20w14s.portal_gun.closing_bracket",
+                    "color": "yellow",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.20w14s.portal_gun.separator",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.20w14s.portal_gun.shoot",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "translate": "item.20w14s.portal_gun.opening_bracket",
+                    "color": "yellow",
+                    "italic": false
+                  },
+                  {
+                    "keybind": "key.swapHands",
+                    "color": "yellow",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.20w14s.portal_gun.closing_bracket",
+                    "color": "yellow",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.20w14s.portal_gun.separator",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.20w14s.portal_gun.change_color",
+                    "color": "white",
+                    "italic": false
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
