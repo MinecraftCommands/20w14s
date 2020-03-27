@@ -539,14 +539,14 @@
             "file": "20w14s:font/emojis/air.png",
             "ascent": 9,
             "height": 9,
-            "chars": ["\uE088"]
+            "chars": ["\uE084"]
         },
         {
             "type": "bitmap",
             "file": "20w14s:font/emojis/regular/wave.png",
             "ascent": 9,
             "height": 9,
-            "chars": ["\uE089"]
+            "chars": ["\uE085"]
         },
         {
             "type": "bitmap",
