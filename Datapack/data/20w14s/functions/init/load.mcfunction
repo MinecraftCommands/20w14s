@@ -47,6 +47,7 @@ scoreboard objectives add 20w14s.mine_skrn mined:gold_ore
 scoreboard objectives add 20w14s.chop_oak mined:oak_log
 scoreboard objectives add 20w14s.chop_brch mined:birch_log
 scoreboard objectives add 20w14s.obsn_boat used:acacia_boat
+scoreboard objectives add 20w14s.skyship used:birch_boat
 scoreboard objectives add 20w14s.use_coas used:carrot_on_a_stick
 scoreboard objectives add 20w14s.talk_vlgr custom:talked_to_villager
 scoreboard objectives add 20w14s.lnch_rokt trigger

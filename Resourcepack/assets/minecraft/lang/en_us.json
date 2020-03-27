@@ -138,6 +138,8 @@
   "block.minecraft.diorite_slab": "Limestone Slab",
   "block.minecraft.granite_wall": "Slate Wall",
   "block.minecraft.diorite_wall": "Limestone Wall",
-  "block.20w14s.sleeping_observer": "Uwubserver"
-  "block.minecraft.observer": "Owobserver"
+  "block.20w14s.sleeping_observer": "Uwubserver",
+  "block.minecraft.observer": "Owobserver",
+  "item.minecraft.sheep_spawn_egg": "Sheep",
+  "item.minecraft.birch_boat": "Skyship"
 }
