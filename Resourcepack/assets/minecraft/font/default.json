@@ -8,6 +8,552 @@
         { "type": "bitmap", "file": "20w14s:font/rocket/4u.png", "height": 100, "ascent": 100, "chars": [ "\uE005" ] },
         { "type": "bitmap", "file": "20w14s:font/rocket/5u.png", "height": 100, "ascent": 100, "chars": [ "\uE006" ] },
         { "type": "bitmap", "file": "20w14s:font/rocket/6u.png", "height": 100, "ascent": 100, "chars": [ "\uE007" ] },
-        { "type": "bitmap", "file": "20w14s:font/rocket/7u.png", "height": 100, "ascent": 100, "chars": [ "\uE008" ] }
+        { "type": "bitmap", "file": "20w14s:font/rocket/7u.png", "height": 100, "ascent": 100, "chars": [ "\uE008" ] },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/arcen.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE009"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/arcenarcen.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE010"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/wtfix.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE011"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/works_as_intended.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE012"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/wont_fix.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE013"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/thumb_of_snek.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE014"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/thinkplode.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE015"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/steve_not_like_this.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE016"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/snek_in_boot.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE017"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/smileynoeyes.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE018"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/slicedlimeheart.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE019"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/skylinerw.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE020"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/shatner.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE021"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/seker.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE022"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/seargeheart.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE023"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/resolved.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE024"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/relocate.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE025"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/pufferfishw.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE026"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/pufferfish_thinking.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE027"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/pufferfish_sunglasses.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE028"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/pufferfish_heart_eyes.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE029"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/pufferfish_pants_top.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE030"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/pufferfish_pants_bottom.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE031"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/pufferfish.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE032"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/puff_hammer.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE033"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/original_pufferfish.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE034"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/ok_mcc.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE035"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/notch_lul.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE036"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/not_like_this_steve.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE037"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/not_like_this.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE038"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/no_comparator.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE039"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/no_command_block.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE040"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/no_coas.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE041"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/no_armor_stand.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE042"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/no.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE043"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/ninjad.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE044"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/minecoin.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE045"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/maxophone.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE046"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/jeb.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE047"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/java.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE048"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/item_frame.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE049"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/influenced_by_feedback.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE050"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/icon.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE051"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/holly.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE052"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/hmm.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE053"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/help.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE054"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/heartcat.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE055"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/have_u_tried_turning_it_off_and_.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE056"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/dinnerheart.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE057"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/diamond_what.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE058"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/damn_u_sky.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE059"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/considering.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE060"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/chloefast.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE061"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/chloe_lookup.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE062"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/chloe.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE063"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/cbrepeatc.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE064"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/cbrepeat.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE065"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/cbimpulsec.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE066"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/cbimpulse.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE067"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/cbchainc.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE068"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/cbchain.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE069"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/butts.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE070"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/boqheart.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE071"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/boqcorn.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE072"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/bok.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE073"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/blame_sky.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE074"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/bedrock_v2.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE075"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/bedrock.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE076"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/balp_wat.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE077"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/balp_look.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE078"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/arrtdoa.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE079"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/armor_stand.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE080"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/area_effect_cloud.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE081"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/arcenarcenarcenarcen.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE082"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/arcenarcenarcen.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE083"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/air.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE088"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/regular/wave.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE089"]
+        },
+        {
+            "type": "bitmap",
+            "file": "20w14s:font/emojis/regular/check_mark.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\u2705"]
+        }
     ]
 }
