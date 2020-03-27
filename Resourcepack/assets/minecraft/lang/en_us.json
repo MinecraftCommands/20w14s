@@ -142,6 +142,7 @@
   "block.minecraft.observer": "Owobserver",
   "item.minecraft.sheep_spawn_egg": "Sheep",
   "item.minecraft.birch_boat": "Skyship",
+  "block.minecraft.poppy": "Rose",
   "chat.type.advancement.task": "%s has made the achievement %s",
   "demo.help.fullWrapped": "This demo will last 5 in-game days (about 1 hour and 40 minutes of real time). Check the achievements for hints! Have fun!",
   "key.advancements": "Achievements",
