@@ -137,5 +137,6 @@
   "block.minecraft.granite_slab": "Slate Slab",
   "block.minecraft.diorite_slab": "Limestone Slab",
   "block.minecraft.granite_wall": "Slate Wall",
-  "block.minecraft.diorite_wall": "Limestone Wall"
+  "block.minecraft.diorite_wall": "Limestone Wall",
+  "block.20w14s.sleeping_observer": "Uwubserver"
 }
