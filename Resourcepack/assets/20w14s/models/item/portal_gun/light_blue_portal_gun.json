@@ -1,5 +1,5 @@
 {
-	"clight_blueit": "Designed by Ersatz with Blockbench",
+	"clight_light_blueit": "Designed by Ersatz with Blockbench",
 	"parent": "20w14s:item/portal_gun/template_portal_gun",
 	"textures": {
 		"1": "20w14s:item/portal_gun/metal",
@@ -11,6 +11,7 @@
 		"9": "20w14s:item/portal_gun/glass",
 		"10": "20w14s:item/portal_gun/wire",
 		"11": "20w14s:item/portal_gun/ceramic",
+		"12": "20w14s:item/portal_gun/barrel_glow/light_blue",
 		"13": "20w14s:item/portal_gun/barrel_inner/light_blue",
 		"15": "20w14s:item/portal_gun/beam/light_blue_center",
 		"16": "20w14s:item/portal_gun/beam/light_blue_fade"
