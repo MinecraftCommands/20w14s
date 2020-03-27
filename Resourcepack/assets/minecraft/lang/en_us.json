@@ -192,5 +192,9 @@
   "block.minecraft.brown_wool": "Brown Block of String",
   "block.minecraft.green_wool": "Green Block of String",
   "block.minecraft.red_wool": "Red Block of String",
-  "block.minecraft.black_wool": "Black Block of String"
+  "block.minecraft.black_wool": "Black Block of String",
+  "block.minecraft.end_stone_bricks": "Bedrock",
+  "block.minecraft.end_stone_brick_stairs": "Bedrock Stairs",
+  "block.minecraft.end_stone_brick_slab": "Bedrock Slab",
+  "block.minecraft.end_stone_brick_wall": "Bedrock Wall"
 }
