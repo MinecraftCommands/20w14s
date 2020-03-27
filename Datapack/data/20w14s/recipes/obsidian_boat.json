@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_planks"
+      "item": "minecraft:obsidian"
     }
   },
   "result": {
-    "item": "minecraft:oak_boat"
+    "item": "minecraft:acacia_boat"
   }
 }

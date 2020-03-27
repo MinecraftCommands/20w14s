@@ -1,60 +1,51 @@
 {
-    "type": "minecraft:block",
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:white_wool"
-          }
-        ],
-        "conditions": [
-          {
-            "condition": "minecraft:block_state_property",
-            "block": "minecraft:purpur_stairs",
-            "properties": {
-              "half": "top",
-              "shape": "inner_left"
-            }
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:mutton",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 2
-                }
-              },
-              {
-                "function": "minecraft:apply_bonus",
-                "enchantment": "minecraft:fortune",
-                "formula": "minecraft:uniform_bonus_count",
-                "parameters": {
-                  "bonusMultiplier": 3
-                }
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "minecraft:purpur_stairs",
+              "properties": {
+                "half": "top",
+                "shape": "inner_left"
               }
-            ]
-          }
-        ],
-        "conditions": [
-          {
-            "condition": "minecraft:block_state_property",
-            "block": "minecraft:purpur_stairs",
-            "properties": {
-              "half": "top",
-              "shape": "inner_left"
             }
-          }
-        ]
-      }
-    ]
-  }
+          ],
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:sheep_spawn_egg",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{EntityTag:{Color:0}}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "minecraft:entities/sheep/white"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

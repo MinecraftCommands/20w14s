@@ -31,3 +31,6 @@ execute if score 20w14s.end_chunks_progress global matches 1.. in the_end run fu
 
 # Cat items
 execute as @e[type=item,nbt={OnGround:1b,Item:{tag:{20w14s:{cat_item:1b}}}}] at @s run function 20w14s:mobs/cat_items/revive
+
+# Airships
+execute as @e[type=boat,tag=20w14s.skyship] run function 20w14s:mechanics/skyships/update
