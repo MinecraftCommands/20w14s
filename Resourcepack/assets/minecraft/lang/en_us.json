@@ -141,5 +141,6 @@
   "block.20w14s.sleeping_observer": "Uwubserver",
   "block.minecraft.observer": "Owobserver",
   "item.minecraft.sheep_spawn_egg": "Sheep",
-  "item.minecraft.birch_boat": "Skyship"
+  "item.minecraft.birch_boat": "Skyship",
+  "block.minecraft.poppy": "Rose"
 }
