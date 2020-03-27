@@ -175,5 +175,6 @@
   "commands.advancement.revoke.criterion.to.one.failure": "Couldn't revoke criterion '%s' of achievement %s from %s as they don't have it",
   "commands.advancement.revoke.criterion.to.many.success": "Revoked criterion '%s' of achievement %s from %s players",
   "commands.advancement.revoke.criterion.to.many.failure": "Couldn't revoke criterion '%s' of achievement %s from %s players as they don't have it",
-  "advancement.advancementNotFound": "Unknown achievement: %s"
+  "advancement.advancementNotFound": "Unknown achievement: %s",
+  "block.minecraft.ladder": "Ladder (Deprecated)"
 }
