@@ -176,5 +176,21 @@
   "commands.advancement.revoke.criterion.to.many.success": "Revoked criterion '%s' of achievement %s from %s players",
   "commands.advancement.revoke.criterion.to.many.failure": "Couldn't revoke criterion '%s' of achievement %s from %s players as they don't have it",
   "advancement.advancementNotFound": "Unknown achievement: %s",
-  "block.minecraft.ladder": "Ladder (Deprecated)"
+  "block.minecraft.ladder": "Ladder (Deprecated)",
+  "block.minecraft.white_wool": "White Block of String",
+  "block.minecraft.orange_wool": "Orange Block of String",
+  "block.minecraft.magenta_wool": "Magenta Block of String",
+  "block.minecraft.light_blue_wool": "Light Blue Block of String",
+  "block.minecraft.yellow_wool": "Yellow Block of String",
+  "block.minecraft.lime_wool": "Lime Block of String",
+  "block.minecraft.pink_wool": "Pink Block of String",
+  "block.minecraft.gray_wool": "Gray Block of String",
+  "block.minecraft.light_gray_wool": "Light Gray Block of String",
+  "block.minecraft.cyan_wool": "Cyan Block of String",
+  "block.minecraft.purple_wool": "Purple Block of String",
+  "block.minecraft.blue_wool": "Blue Block of String",
+  "block.minecraft.brown_wool": "Brown Block of String",
+  "block.minecraft.green_wool": "Green Block of String",
+  "block.minecraft.red_wool": "Red Block of String",
+  "block.minecraft.black_wool": "Black Block of String"
 }
