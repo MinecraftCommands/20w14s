@@ -1,5 +1,3 @@
-say clear line of sight
-
 # Fire fireball in reverse direction to ray
 execute in overworld positioned 0.0 0.0 0.0 positioned ^ ^ ^-4 run summon area_effect_cloud ~ ~ ~ {Tags:["20w14s.position_getter"]}
 summon fireball ~ ~ ~ {Tags:["20w14s.new_fireball"],ExplosionPower:0,Passengers:[{id:"minecraft:magma_cube",Size:5}],Motion:[0.0,0.0,5.5]}

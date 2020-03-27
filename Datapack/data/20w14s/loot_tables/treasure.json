@@ -15,7 +15,11 @@
         { "type": "minecraft:loot_table", "name": "20w14s:items/rocket_schematics", "weight":10 },
         { "type": "minecraft:loot_table", "name": "20w14s:items/magic_mirror", "weight":5 },
         { "type": "minecraft:loot_table", "name": "20w14s:items/melon_uzi", "weight":2 },
+<<<<<<< HEAD
         { "type": "minecraft:loot_table", "name": "20w14s:items/portal_gun/random_pair", "weight":4 }
+=======
+        { "type": "minecraft:loot_table", "name": "20w14s:items/sleeping_observer", "weight": 4 }
+>>>>>>> master
       ]
     }
   ]
