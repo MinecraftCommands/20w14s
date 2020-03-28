@@ -13,7 +13,7 @@
                 {
                   "attribute": "generic.attackDamage",
                   "name": "a",
-                  "amount": 7,
+                  "amount": 8,
                   "operation": "addition",
                   "slot": "mainhand"
                 },
