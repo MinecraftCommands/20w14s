@@ -38,15 +38,15 @@
         },
         {
             "predicate": {"custom_model_data": 9},
-            "model": "20w14s:item/magic_mirror"
+            "model": "20w14s:item/portal_gun/portal_remover_blue_orange"
         },
         {
             "predicate": {"custom_model_data": 10},
-            "model": "20w14s:item/magic_mirror"
+            "model": "20w14s:item/portal_gun/portal_remover_red_yellow"
         },
         {
             "predicate": {"custom_model_data": 11},
-            "model": "20w14s:item/magic_mirror"
+            "model": "20w14s:item/portal_gun/portal_remover_light_blue_purple"
         }
     ]
 }
