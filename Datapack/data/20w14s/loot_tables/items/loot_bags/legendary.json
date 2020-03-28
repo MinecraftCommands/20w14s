@@ -4,7 +4,8 @@
     {
       "rolls": 1,
       "entries": [
-        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/bottomless_bomb_in_a_bag", "weight": 10 }
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/bottomless_bomb_in_a_bag", "weight": 10 },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/blue_shinies", "weight": 10 }
       ]
     }
   ]

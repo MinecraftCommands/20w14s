@@ -15,5 +15,6 @@ execute if entity @s[tag=20w14s.loot_bag.soup_kitchen] run function 20w14s:items
 execute if entity @s[tag=20w14s.loot_bag.bomb_in_a_bag] run function 20w14s:items/loot_bag/bomb_in_a_bag
 execute if entity @s[tag=20w14s.loot_bag.bottomless_bomb_in_a_bag] run function 20w14s:items/loot_bag/bottomless_bomb_in_a_bag
 execute if entity @s[tag=20w14s.loot_bag.bag_of_bomb_in_a_bags] run function 20w14s:items/loot_bag/bag_of_bomb_in_a_bags
+execute if entity @s[tag=20w14s.loot_bag.blue_shinies] run function 20w14s:items/loot_bag/blue_shinies
 
 kill @s
