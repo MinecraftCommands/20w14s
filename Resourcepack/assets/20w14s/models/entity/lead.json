@@ -1,0 +1,29 @@
+{
+    "textures": {
+        "lead": "20w14s:entity/lead"
+    },
+    "elements": [
+        {
+            "from": [7, -16, 8],
+            "to": [8, 32, 8],
+            "faces": {
+                "north": {
+                    "uv": [0, 0, 2, 16],
+                    "texture": "#lead"
+                },
+                "east": {
+                    "uv": [0, 0, 2, 16],
+                    "texture": "#lead"
+                },
+                "south": {
+                    "uv": [0, 0, 2, 16],
+                    "texture": "#lead"
+                },
+                "west": {
+                    "uv": [0, 0, 2, 16],
+                    "texture": "#lead"
+                }
+            }
+        }
+    ]
+}

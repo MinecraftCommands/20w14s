@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Unbreakable:1b,CustomModelData:1}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text":"Bitcoin Pickaxe", "italic":false},
+              "entity": "this"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
