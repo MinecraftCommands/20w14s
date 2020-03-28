@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "name": "minecraft:chests/buried_treasure" }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bags/rare", "weight": 50 },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bags/epic", "weight": 40 },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bags/legendary", "weight": 10 }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "name": "20w14s:treasure" }
+      ]
+    }
+  ]
+}

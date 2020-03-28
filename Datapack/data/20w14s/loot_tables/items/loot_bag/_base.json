@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData: 9000, EntityTag: {id: 'minecraft:armor_stand', NoAI: true, NoGravity: true, Silent: true, Invisible: true, Marker: true, Tags: ['20w14s.loot_bag']}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": { "text": "Loot Bag", "color": "white", "italic": false }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                { "text": "Loot Bag", "color": "gray", "italic": false },
+                { "text": "Right-click on the ground to open", "color": "gray", "italic": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
