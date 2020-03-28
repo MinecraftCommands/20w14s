@@ -7,7 +7,7 @@
 		"2": "20w14s:block/sheep/sheep_fur_square",
 		"3": "20w14s:block/sheep/sheep_square",
 		"4": "20w14s:entity/lead",
-		"particle": "20w14s:block/white_wool"
+		"particle": "block/white_wool"
 	},
 	"elements": [
 		{
