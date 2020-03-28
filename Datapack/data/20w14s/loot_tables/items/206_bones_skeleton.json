@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:skeleton_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{EntityTag:{DeathLootTable:'20w14s:entity/206_bones_skeleton'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
