@@ -10,4 +10,7 @@ execute if entity @s[type=enderman] run function 20w14s:mobs/replace_enderman
 # Replace birch boats with airships
 execute if entity @s[type=boat,nbt={Type:"birch"}] run function 20w14s:mechanics/skyships/convert_to_skyship/as_birch_boat
 
+# Add tag to bone items for skeleton crafting
+tag @s[type=item,nbt={Item:{id:"minecraft:bone"}}] add 20w14s.item.bone
+
 tag @s add 20w14s.initialised

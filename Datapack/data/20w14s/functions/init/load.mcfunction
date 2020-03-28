@@ -70,6 +70,8 @@ scoreboard objectives add 20w14s.prtl_lpct dummy
 scoreboard objectives add 20w14s.prtl_ppct dummy
 scoreboard objectives add 20w14s.prtl_anim dummy
 scoreboard objectives add 20w14s.prtl_tp dummy
+scoreboard objectives add 20w14s.stack_c dummy
+scoreboard objectives add 20w14s.nearby_c dummy
 
 scoreboard players set multiplier 20w14s.random 1664525
 scoreboard players set increment 20w14s.random 1013904223

@@ -34,3 +34,6 @@ execute as @e[type=item,nbt={OnGround:1b,Item:{tag:{20w14s:{cat_item:1b}}}}] at 
 
 # Airships
 execute as @e[type=boat,tag=20w14s.skyship] run function 20w14s:mechanics/skyships/update
+
+# Count bones
+function 20w14s:items/craftable_skeleton/main
