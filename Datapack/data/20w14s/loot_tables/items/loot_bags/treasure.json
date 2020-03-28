@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": { "min": 2, "max": 4 },
+      "entries": [
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bags/random" }
+      ]
+    }
+  ]
+}

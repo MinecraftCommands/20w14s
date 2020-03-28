@@ -1,9 +1,7 @@
 {
-    "parent": "item/template_spawn_egg",
-    "overrides": [
-        {
-            "predicate": {"custom_model_data": 1},
-            "model": "20w14s:block/rocket_control_panel"
-        }
-    ]
+  "parent": "item/template_spawn_egg",
+  "overrides": [
+    { "predicate": { "custom_model_data": 1 }, "model": "20w14s:block/rocket_control_panel" },
+    { "predicate": { "custom_model_data": 9000 }, "model": "20w14s:item/loot_bag" }
+  ]
 }
