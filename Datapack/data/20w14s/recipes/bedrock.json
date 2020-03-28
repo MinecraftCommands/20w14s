@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "sss",
+        "sbs",
+        "sss"
+    ],
+    "key": {
+        "s": { "item": "minecraft:stone" },
+        "b": { "tag": "minecraft:beds" }
+    },
+    "result": {
+        "item": "minecraft:end_stone_bricks",
+        "count": 1
+    }
+}

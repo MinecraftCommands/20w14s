@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "get_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:beds"
+                    }
+                ]
+            }
+        },
+        "get_stone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stone"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [["get_bed", "get_stone"]],
+    "rewards": {
+        "recipes": [
+            "20w14s:bedrock"
+        ]
+    }
+}

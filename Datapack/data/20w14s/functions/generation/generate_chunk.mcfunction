@@ -1,5 +1,5 @@
 # Breakable bedrock (conveniently keeps track of generated chunks)
-fill ~ 0 ~ ~15 0 ~15 acacia_slab[type=double] replace bedrock
+fill ~ 0 ~ ~15 0 ~15 end_stone_bricks replace bedrock
 
 # For random structures (doesn't use seed)
 function 20w14s:general/random_number

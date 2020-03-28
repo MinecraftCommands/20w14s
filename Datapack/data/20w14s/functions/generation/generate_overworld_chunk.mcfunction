@@ -1,5 +1,4 @@
 # Chunk-aligned features
-fill ~ 0 ~ ~15 0 ~15 acacia_slab[type=double] replace bedrock
 execute if score rng temp matches 2046..2048 at @s run function 20w14s:generation/structures/tall_villager_house
 
 # Surface features
