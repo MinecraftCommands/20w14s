@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EntityTag:{DeathLootTable:'20w14s:entity/206_bones_skeleton'}}"
+                            "tag": "{EntityTag:{DeathLootTable:'20w14s:entity/206_bones_skeleton',CanPickUpLoot:true}}"
                         }
                     ]
                 }
