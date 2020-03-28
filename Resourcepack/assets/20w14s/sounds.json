@@ -124,9 +124,9 @@
       ]
     },
 
-	"pop_low": {
-		"sounds": [
-			"20w14s:pop_low"
-		]
-	}
+	  "pop_low": {
+		  "sounds": [
+			  "20w14s:pop_low"
+		  ]
+	  }
 }
