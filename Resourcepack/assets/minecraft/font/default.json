@@ -554,6 +554,10 @@
             "ascent": 9,
             "height": 9,
             "chars": ["\u2705"]
-        }
+        },
+        { "type": "bitmap", "file": "20w14s:font/realms/minecraft.png", "height": 128, "ascent": 112, "chars": [ "\uE800" ] },
+        { "type": "bitmap", "file": "20w14s:font/realms/realms.png",    "height": 256, "ascent": 88, "chars": [ "\uE801" ] },
+        { "type": "bitmap", "file": "20w14s:font/realms/trafficx.png",  "height": 256, "ascent": 88, "chars": [ "\uE802" ] },
+        { "type": "bitmap", "file": "20w14s:font/realms/x.png",         "height": 32,  "ascent": 22,  "chars": [ "\uE803" ] }
     ]
 }
