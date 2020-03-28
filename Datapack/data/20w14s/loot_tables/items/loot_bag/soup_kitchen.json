@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "20w14s:items/loot_bag/_base/common",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag: {Tags: ['20w14s.loot_bag', '20w14s.loot_bag.soup_kitchen']}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": { "text": "Soup Kitchen", "color": "yellow", "italic": false }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
