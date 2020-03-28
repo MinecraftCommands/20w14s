@@ -3,7 +3,7 @@
 	"textures": {
 		"0": "20w14s:item/portal_gun/remote",
 		"1": "20w14s:item/portal_gun/ceramic",
-		"2": "20w14s:item/portal_gun/remote_screen",
+		"2": "20w14s:item/portal_gun/remote_face",
 		"5": "20w14s:item/portal_gun/remote_case"
 	},
 	"elements": [
