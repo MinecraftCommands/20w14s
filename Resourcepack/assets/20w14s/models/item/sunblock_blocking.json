@@ -177,13 +177,13 @@
 		},
 		"firstperson_righthand": {
 			"rotation": [0, 97.25, 0],
-			"translation": [3, 1.75, 0],
-			"scale": [0.3, 0.3, 0.3]
+			"translation": [-2.75, 4, 0],
+			"scale": [0.4, 0.4, 0.4]
 		},
 		"firstperson_lefthand": {
 			"rotation": [0, 97.25, 0],
-			"translation": [3, 1.75, 0],
-			"scale": [-0.3, 0.3, 0.3]
+			"translation": [-2.75, 4, 0],
+			"scale": [-0.4, 0.4, 0.4]
 		},
 		"ground": {
 			"rotation": [0, -64.75, 0],
