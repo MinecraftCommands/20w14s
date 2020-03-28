@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        { "type": "minecraft:loot_table", "name": "minecraft:chests/end_city_treasure" }
+      ]
+    },
+    {
+      "rolls": { "min": 4, "max": 8 },
+      "entries": [
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bags/random" }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bags/epic", "weight": 75 },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bags/legendary", "weight": 25 }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "name": "20w14s:treasure" }
+      ]
+    }
+  ]
+}
