@@ -1,0 +1,18 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "name": "minecraft:chests/stronghold_crossing" }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bags/common", "weight": 75 },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bags/uncommon", "weight": 20 },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bags/rare", "weight": 5 }
+      ]
+    }
+  ]
+}

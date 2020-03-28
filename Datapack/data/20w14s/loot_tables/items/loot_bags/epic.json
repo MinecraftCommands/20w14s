@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/end_city_treasure", "weight": 10 }
+      ]
+    }
+  ]
+}

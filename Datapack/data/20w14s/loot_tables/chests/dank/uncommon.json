@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "name": "minecraft:chests/simple_dungeon" }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bags/common", "weight": 60 },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bags/uncommon", "weight": 25 },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bags/rare", "weight": 12 },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bags/epic", "weight": 3 }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "20w14s:treasure",
+          "conditions": [
+            { "condition": "minecraft:random_chance", "chance": 0.25 }
+          ]
+        }
+      ]
+    }
+  ]
+}

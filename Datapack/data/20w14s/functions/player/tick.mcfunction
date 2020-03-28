@@ -27,5 +27,8 @@ execute if score @s 20w14s.mine_lead matches 1.. run function 20w14s:mechanics/m
 # Swap portal gun colors
 execute if predicate 20w14s:portal_gun/in_offhand run function 20w14s:items/portal_gun/swap_color
 
+# used a loot bag
+execute if score @s 20w14s.lootbag matches 1.. run function 20w14s:player/used_loot_bag
+
 # Convert airships
 execute if score @s 20w14s.skyship matches 1.. run function 20w14s:mechanics/skyships/convert_to_skyship/as_player

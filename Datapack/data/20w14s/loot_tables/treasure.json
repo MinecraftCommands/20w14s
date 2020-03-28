@@ -4,6 +4,7 @@
     {
       "rolls": 1,
       "entries": [
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bags/treasure", "weight":10 },
         { "type": "minecraft:loot_table", "name": "20w14s:items/old_wooden_sword", "weight":2 },
         { "type": "minecraft:loot_table", "name": "20w14s:items/old_stone_sword", "weight":3 },
         { "type": "minecraft:loot_table", "name": "20w14s:items/old_iron_sword", "weight":3 },
