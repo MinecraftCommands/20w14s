@@ -4,7 +4,8 @@
   "predicate": {
     "equipment": {
       "mainhand": {
-        "item": "minecraft:20w14s:{sunblock:1b}"
+        "item": "minecraft:shield",
+        "nbt": "{20w14s:{sunblock:1b}}"
       }
     }
   }
