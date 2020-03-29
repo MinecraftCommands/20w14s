@@ -1,0 +1,33 @@
+{
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:alternative",
+      "terms": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "chest": {
+                  "item": "minecraft:leather_chestplate"
+                }
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "chest": {
+                "nbt": "{20w14s:{custom:1b}}"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
