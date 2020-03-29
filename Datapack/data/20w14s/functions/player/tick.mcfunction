@@ -1,9 +1,14 @@
 # Held item stuff
-# TODO: Replace with predicates?
-execute store result score item_id temp run data get entity @s SelectedItem.tag.20w14s.item_id
-execute if score item_id temp matches 1.. run function 20w14s:items/holding_special_item
-execute if score item_id temp matches ..0 if score @s 20w14s.prev_held matches 1.. run function 20w14s:items/stopped_holding_special_item
+scoreboard players set item_id temp 0
+
+execute if predicate 20w14s:holding_lens run function 20w14s:items/lens/holding
+execute if predicate 20w14s:holding_backpack run function 20w14s:items/backpack/holding
+execute if predicate 20w14s:holding_umbrella run function 20w14s:items/umbrella/holding
+execute if predicate 20w14s:holding_sunblock run function 20w14s:items/sunblock/holding
+
+execute if score @s 20w14s.prev_held matches 1.. unless score item_id temp = @s 20w14s.prev_held run function 20w14s:items/stopped_holding_special_item
 scoreboard players operation @s 20w14s.prev_held = item_id temp
+
 # Equipped item stuff
 execute if predicate 20w14s:wearing_jetpack run function 20w14s:items/jetpack/wearing
 execute if predicate 20w14s:wearing_sekernite
