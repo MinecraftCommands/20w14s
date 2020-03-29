@@ -1,1 +1,0 @@
-effect clear @s slow_falling
