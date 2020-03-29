@@ -172,8 +172,8 @@
 			"scale": [0.3, 0.3, 0.3]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [0, -64.75, 0],
-			"scale": [-0.3, 0.3, 0.3]
+			"rotation": [0, 105, 0],
+			"scale": [0.3, 0.3, 0.3]
 		},
 		"firstperson_righthand": {
 			"rotation": [0, 97.25, 0],
