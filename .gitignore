@@ -1,5 +1,8 @@
 _Notes/
 *.cmd
-Datapack/data/20w14s/functions/.datapack/cache.json
-.datapack/cache.json
-Datapack/.datapack/cache.json
+Datapack/data/20w14s/functions/.datapack/*
+.datapack/*
+Datapack/.datapack/*
+
+# Datapack Helper+ definitions
+_definitions.mcfunction
