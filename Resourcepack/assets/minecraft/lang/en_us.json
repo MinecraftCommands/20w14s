@@ -331,5 +331,24 @@
   "advancements.story.mine_diamond.title": "Overworldites!",
   "advancements.story.mine_diamond.description": "Acquire overworldite",
   "advancements.story.shiny_gear.title": "Cover Me With Overworldite",
-  "advancements.story.shiny_gear.description": "Overworldite armor saves lives"
+  "advancements.story.shiny_gear.description": "Overworldite armor saves lives",
+
+  "advancements.20w14s.root.title": "20w14s",
+  "advancements.20w14s.root.description": "Welcome to the 20w14✧ Snapshot!",
+  "advancements.20w14s.full_seker.title": "Full Seker",
+  "advancements.20w14s.full_seker.description": "Equip the full Seker outfit",
+  "advancements.20w14s.arrtdoa.title": "ARRTDOA",
+  "advancements.20w14s.arrtdoa.description": "And redstone ruined the day once again.",
+  "advancements.20w14s.fall_through.title": "Saved!",
+  "advancements.20w14s.fall_through.description": "Get saved from falling into the void.",
+  "advancements.20w14s.mine_bedrock.title": "The Unbreakable",
+  "advancements.20w14s.mine_bedrock.description": "Break the unbreakable.",
+  "advancements.20w14s.moneybag.title": "Croesus",
+  "advancements.20w14s.moneybag.description": "Now you have enough Minecoins to buy the most expensive Markeplace item.",
+  "advancements.20w14s.red_dragon.title": "The Long Awaited One",
+  "advancements.20w14s.red_dragon.description": "Find and kill the red dragon.",
+  "advancements.20w14s.pickup_cat.title": "Warm Hugs",
+  "advancements.20w14s.pickup_cat.description": "Because just petting your cat isn't enough.",
+  "advancements.20w14s.stack_overflow.title": "Stack Overflow",
+  "advancements.20w14s.stack_overflow.description": "Are you okay? Please stop!"
 }
