@@ -123,5 +123,8 @@ execute if score 20w14s.end_gen_progress global matches ..2 run schedule functio
 # Schedule loops
 schedule function 20w14s:mobs/dragon/loop_check 5s
 
+# Offline messages
+function 20w14s:mechanics/offline_messages/load
+
 # Message
 tellraw @a {"text":"20w14✧ reloaded","color":"aqua"}
