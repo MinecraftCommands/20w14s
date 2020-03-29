@@ -2,8 +2,6 @@
 kill @e[type=armor_stand,tag=20w14s.rocket]
 kill @e[type=pig,tag=20w14s.spectate_pig]
 
-say changing dimension
-
 # Create rocket in end
 forceload remove 271 567
 forceload add 271 567

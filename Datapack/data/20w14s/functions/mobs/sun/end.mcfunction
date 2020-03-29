@@ -1,5 +1,3 @@
-say end
-
 # Stop loop (if this function is ran manually to end early)
 schedule clear 20w14s:mobs/sun/loop
 

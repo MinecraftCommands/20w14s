@@ -1,4 +1,3 @@
-say relog
 scoreboard players set @s 20w14s.quit_game 0
 
 # If was in sun boss fight, exit

@@ -1,5 +1,3 @@
-say start
-
 # Block other rockets because I can't be bothered to make whole boss fight instanced
 scoreboard players set 20w14s.end_fight_happening global 1
 
