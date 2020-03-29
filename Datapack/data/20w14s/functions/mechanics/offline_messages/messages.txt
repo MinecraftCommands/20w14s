@@ -5,10 +5,10 @@
 
 {"text": "i am stupid"}
 {"text": "hihixd"}
-{"text": ":no:"}
+{"text": "\\uE043"}
 {"text": "My friend says data packs are mods. Do you agree with this?"}
-{"text": ":blame_sky:"}
-{"text": ":no_command_block:"}
+{"text": "\\uE074"}
+{"text": "\\uE040"}
 {"text": "Please stop this"}
 {"text": "Butts."}
 {"text": "I use egg"}
