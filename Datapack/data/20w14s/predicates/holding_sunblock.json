@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "item": "minecraft:20w14s:{sunblock:1b}"
+      }
+    }
+  }
+}
