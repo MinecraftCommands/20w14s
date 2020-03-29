@@ -19,7 +19,8 @@
         { "type": "minecraft:loot_table", "name": "20w14s:items/portal_gun/random_pair", "weight":4 },
         { "type": "minecraft:loot_table", "name": "20w14s:items/sleeping_observer", "weight": 4 },
         { "type": "minecraft:loot_table", "name": "20w14s:items/bitcoin_pickaxe", "weight": 3 },
-        { "type": "minecraft:loot_table", "name": "20w14s:items/sunblock", "weight": 3 }
+        { "type": "minecraft:loot_table", "name": "20w14s:items/sunblock", "weight": 3 },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/miners_helmet", "weight": 3 }
       ]
     }
   ]
