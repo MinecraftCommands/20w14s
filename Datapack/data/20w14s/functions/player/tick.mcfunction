@@ -5,6 +5,7 @@ execute if predicate 20w14s:holding_lens run function 20w14s:items/lens/holding
 execute if predicate 20w14s:holding_backpack run function 20w14s:items/backpack/holding
 execute if predicate 20w14s:holding_umbrella run function 20w14s:items/umbrella/holding
 execute if predicate 20w14s:holding_sunblock run function 20w14s:items/sunblock/holding
+execute if predicate 20w14s:holding_sekernite_tool run function 20w14s:items/sekernite/hold_tool
 
 execute if score @s 20w14s.prev_held matches 1.. unless score item_id temp = @s 20w14s.prev_held run function 20w14s:items/stopped_holding_special_item
 scoreboard players operation @s 20w14s.prev_held = item_id temp
