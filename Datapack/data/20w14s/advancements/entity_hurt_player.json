@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "entity_hurt_player": {
+            "trigger": "minecraft:entity_hurt_player"
+        }
+    },
+    "rewards": {
+        "function": "20w14s:player/entity_hurt_player"
+    }
+}
