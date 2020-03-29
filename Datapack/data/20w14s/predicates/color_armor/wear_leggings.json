@@ -11,7 +11,7 @@
             "predicate": {
               "equipment": {
                 "legs": {
-                  "item": "minecraft:leather_helmet"
+                  "item": "minecraft:leather_leggings"
                 }
               }
             }

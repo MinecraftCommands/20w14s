@@ -23,7 +23,7 @@ execute if score $hasEquipment temp matches 1 run data modify storage 20w14s:tem
 execute if score $hasEquipment temp matches 1 run data remove storage 20w14s:temp armor[{id:"minecraft:leather_boots"}]
 function 20w14s:general/random_number
 execute store result storage 20w14s:temp recolor[].tag.display.color int 1 run scoreboard players get seed 20w14s.random
-data modify storage 20w14s:temp armor append from storage 20w14s:temp recolor
+data modify storage 20w14s:temp armor append from storage 20w14s:temp recolor[]
 setblock 731031 0 731031 yellow_shulker_box
 data modify block 731031 0 731031 Items set from storage 20w14s:temp armor
 loot replace entity @s armor.feet mine 731031 0 731031 air{drop_contents:1b}
