@@ -10,7 +10,6 @@
         { "type": "minecraft:loot_table", "name": "20w14s:items/old_iron_sword", "weight":3 },
         { "type": "minecraft:loot_table", "name": "20w14s:items/old_diamond_sword", "weight":1 },
         { "type": "minecraft:loot_table", "name": "20w14s:items/old_golden_sword", "weight":2 },
-        { "type": "minecraft:loot_table", "name": "20w14s:items/old_netherite_sword", "weight":1 },
         { "type": "minecraft:loot_table", "name": "20w14s:items/the_nate_chestplate", "weight":4 },
         { "type": "minecraft:loot_table", "name": "20w14s:items/red_trainers", "weight":2 },
         { "type": "minecraft:loot_table", "name": "20w14s:items/rocket_control_panel", "weight":8 },
@@ -19,9 +18,8 @@
         { "type": "minecraft:loot_table", "name": "20w14s:items/melon_uzi", "weight":2 },
         { "type": "minecraft:loot_table", "name": "20w14s:items/portal_gun/random_pair", "weight":4 },
         { "type": "minecraft:loot_table", "name": "20w14s:items/sleeping_observer", "weight": 4 },
-        { "type": "minecraft:loot_table", "name": "20w14s:items/melon_uzi", "weight":3 },
-        { "type": "minecraft:loot_table", "name": "20w14s:items/sleeping_observer", "weight": 4 },
-        { "type": "minecraft:loot_table", "name": "20w14s:items/bitcoin_pickaxe", "weight": 3 }
+        { "type": "minecraft:loot_table", "name": "20w14s:items/bitcoin_pickaxe", "weight": 3 },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/sunblock", "weight": 3 }
       ]
     }
   ]

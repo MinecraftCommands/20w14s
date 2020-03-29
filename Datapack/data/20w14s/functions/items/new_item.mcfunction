@@ -5,7 +5,6 @@ data modify storage 20w14s: temp_item_name set from entity @s SelectedItem.id
 scoreboard players set item_id temp -1
 
 execute if data storage 20w14s: {temp_item_name:"minecraft:command_block"} run scoreboard players set item_id temp 1
-execute if data storage 20w14s: {temp_item_name:"minecraft:globe_banner_pattern"} run function 20w14s:items/diamond_axe/initiate
 execute if data storage 20w14s: {temp_item_name:"minecraft:popped_chorus_fruit"} run scoreboard players set item_id temp 3
 execute if data storage 20w14s: {temp_item_name:"minecraft:structure_void"} run scoreboard players set item_id temp 4
 
