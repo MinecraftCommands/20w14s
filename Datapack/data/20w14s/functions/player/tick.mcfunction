@@ -11,6 +11,7 @@ scoreboard players operation @s 20w14s.prev_held = item_id temp
 
 # Equipped item stuff
 execute if predicate 20w14s:wearing_jetpack run function 20w14s:items/jetpack/wearing
+execute if predicate 20w14s:wearing_miners_helmet run function 20w14s:items/miners_helmet/wearing
 execute if predicate 20w14s:wearing_sekernite
 
 # Right click detection
