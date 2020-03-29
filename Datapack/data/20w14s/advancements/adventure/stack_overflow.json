@@ -1,0 +1,25 @@
+{
+    "parent": "20w14s:adventure/pickup_cat",
+    "display": {
+      "icon": {
+        "item": "minecraft:leather_helmet",
+        "nbt": "{CustomModelData:19}"
+      },
+      "title": {
+        "translate": "advancements.20w14s.stack_overflow.title"
+      },
+      "description": {
+        "translate": "advancements.20w14s.stack_overflow.description"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "criteria": {
+      "impossible": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+    }
+  }

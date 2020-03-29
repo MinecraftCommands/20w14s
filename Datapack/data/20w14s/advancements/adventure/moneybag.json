@@ -1,0 +1,23 @@
+{
+    "parent": "20w14s:adventure/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "title": {
+            "translate": "advancements.20w14s.moneybag.title"
+        },
+        "description": {
+            "translate": "advancements.20w14s.moneybag.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enough_xp": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "parent": "20w14s:adventure/root",
+    "criteria": {
+        "inv_change": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "rewards":{
+        "function":"20w14s:advancements/full_seker_check"
+    }
+}
