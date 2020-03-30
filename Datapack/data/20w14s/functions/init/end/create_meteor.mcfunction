@@ -6,17 +6,17 @@ say * If server closes itself, you need to increase max-tick-time in server.prop
 say If playing on singleplayer, all should be fine
 
 # Load chunks
-execute in the_end run forceload add 65 551 56 570
-execute in the_end run forceload remove 0 500
-execute in the_end run forceload add 0 500
+execute in the_end run forceload add 65 400551 56 400570
+execute in the_end run forceload remove 0 400500
+execute in the_end run forceload add 0 400500
 
 # Load meteor structure
-execute in the_end run setblock 0 0 500 structure_block{mode:"LOAD",name:"20w14s:puffersun/meteor"}
-execute in the_end run setblock 0 1 500 redstone_block
-execute in the_end run fill 0 0 500 0 1 500 air
+execute in the_end run setblock 0 0 400500 structure_block{mode:"LOAD",name:"20w14s:puffersun/meteor"}
+execute in the_end run setblock 0 1 400500 redstone_block
+execute in the_end run fill 0 0 400500 0 1 400500 air
 
 # End portal back to overworld
-execute in the_end run setblock 58 20 569 end_portal
+execute in the_end run setblock 58 20 400569 end_portal
 
 # Progress message
 say 20%
