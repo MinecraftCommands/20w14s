@@ -55,6 +55,9 @@
   "item.20w14s.portal_gun.change_color": "Change Color",
   "item.20w14s.portal_gun.remove_portals": "Remove Portals",
 
+  "item.20w14s.long_fall_boots": "Long Fall Boots",
+  "item.20w14s.long_fall_boots.description": "Reduces fall damage",
+
   "menu.online": "Realms+",
   "menu.quit": "Marketplace",
   "options.entityShadows": "Claw Night",
