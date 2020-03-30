@@ -358,6 +358,12 @@
   "advancements.20w14s.pickup_cat.description": "Because just petting your cat isn't enough.",
   "advancements.20w14s.loot_bag_collector.title": "Loot Bag Collector",
   "advancements.20w14s.loot_bag_collector.description": "Open every tier of loot bag.",
+  "advancements.20w14s.rocket_control_panel.title": "Rocket Control Panel",
+  "advancements.20w14s.rocket_control_panel.description": "Aquire this piece of technology",
+  "advancements.20w14s.launch_rocket.title": "Launch a Rocket",
+  "advancements.20w14s.launch_rocket.description": "Successfully launch a rocket!",
+  "advancements.20w14s.pufferfish_song.title": "Shine",
+  "advancements.20w14s.pufferfish_song.description": "Let it shine! ♫♪♫",
   "advancements.20w14s.stack_overflow.title": "Stack Overflow",
-  "advancements.20w14s.stack_overflow.description": "Are you okay? Please stop!"
+  "advancements.20w14s.stack_overflow.description": "Are you okay? Do you need help?"
 }

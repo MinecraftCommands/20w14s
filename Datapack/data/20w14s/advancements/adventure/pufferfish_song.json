@@ -1,0 +1,24 @@
+{
+    "parent": "20w14s:adventure/launch_rocket",
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt":"{SkullOwner:{Properties: {textures: [{Value: \"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTcxNTI4NzZiYzNhOTZkZDJhMjI5OTI0NWVkYjNiZWVmNjQ3YzhhNTZhYzg4NTNhNjg3YzNlN2I1ZDhiYiJ9fX0=\"}]}, Id: [I; 630075668, 915163297, -2046968232, 152236255]}}"
+        },
+        "title": {
+            "translate": "advancements.20w14s.pufferfish_song.title"
+        },
+        "description": {
+            "translate": "advancements.20w14s.pufferfish_song.description"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "won_fight": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

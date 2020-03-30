@@ -1,0 +1,32 @@
+{
+    "parent": "20w14s:adventure/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:villager_spawn_egg",
+            "nbt": "{CustomModelData:1}"
+        },
+        "title": {
+            "translate": "advancements.20w14s.rocket_control_panel.title"
+        },
+        "description": {
+            "translate": "advancements.20w14s.rocket_control_panel.description"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:villager_spawn_egg",
+                        "nbt": "{CustomModelData:1}"
+                    }
+                ]
+            }
+        }
+    }
+}
