@@ -48,7 +48,13 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:oak_log",
-          "weight": 10
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
         },
         {
           "type": "minecraft:item",
