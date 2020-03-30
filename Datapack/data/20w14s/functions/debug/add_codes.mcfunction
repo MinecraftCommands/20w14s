@@ -1,0 +1,10 @@
+data modify storage 20w14s:codes list set value [] 
+data modify storage 20w14s:codes list append value "fakecode1"
+data modify storage 20w14s:codes list append value "fakecode2"
+data modify storage 20w14s:codes list append value "fakecode3"
+data modify storage 20w14s:codes list append value "fakecode4"
+data modify storage 20w14s:codes list append value "fakecode5"
+data modify storage 20w14s:codes list append value "fakecode6"
+data modify storage 20w14s:codes list append value "fakecode7"
+data modify storage 20w14s:codes list append value "fakecode8"
+data modify storage 20w14s:codes list append value "fakecode9"
