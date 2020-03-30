@@ -1,4 +1,7 @@
 {
+  "translation.test.args": " ",
+  "Get the resourcepack!": " ",
+
   "item.minecraft.experience_bottle": "Pot o' Minecoins",
   "entity.minecraft.experience_bottle": "Thrown Pot o' Minecoins",
   "entity.minecraft.experience_orb": "Minecoin",
@@ -29,7 +32,7 @@
   "advancements.adventure.two_birds_one_arrow.description": "Kill two Mob Bs with a piercing arrow",
   
   "item.minecraft.globe_banner_pattern": "Overworldite Axe",
-  "item.minecraft.globe_banner_pattern.desc": "Possibly?",
+  "item.minecraft.globe_banner_pattern.desc": "§5§o(+NBT)",
 
   "item.20w14s.portal_gun.blue": "Blue Portal Gun",
   "item.20w14s.portal_gun.orange": "Orange Portal Gun",
@@ -339,8 +342,8 @@
 
   "advancements.20w14s.root.title": "20w14s",
   "advancements.20w14s.root.description": "Welcome to the 20w14✧ Snapshot!",
-  "advancements.20w14s.full_seker.title": "Full Seker",
-  "advancements.20w14s.full_seker.description": "Equip the full Seker outfit",
+  "advancements.20w14s.full_seker.title": "£'%:%:!;;&(\"\";;;**;;%%:%:",
+  "advancements.20w14s.full_seker.description": "Equip full sekernite armour",
   "advancements.20w14s.arrtdoa.title": "ARRTDOA",
   "advancements.20w14s.arrtdoa.description": "And redstone ruined the day once again.",
   "advancements.20w14s.fall_through.title": "Saved!",
@@ -348,7 +351,7 @@
   "advancements.20w14s.mine_bedrock.title": "The Unbreakable",
   "advancements.20w14s.mine_bedrock.description": "Break the unbreakable.",
   "advancements.20w14s.moneybag.title": "Croesus",
-  "advancements.20w14s.moneybag.description": "Now you have enough Minecoins to buy the most expensive Markeplace item.",
+  "advancements.20w14s.moneybag.description": "Obtain enough Minecoins to buy the most expensive Markeplace item.",
   "advancements.20w14s.red_dragon.title": "The Long Awaited One",
   "advancements.20w14s.red_dragon.description": "Find and kill the red dragon.",
   "advancements.20w14s.pickup_cat.title": "Warm Hugs",
