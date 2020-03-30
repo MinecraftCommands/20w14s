@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "20w14s:item/long_fall_boots"
+        "layer0": "item/netherite_boots"
     },
     "overrides": [
         { "predicate": {"custom_model_data": 1}, "model": "20w14s:item/long_fall_boots" }
