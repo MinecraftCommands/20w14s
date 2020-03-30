@@ -7,9 +7,9 @@ scoreboard players add 20w14s.end_gen_progress global 1
 execute if score 20w14s.end_gen_progress global matches 230 run function 20w14s:init/end/create_rainbow_road
 
 # Progress messages
-execute if score 20w14s.end_gen_progress global matches 46 run tellraw @a {"text":"60%","color":"yellow"}
-execute if score 20w14s.end_gen_progress global matches 92 run tellraw @a {"text":"70%","color":"yellow"}
-execute if score 20w14s.end_gen_progress global matches 138 run tellraw @a {"text":"80%","color":"yellow"}
-execute if score 20w14s.end_gen_progress global matches 184 run tellraw @a {"text":"90%","color":"yellow"}
+execute if score 20w14s.end_gen_progress global matches 50 run say 60%
+execute if score 20w14s.end_gen_progress global matches 110 run say 70%
+execute if score 20w14s.end_gen_progress global matches 170 run say 80%
+execute if score 20w14s.end_gen_progress global matches 229 run say 90%
 
 

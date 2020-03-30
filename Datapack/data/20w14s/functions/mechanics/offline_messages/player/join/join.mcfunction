@@ -13,4 +13,4 @@ scoreboard players set 20w14s.opm.is_active global 1
 data modify storage 20w14s:mechanics/offline_messages root.ActivePlayer set from storage 20w14s:mechanics/offline_messages root.ListIteration.InputList[-1]
 
 # Tellraw join message.
-tellraw @a [{"nbt": "root.ActivePlayer.Name", "storage": "20w14s:mechanics/offline_messages", "color": "yellow", "interpret": true}, {"text": " joined the game", "color": "yellow"}]
+tellraw @a [{"nbt": "root.ActivePlayer.Name", "storage": "20w14s:mechanics/offline_messages", "color": "yellow", "interpret": true, "hoverEvent": {"action": "show_text", "value": {"text": "This looks suspicious...", "italic": true}}}, {"text": " joined the game", "color": "yellow"}]
