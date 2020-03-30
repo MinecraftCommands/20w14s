@@ -1,9 +1,7 @@
 say Initialising some stuff (one-time only)
 say Prepare for ~3 minutes of lag
-say If playing on a server: 
-say * This will probably cause you to time-out. Join back in a few minutes
-say * If server closes itself, you need to increase max-tick-time in server.properties
-say If playing on singleplayer, all should be fine
+say §lIf playing on a server§r this will probably cause you to time-out; join back in a minute. If server closes itself, increase max-tick-time in server.properties
+say §lIf playing on singleplayer§r, all should be fine
 
 # Load chunks
 execute in the_end run forceload add 65 400551 56 400570
