@@ -1,0 +1,24 @@
+{
+    "parent": "20w14s:adventure/rocket_offset_3",
+    "display": {
+        "icon": {
+            "item": "minecraft:command_block",
+            "nbt": "{CustomModelData:5}"
+        },
+        "title": {
+            "translate": "advancements.20w14s.launch_rocket.title"
+        },
+        "description": {
+            "translate": "advancements.20w14s.launch_rocket.description"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "launch_rocket": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
