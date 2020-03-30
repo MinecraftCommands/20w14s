@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag: {Tags: ['20w14s.loot_bag', '20w14s.loot_bag.bottomless_bomb_in_a_bag']}, Enchantments: [{id: 'minecraft:sharpness', lvl: 1}], HideFlags: 1}"
+              "tag": "{EntityTag: {Tags: ['20w14s.loot_bag', '20w14s.loot_bag_tier.legendary', '20w14s.loot_bag.bottomless_bomb_in_a_bag']}, Enchantments: [{id: 'minecraft:sharpness', lvl: 1}], HideFlags: 1}"
             },
             {
               "function": "minecraft:set_name",
