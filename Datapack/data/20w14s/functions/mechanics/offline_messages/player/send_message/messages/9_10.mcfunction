@@ -1,0 +1,2 @@
+execute if score 20w14s.opm.random temp matches 9 run data modify storage 20w14s:mechanics/offline_messages root.Message set value '{"text": "qooq is cool bcos it sounds like kook also if u reflect it across x or y axis it looks like either boob or poop"}'
+execute if score 20w14s.opm.random temp matches 10 run data modify storage 20w14s:mechanics/offline_messages root.Message set value '{"text": "Fonts"}'

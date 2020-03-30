@@ -1,7 +1,7 @@
 # Remember to execute the python script to update the messages!
 
-# This is a placeholder. You can add any JSON components as you please (as long as they are valid).
-# {"text": "placeholder"}
+# Below is a template. You can add any JSON components as you please (as long as they are valid).
+# {"text": "template"}
 
 {"text": "i am stupid"}
 {"text": "hihixd"}
@@ -42,5 +42,5 @@
 {"text": "poop"}
 {"text": "When I get real mad I stop using frick"}
 {"text": "lol i can type here"}
-# {"text": "placeholder"}
-# {"text": "placeholder"}
+{"text": "Don't do redstone, kids"}
+{"text": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"}
