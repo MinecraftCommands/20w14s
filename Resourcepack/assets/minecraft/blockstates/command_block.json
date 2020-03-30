@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "facing=down,conditional=true": {
+            "model": "20w14s:entity/skylinerw"
+        }
+    }
+}
