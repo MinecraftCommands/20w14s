@@ -16,7 +16,7 @@ function 20w14s:mobs/cat_items/collar_to_hex
 execute store result storage 20w14s:cat_items ResultItem.tag.display.color int 1 run scoreboard players get $color temp
 data remove block 731031 0 731031 Items
 data modify block 731031 0 731031 Items append from storage 20w14s:cat_items ResultItem
-execute at @s run loot replace entity @a[tag=20w14s.catOwner,limit=1,distance=..6] weapon.mainhand mine 731031 0 731031 air{drop_contents:1b}
+execute at @s run loot replace entity @a[tag=20w14s.catOwner,limit=1,distance=..6] weapon.mainhand 1 mine 731031 0 731031 air{drop_contents:1b}
 execute at @s run advancement grant @a[tag=20w14s.catOwner,limit=1,distance=..6] only 20w14s:adventure/pickup_cat
 particle poof ~ ~.3 ~ 0.25 0.25 0.25 .1 20
 data merge entity @s {Health:0f,DeathTime:19s}
