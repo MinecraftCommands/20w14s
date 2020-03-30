@@ -34,9 +34,4 @@ void main(){
         float a = min(sin(angle * 10 + timeAdjustment), 0.7);
         gl_FragColor = vec4(2.0, 2.0, 0.1, a);
     }
-    
-    if (texCoord.x == 731031) { gl_FragColor = texture2D(GlowSampler, texCoord); }
-    if (texCoord.x == 731031) { gl_FragColor = texture2D(SekerSampler, texCoord); }
-    if (texCoord.x == 731031) { gl_FragColor = texture2D(SunSampler, texCoord); }
-
 }
