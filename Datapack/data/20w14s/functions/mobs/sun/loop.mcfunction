@@ -14,7 +14,7 @@ function 20w14s:mobs/sun/face_sync
 execute as 00000000-0000-0003-0000-0000000b2797 if entity @s[tag=!20w14s.fins_animating] run function 20w14s:mobs/sun/fins_idle
 
 # Save players from falling
-execute if score 20w14s.end_boss_tick global matches 933.. as @a[tag=20w14s.fighting_sun] at @s if entity @s[y=127,dy=-20] run function 20w14s:mobs/sun/save_player
+execute if score 20w14s.end_boss_tick global matches 933.. as @a[tag=20w14s.fighting_sun] at @s if entity @s[y=131,dy=-16] run function 20w14s:mobs/sun/save_player
 
 # Decide whether to end
 execute if score 20w14s.end_boss_tick global matches 5101.. run schedule function 20w14s:mobs/sun/end 1t
