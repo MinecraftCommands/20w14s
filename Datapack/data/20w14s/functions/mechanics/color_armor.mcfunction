@@ -26,4 +26,4 @@ execute store result storage 20w14s:temp recolor[].tag.display.color int 1 run s
 data modify storage 20w14s:temp armor append from storage 20w14s:temp recolor[]
 setblock 731031 0 731031 yellow_shulker_box
 data modify block 731031 0 731031 Items set from storage 20w14s:temp armor
-loot replace entity @s armor.feet mine 731031 0 731031 air{drop_contents:1b}
+loot replace entity @s armor.feet 1 mine 731031 0 731031 air{drop_contents:1b}
