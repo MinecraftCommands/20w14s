@@ -10,7 +10,7 @@
       "description": {
         "translate": "advancements.20w14s.red_dragon.description"
       },
-      "frame": "task",
+      "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
