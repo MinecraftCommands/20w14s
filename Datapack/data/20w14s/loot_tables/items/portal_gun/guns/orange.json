@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Unbreakable:1b,HideFlags:63,CustomModelData:4,20w14s:{item_id:8,portal_gun:1b,portal_color:1}}"
+              "tag": "{Unbreakable:1b,HideFlags:63,CustomModelData:4,20w14s:{portal_gun:1b,portal_color:1}}"
             },
             {
               "function": "minecraft:set_name",

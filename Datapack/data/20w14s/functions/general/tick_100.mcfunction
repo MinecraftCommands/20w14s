@@ -1,6 +1,6 @@
 scoreboard players set 20w14s:tick_100 timer 0
 
-execute as @a at @s run function 20w14s:general/player_tick_100
+execute as @a at @s run function 20w14s:player/tick_100
 
 # Entity initialisation stuff
 execute as @e[tag=!20w14s.initialised] at @s run function 20w14s:mobs/new_natural_spawn
@@ -29,6 +29,8 @@ execute if score 20w14s:gen_cycle timer matches 3 at @a positioned ~-48 ~ ~-48 i
 # Pre-gen the end chunks so it doesn't lag during boss fight
 execute if score 20w14s.end_chunks_progress global matches 1.. in the_end run function 20w14s:init/end/pregen_chunks
 
+# Airships
+execute as @e[type=boat,tag=20w14s.skyship] run function 20w14s:mechanics/skyships/update
 
-# Cat items
-execute as @e[type=item,nbt={OnGround:1b,Item:{tag:{20w14s:{cat_item:1b}}}}] at @s run function 20w14s:mobs/cat_items/revive
+# Count bones
+function 20w14s:items/craftable_skeleton/main

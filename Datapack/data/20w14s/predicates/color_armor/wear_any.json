@@ -1,0 +1,21 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "20w14s:color_armor/wear_helmet"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "20w14s:color_armor/wear_chestplate"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "20w14s:color_armor/wear_leggings"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "20w14s:color_armor/wear_boots"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+# Remember to execute the python script to update the messages!
+
+# Below is a template. You can add any JSON components as you please (as long as they are valid).
+# {"text": "template"}
+
+{"text": "i am stupid"}
+{"text": "hihixd"}
+{"text": "\\uE043"}
+{"text": "My friend says data packs are mods. Do you agree with this?"}
+{"text": "\\uE074"}
+{"text": "\\uE040"}
+{"text": "Please stop this"}
+{"text": "Butts."}
+{"text": "I use egg"}
+{"text": "from what I could tell crashing worked fine on Windows"}
+{"text": "/schedule is a rich mans repeater, nothing more"}
+{"text": "OH HECK YEAH! IM LIKING THE COMMAND CHANGES!"}
+{"text": "How many updates does a single piece of redstone cause when turning off and on again?"}
+{"text": "Cows are real yeah"}
+{"text": "A command block? Thats as good as just using air"}
+{"text": "Turning off a 2 long redstone wire causes OVER A THOUSAND BLOCK UPDATES", "bold": true}
+{"text": "0w0 is unacceptable"}
+{"text": "HIRED! ALL OF YOU!"}
+{"text": "a"}
+{"text": "first"}
+{"text": "what is happening to this server"}
+{"text": "owo is forbidden on this server"}
+{"text": "Guys, look at this epic mod I just made! I used a pretty complex external tool called \"Windows file explorer\" to achieve this, not sure if you've heard about it."}
+{"text": "Oi would be fun to see Max and sky fight in mc"}
+{"text": "I crushed the motherboard into dust and compressed it into a nice stick and have placed it in my pencil"}
+{"text": "Yes."}
+{"text": "No."}
+{"text": "yes"}
+{"text": "no"}
+{"text": "no, and like I said I cant reproduce with skylinerw"}
+{"text": "Fonts"}
+{"text": "qooq is cool bcos it sounds like kook also if u reflect it across x or y axis it looks like either boob or poop"}
+{"text": "You guys make me want to throw myself out a window, but in a fun and loving way."}
+{"text": "Its a horse"}
+{"text": "wolf neutering: left click a wolf with shears and make it not able to breed again"}
+{"text": "I need to make the puff groan"}
+{"text": "poop"}
+{"text": "When I get real mad I stop using frick"}
+{"text": "lol i can type here"}
+{"text": "Don't do redstone, kids"}
+{"text": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"}

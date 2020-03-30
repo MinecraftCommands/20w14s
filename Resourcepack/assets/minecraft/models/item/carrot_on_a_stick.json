@@ -14,39 +14,39 @@
         },
         {
             "predicate": {"custom_model_data": 3},
-            "model": "20w14s:item/melon_uzi"
+            "model": "20w14s:item/portal_gun/blue_portal_gun"
         },
         {
             "predicate": {"custom_model_data": 4},
-            "model": "20w14s:item/melon_uzi"
+            "model": "20w14s:item/portal_gun/orange_portal_gun"
         },
         {
             "predicate": {"custom_model_data": 5},
-            "model": "20w14s:item/melon_uzi"
+            "model": "20w14s:item/portal_gun/red_portal_gun"
         },
         {
             "predicate": {"custom_model_data": 6},
-            "model": "20w14s:item/melon_uzi"
+            "model": "20w14s:item/portal_gun/yellow_portal_gun"
         },
         {
             "predicate": {"custom_model_data": 7},
-            "model": "20w14s:item/melon_uzi"
+            "model": "20w14s:item/portal_gun/light_blue_portal_gun"
         },
         {
             "predicate": {"custom_model_data": 8},
-            "model": "20w14s:item/melon_uzi"
+            "model": "20w14s:item/portal_gun/purple_portal_gun"
         },
         {
             "predicate": {"custom_model_data": 9},
-            "model": "20w14s:item/magic_mirror"
+            "model": "20w14s:item/portal_gun/portal_remover_blue_orange"
         },
         {
             "predicate": {"custom_model_data": 10},
-            "model": "20w14s:item/magic_mirror"
+            "model": "20w14s:item/portal_gun/portal_remover_red_yellow"
         },
         {
             "predicate": {"custom_model_data": 11},
-            "model": "20w14s:item/magic_mirror"
+            "model": "20w14s:item/portal_gun/portal_remover_light_blue_purple"
         }
     ]
 }

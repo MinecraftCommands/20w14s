@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    " l ",
+    " b "
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:sheep_spawn_egg"
+    },
+    "l": {
+      "item": "minecraft:lead"
+    },
+    "b": {
+      "tag": "20w14s:wooden_boats"
+    }
+  },
+  "result": {
+    "item": "minecraft:birch_boat"
+  }
+}

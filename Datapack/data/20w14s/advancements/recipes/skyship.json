@@ -1,0 +1,40 @@
+{
+    "criteria": {
+        "get_sheep": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:sheep_spawn_egg"
+                    }
+                ]
+            }
+        },
+        "get_lead": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:lead"
+                    }
+                ]
+            }
+        },
+        "get_boat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "20w14s:wooden_boats"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [["get_sheep", "get_lead", "get_boat"]],
+    "rewards": {
+        "recipes": [
+            "20w14s:skyship"
+        ]
+    }
+}

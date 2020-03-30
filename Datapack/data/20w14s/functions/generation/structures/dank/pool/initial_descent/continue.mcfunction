@@ -1,3 +1,4 @@
 #> 20w14s:generation/structures/dank/pool/initial_descent/continue
 
-function 20w14s:generation/structures/dank/check/initial_descent
+# Always build the initial descent.
+function 20w14s:generation/structures/dank/build/initial_descent

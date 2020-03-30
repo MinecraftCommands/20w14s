@@ -6,11 +6,13 @@ scoreboard players operation checked_portal_id temp = @s 20w14s.prtl_id
 execute as @a if score @s 20w14s.id = checked_portal_id temp run scoreboard players operation checked_portal_count temp = @s 20w14s.prtl_rpct
 execute if score @s 20w14s.prtl_ct < checked_portal_count temp run function 20w14s:mechanics/portal_gun/remove_portal/auto_remove_red
 
-# Check if the blocks the portal are on are broken
+# Check if the blocks the portal are on are broken or if the portal becomes obstructed
 scoreboard players set portal_on_blocks temp 0
-execute unless block ^ ^ ^ #20w14s:no_hitbox run scoreboard players add portal_on_blocks temp 1
-execute unless block ^ ^-1 ^ #20w14s:no_hitbox run scoreboard players add portal_on_blocks temp 2
-execute unless score portal_on_blocks temp matches 3 run function 20w14s:mechanics/portal_gun/remove_portal/auto_remove_red
+execute if block ^ ^ ^ #20w14s:portal_surfaces run scoreboard players add portal_on_blocks temp 1
+execute if block ^ ^-1 ^ #20w14s:portal_surfaces run scoreboard players add portal_on_blocks temp 1
+execute if block ^ ^ ^-1 #20w14s:portal_raycast run scoreboard players add portal_on_blocks temp 1
+execute if block ^ ^-1 ^-1 #20w14s:portal_raycast run scoreboard players add portal_on_blocks temp 1
+execute unless score portal_on_blocks temp matches 4 run function 20w14s:mechanics/portal_gun/remove_portal/auto_remove_red
 
 # Particles
 execute if score @s 20w14s.prtl_anim matches 0..7 run function 20w14s:mechanics/portal_gun/portal_main/anim/red/0_7

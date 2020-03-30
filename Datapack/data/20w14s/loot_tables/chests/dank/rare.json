@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "name": "minecraft:chests/shipwreck_treasure" }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bags/uncommon", "weight": 60 },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bags/rare", "weight": 30 },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bags/epic", "weight": 8 },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bags/legendary", "weight": 2 }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "name": "20w14s:treasure" }
+      ]
+    }
+  ]
+}
