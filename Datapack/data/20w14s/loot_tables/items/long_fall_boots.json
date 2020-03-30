@@ -6,11 +6,11 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:iron_boots",
+            "name": "minecraft:netherite_boots",
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{Unbreakable:1b,HideFlags:63,Enchantments:[{id:\"minecraft:feather_falling\",lvl:2147483647}]}"
+                "tag": "{Unbreakable:1b,HideFlags:63,CustomModelData:1,20w14s:{custom:1b},Enchantments:[{id:\"minecraft:feather_falling\",lvl:2147483647}]}"
               },
               {
                 "function": "minecraft:set_name",
