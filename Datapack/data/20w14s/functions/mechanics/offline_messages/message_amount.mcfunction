@@ -1,1 +1,1 @@
-scoreboard players set 20w14s.opm.message_amount const 38
+scoreboard players set 20w14s.opm.message_amount const 40
