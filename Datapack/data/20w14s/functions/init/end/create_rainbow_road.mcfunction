@@ -32,4 +32,4 @@ execute in the_end run setblock -2949 119 544 redstone_block
 execute in the_end run fill -2949 119 544 -2949 120 544 air
 
 
-tellraw @a {"text":"Done!","color":"green"}
+say One-time initialisation finished!

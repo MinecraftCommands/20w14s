@@ -27,6 +27,20 @@
             "type": "minecraft:loot_table",
             "name": "20w14s:treasure",
             "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ender_pearl",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 3,
+                  "max": 5
+                }
+              }
+            ],
+            "weight": 6
           }
         ]
       },

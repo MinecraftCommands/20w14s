@@ -1,0 +1,2 @@
+execute if score 20w14s.opm.random temp matches 16..17 run function 20w14s:mechanics/offline_messages/player/send_message/messages/16_17
+execute if score 20w14s.opm.random temp matches 18 run data modify storage 20w14s:mechanics/offline_messages root.Message set value '{"text": "Guys, look at this epic mod I just made! I used a pretty complex external tool called \\"Windows file explorer\\" to achieve this, not sure if you\'ve heard about it."}'
