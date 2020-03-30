@@ -21,6 +21,3 @@ execute store result storage 20w14s:mechanics/offline_messages root.NewElement.I
 
 # Check if the ID is already in the list. If it is, update the name.
 function 20w14s:mechanics/offline_messages/check_list/check_list_start
-
-
-# '{"text": "Skylinerw", "hoverEvent": {"action": "show_text", "value": {"text": "..."}}}'
