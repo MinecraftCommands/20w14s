@@ -1,0 +1,1 @@
+execute at @e[nbt={HurtTime:10s,ActiveEffects:[{Id:4b,Amplifier:4b}]}] run function 20w14s:mechanics/puff_arrow/hit_tile

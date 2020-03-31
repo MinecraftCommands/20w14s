@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "puff_arrow_hurt_entity": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "direct_entity": {
+                            "type": "minecraft:arrow",
+                            "nbt": "{Color: 13408563}"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "20w14s:mechanics/puff_arrow/advancement"
+    }
+}
