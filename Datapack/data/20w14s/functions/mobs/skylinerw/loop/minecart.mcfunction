@@ -3,7 +3,7 @@ execute unless data entity @s Passengers[] run function 20w14s:mobs/skylinerw/de
 # Die if passenger has no absorption left
 execute if data entity @s Passengers[{id:"minecraft:slime",Tags:["20w14s.skylinerw.slime"],AbsorptionAmount:0.0f}] run function 20w14s:mobs/skylinerw/death/minecart
 # Ambient sound
-execute if predicate 20w14s:chance_33 run function 20w14s:mobs/skylinerw/speak/main
+execute if predicate 20w14s:chance_33 if predicate 20w14s:chance_33 run function 20w14s:mobs/skylinerw/speak/main
 
 # Adjust minecart height according to slime health
 scoreboard players set $maxHealth temp 100
@@ -24,3 +24,6 @@ execute anchored eyes as @e[type=area_effect_cloud,tag=20w14s.temp,limit=1] run 
 
 # Face nearest player
 data modify entity @s Rotation set from storage 20w14s:temp rotation
+
+# Shoot laser at player
+execute if predicate 20w14s:chance_33 if predicate 20w14s:chance_10 facing entity @p eyes run function 20w14s:mobs/skylinerw/shoot_lasers
