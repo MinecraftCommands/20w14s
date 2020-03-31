@@ -1,4 +1,4 @@
-#> 20w14s:items/loot_bag/_sparkles
+#> 20w14s:items/loot_bag/open/_sparkles
 
 particle minecraft:end_rod ~ ~1.0 ~ 0.4 0.4 0.4 0.01 30 force
 playsound minecraft:item.trident.thunder player @a ~ ~ ~ 1.0 2.0

@@ -1,4 +1,4 @@
-#> 20w14s:items/loot_bag/_fireworks
+#> 20w14s:items/loot_bag/open/_fireworks
 
 particle minecraft:end_rod ~ ~1.0 ~ 0.4 0.4 0.4 0.01 30 force
 playsound minecraft:ui.toast.challenge_complete player @a ~ ~ ~ 1.0 1.5

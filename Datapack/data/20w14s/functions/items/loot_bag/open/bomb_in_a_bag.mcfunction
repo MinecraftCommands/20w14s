@@ -1,4 +1,4 @@
-#> 20w14s:items/loot_bag/bomb_in_a_bag
+#> 20w14s:items/loot_bag/open/bomb_in_a_bag
 
 particle minecraft:effect ~ ~1.0 ~ 0.4 0.4 0.4 0.01 30 force
 playsound minecraft:entity.tnt.primed player @a ~ ~ ~ 2.0 1.5
