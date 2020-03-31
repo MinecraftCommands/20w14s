@@ -92,7 +92,7 @@ execute unless data storage 20w14s:generation/structures debug run data modify s
 execute unless data storage 20w14s:generation/structures throttle run data modify storage 20w14s:generation/structures throttle set value 1
 
 # Load skylinerw messages
-execute unless data storage 20w14s:mobs/skylinerw queue run data modify storage 20w14s:mobs/skylinerw queue set value ['"周末平时我吃人肉。"', '"ur 2 latte"', '"\\uE070"', '"我喜欢吃人肉。"', '"Well I know human meat (人肉) but I don\'t know how to combine it with pizza"', '"\\uE061"', '"我喜欢人肉"', '"\\uE010"', '"你要和我一起吃人肉吗"', '"bahlph sucks a lot"', '"吃人肉"', '"你们都想吃人肉吗"', '"\\uE043"', '"我在卖一百克人肉。"', '"you all y\'all"', '"\\uE054"', '"you ever y\'ever"', '"你吃人肉"', '"人肉"', '"人肉"', '"what is csgo"', '"dont tell me what oh"', '"人肉人肉人肉人肉人肉人肉"', '"人肉"']
+execute unless data storage 20w14s:mobs/skylinerw queue run function 20w14s:mobs/skylinerw/-reload_storage
 
 # Teams
 team add 20w14s.seker
