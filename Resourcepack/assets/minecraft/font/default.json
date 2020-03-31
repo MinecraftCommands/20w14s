@@ -558,6 +558,10 @@
         { "type": "bitmap", "file": "20w14s:font/realms/minecraft.png", "height": 128, "ascent": 112, "chars": [ "\uE800" ] },
         { "type": "bitmap", "file": "20w14s:font/realms/realms.png",    "height": 256, "ascent": 88, "chars": [ "\uE801" ] },
         { "type": "bitmap", "file": "20w14s:font/realms/trafficx.png",  "height": 256, "ascent": 88, "chars": [ "\uE802" ] },
-        { "type": "bitmap", "file": "20w14s:font/realms/x.png",         "height": 32,  "ascent": 22,  "chars": [ "\uE803" ] }
+        { "type": "bitmap", "file": "20w14s:font/realms/x.png",         "height": 32,  "ascent": 22,  "chars": [ "\uE803" ] },
+        { "type": "bitmap", "file": "20w14s:font/barrel.png",           "height": 256,  "ascent": 198,    "chars": [ "\uE804" ] },
+        { "type": "bitmap", "file": "20w14s:font/barrel.png",           "height": 256,  "ascent": -58,    "chars": [ "\uE805" ] },
+        { "type": "bitmap", "file": "20w14s:font/barrel.png",           "height": -256, "ascent": -32767, "chars": [ "\uE806" ] },
+        { "type": "bitmap", "file": "20w14s:font/barrel.png",           "height": -3,   "ascent": -32767, "chars": [ "\uE807" ] },
     ]
 }
