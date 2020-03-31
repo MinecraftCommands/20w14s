@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:12}"
+    },
+    "title": "Defeat Skylinerw",
+    "description": "Purge all evil from this world!",
+    "frame": "goal",
+    "show_toast": true,
+    "hidden": true
+  },
+  "parent": "20w14s:adventure/summon_skylinerw",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

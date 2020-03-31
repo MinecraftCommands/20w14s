@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": "Big Doo-Doo Stone"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {"text": "If you have this item, then peerHeer is the big DOO-DOO!", "color": "blue"},
+                                {"text": "Because if he actually implemented this item, you would have been kicked", "color": "blue"},
+                                {"text": "at least 17 times now, and would now be the one to kick others.", "color": "blue"},
+                                {"text": "Or not.", "color": "blue"}
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

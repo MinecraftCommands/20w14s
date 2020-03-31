@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:written_book",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{pages: ['[{\"text\":\"===================\\\\n\"}, {\"color\":\"green\",\"text\":\"Monthly bill for the        Verified Helper\\\\n           role\"},{\"text\":\"\\\\n===================\\\\n\\\\nTo acquire the Verified Helper role, please proceed by transferring the monthly amount of $35 per week to the following bank account:\"}]', '[{\"text\":\"▊▊▊▊▊▊▊▊▊▊▊▊▊▊\\\\n\"},{\"color\":\"gray\",\"text\":\"(rub off coating)\"},{\"text\":\"\\\\n\\\\nIf the coating has already been rubbed off, please keep us informed whether someone else might be giving money to our account.\"}]', '{\"text\":\"===================\\\\n  Why you are getting           this book\\\\n===================\\\\n\\\\nThis book is being provided to anyone who beat the angry sheep on \\\\\"easy mode\\\\\".\\\\n\\\\\"Easy mode\\\\\" is a complicated abbreviation without further illustration that refers to\"}', '[{\"text\":\"having the server properties set in a way that limits the features of Snapshot 20w14s. \\\\n\\\\nTo disable easy mode, set the \"},{\"color\":\"dark_gray\",\"text\":\"function-permission-level\"},\" key in the \",{\"color\":\"dark_gray\",\"text\":\"server.properties\"},{\"text\":\" file to 3 or higher.\\\\n\\\\nIf you do not want to\"}]', '[{\"text\":\"host a server, you are once again invited to join the official server at \"}, {\"translate\":\"20w14s.server_ip\"}, \".\"]'], title: \"VH bill\", author: \"the der discohund\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

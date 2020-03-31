@@ -1,0 +1,2 @@
+execute as @e[type=area_effect_cloud,tag=20w14s.skylinerw.portal] store result score @s temp run data get entity @s Age
+execute at @e[type=area_effect_cloud,tag=20w14s.skylinerw.portal,scores={temp=85..}] run function 20w14s:mobs/skylinerw/summon/final

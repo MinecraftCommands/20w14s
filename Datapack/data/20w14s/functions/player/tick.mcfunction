@@ -41,3 +41,6 @@ execute if score @s 20w14s.skyship matches 1.. run function 20w14s:mechanics/sky
 
 # Kill emerald experience
 execute if score @s 20w14s.mine_lead matches 1.. run function 20w14s:mechanics/mine_lead
+
+# Check for skylinerw altars
+execute if score @s 20w14s.drp_mcrt matches 1.. run function 20w14s:mobs/skylinerw/summon/schedule_start

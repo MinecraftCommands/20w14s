@@ -7,7 +7,7 @@
 		"0": "minecraft:entity/minecart",
 		"2": "20w14s:block/sheep/sheep_fur_square",
 		"3": "20w14s:block/sheep/sheep_square",
-		"particle": "20w14s:block/white_wool"
+		"particle": "minecraft:block/white_wool"
 	},
 	"elements": [
 		{

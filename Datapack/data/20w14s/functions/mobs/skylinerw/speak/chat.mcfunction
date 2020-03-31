@@ -1,0 +1,2 @@
+function 20w14s:mobs/skylinerw/speak/shuffle_list/main
+tellraw @a ["<", {"insertion":"Skylinerw","clickEvent":{"action":"suggest_command","value":"/tell Skylinerw "},"hoverEvent":{"action":"show_entity","value":{"text":"{name:'{\"text\":\"Skylinerw\"}',id:\"b9aa57fe-649e-4d48-806e-63af2faff5c6\",type:\"minecraft:player\"}"}},"text":"Skylinerw"}, "> ", {"nbt": "output", "storage": "20w14s:mobs/skylinerw", "interpret": true}]
