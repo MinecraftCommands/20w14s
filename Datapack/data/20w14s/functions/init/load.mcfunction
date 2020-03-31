@@ -29,6 +29,7 @@ scoreboard players set 64 const 64
 scoreboard players set 90 const 90
 scoreboard players set 128 const 128
 scoreboard players set 256 const 256
+scoreboard players set 360 const 360
 scoreboard players set 512 const 512
 scoreboard players set 1000 const 1000
 scoreboard players set 1024 const 1024
@@ -75,6 +76,8 @@ scoreboard objectives add 20w14s.nearby_c dummy
 scoreboard objectives add 20w14s.lootbag used:villager_spawn_egg
 scoreboard objectives add 20w14s.mine_brck minecraft.mined:minecraft.end_stone_bricks
 scoreboard objectives add 20w14s.open_bags dummy
+scoreboard objectives add 20w14s.pa.bow used:bow
+scoreboard objectives add 20w14s.pa.cbow used:crossbow
 
 scoreboard players set multiplier 20w14s.random 1664525
 scoreboard players set increment 20w14s.random 1013904223
@@ -82,6 +85,7 @@ execute unless score seed 20w14s.random matches ..2147483647 run scoreboard play
 
 scoreboard players set 20w14s.default_snake_tail_length global 20
 scoreboard players set 20w14s.arrow_bounce_loop_running global 0
+scoreboard players set 20w14s:puff_arrow_loop_running global 0
 scoreboard players set 20w14s.cow_count global 20
 scoreboard players set 20w14s.portal_gun_raycast_length global 2560
 execute unless score 20w14s.end_boss_ready global matches ..2147483647 run scoreboard players set 20w14s.end_boss_ready global 1

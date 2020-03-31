@@ -41,3 +41,11 @@ execute if score @s 20w14s.skyship matches 1.. run function 20w14s:mechanics/sky
 
 # Kill emerald experience
 execute if score @s 20w14s.mine_lead matches 1.. run function 20w14s:mechanics/mine_lead
+
+# Swap portal gun colors
+execute if predicate 20w14s:portal_gun/in_offhand run function 20w14s:items/portal_gun/swap_color
+
+# Combine shooting arrow scores for pufferfish arrows
+scoreboard players set 20w14s:puff_arrow.shoot temp 0
+scoreboard players operation 20w14s:puff_arrow.shoot temp += @s 20w14s.pa.bow
+scoreboard players operation 20w14s:puff_arrow.shoot temp += @s 20w14s.pa.cbow
