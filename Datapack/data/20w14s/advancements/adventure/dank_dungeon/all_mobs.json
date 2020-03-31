@@ -1,0 +1,74 @@
+{
+  "parent": "20w14s:adventure/dank_dungeon/first_mob",
+  "display": {
+    "icon": {
+      "item": "minecraft:spawner"
+    },
+    "title": {
+      "translate": "advancements.20w14s.dank_dungeon.all_mobs.title"
+    },
+    "description": {
+      "translate": "advancements.20w14s.dank_dungeon.all_mobs.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "zombie": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+          "nbt": "{Tags: ['20w14s.dank_dungeon.spawner_mob']}"
+        }
+      }
+    },
+    "skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+          "nbt": "{Tags: ['20w14s.dank_dungeon.spawner_mob']}"
+        }
+      }
+    },
+    "spider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:spider",
+          "nbt": "{Tags: ['20w14s.dank_dungeon.spawner_mob']}"
+        }
+      }
+    },
+    "creeper": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:creeper",
+          "nbt": "{Tags: ['20w14s.dank_dungeon.spawner_mob']}"
+        }
+      }
+    },
+    "silverfish": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:silverfish",
+          "nbt": "{Tags: ['20w14s.dank_dungeon.spawner_mob']}"
+        }
+      }
+    },
+    "witch": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:witch",
+          "nbt": "{Tags: ['20w14s.dank_dungeon.spawner_mob']}"
+        }
+      }
+    }
+  }
+}
