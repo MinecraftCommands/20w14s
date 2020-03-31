@@ -1,0 +1,28 @@
+{
+  "parent": "20w14s:adventure/dank_dungeon/all_mobs",
+  "display": {
+    "icon": {
+      "item": "minecraft:spawner"
+    },
+    "title": {
+      "translate": "advancements.20w14s.dank_dungeon.boss_mob.title"
+    },
+    "description": {
+      "translate": "advancements.20w14s.dank_dungeon.boss_mob.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "any": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags: ['20w14s.dank_dungeon.boss_mob']}"
+        }
+      }
+    }
+  }
+}
