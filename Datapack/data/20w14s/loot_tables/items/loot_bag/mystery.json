@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "20w14s:items/loot_bag/_base/mystery",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag: {Tags: ['20w14s.loot_bag', '20w14s.loot_bag_tier.mystery', '20w14s.loot_bag.mystery']}, Enchantments: [{id: 'minecraft:sharpness', lvl: 1}], HideFlags: 1}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                { "text": "", "color": "dark_gray", "italic": false, "bold": true },
+                "M",
+                { "text": "y", "obfuscated": true },
+                "st",
+                { "text": "e", "obfuscated": true },
+                "r",
+                { "text": "iou", "obfuscated": true },
+                "s L",
+                { "text": "oo", "obfuscated": true },
+                "t B",
+                { "text": "a", "obfuscated": true },
+                "g"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

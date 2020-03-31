@@ -1,11 +1,31 @@
 {
+  "entity.puffer_fish.hurt": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "entity/pufferfish/hurt1",
+        "weight": 3
+      },
+      {
+        "name": "entity/pufferfish/hurt2",
+        "weight": 3
+      },
+      {
+        "name": "entity/pufferfish/groan_1",
+        "weight": 1
+      },
+      {
+        "name": "entity/pufferfish/groan_2",
+        "weight": 1
+      }
+    ]
+  },
   "entity.phantom.swoop": {
     "replace": true,
     "sounds": [
       "20w14s:jeb_explain_phantom"
     ]
   },
-
   "entity.cow.ambient": {
     "replace": true,
     "sounds": [
@@ -36,8 +56,6 @@
       "mob/ghast/fireball4"
     ]
   },
-
-
   "entity.blaze.ambient": {
     "replace": true,
     "sounds": [
@@ -71,7 +89,6 @@
       "entity/cow/milk3"
     ]
   },
-
   "music_disc.11": {
     "replace": true,
     "sounds": [
@@ -86,7 +103,6 @@
       }
     ]
   },
-
   "music_disc.13": {
     "replace": true,
     "sounds": [
@@ -101,7 +117,6 @@
       }
     ]
   },
-
   "music_disc.blocks": {
     "replace": true,
     "sounds": [
@@ -116,7 +131,6 @@
       }
     ]
   },
-
   "music_disc.cat": {
     "replace": true,
     "sounds": [
@@ -131,7 +145,6 @@
       }
     ]
   },
-
   "music_disc.chirp": {
     "replace": true,
     "sounds": [
@@ -146,7 +159,6 @@
       }
     ]
   },
-
   "music_disc.far": {
     "replace": true,
     "sounds": [
@@ -161,7 +173,6 @@
       }
     ]
   },
-
   "music_disc.mall": {
     "replace": true,
     "sounds": [
@@ -176,7 +187,6 @@
       }
     ]
   },
-
   "music_disc.mellohi": {
     "replace": true,
     "sounds": [
@@ -191,7 +201,6 @@
       }
     ]
   },
-
   "music_disc.stal": {
     "replace": true,
     "sounds": [
@@ -206,7 +215,6 @@
       }
     ]
   },
-
   "music_disc.strad": {
     "replace": true,
     "sounds": [
@@ -221,7 +229,6 @@
       }
     ]
   },
-
   "music_disc.wait": {
     "replace": true,
     "sounds": [
@@ -236,7 +243,6 @@
       }
     ]
   },
-
   "music_disc.ward": {
     "replace": true,
     "sounds": [

@@ -33,8 +33,8 @@ execute if score @s 20w14s.obsn_boat matches 1.. run function 20w14s:mechanics/o
 execute if score @s 20w14s.chop_oak matches 1.. run function 20w14s:mechanics/tree_float/oak/chopped_log
 execute if score @s 20w14s.chop_brch matches 1.. run function 20w14s:mechanics/tree_float/birch/chopped_log
 
-# Used a loot bag
-execute if score @s 20w14s.lootbag matches 1.. run function 20w14s:player/used_loot_bag
+# Used a villager spawn egg
+execute if score @s 20w14s.lootbag matches 1.. run function 20w14s:player/loot_bag/check
 
 # Convert airships
 execute if score @s 20w14s.skyship matches 1.. run function 20w14s:mechanics/skyships/convert_to_skyship/as_player
@@ -44,3 +44,8 @@ execute if score @s 20w14s.mine_lead matches 1.. run function 20w14s:mechanics/m
 
 # Check for skylinerw altars
 execute if score @s 20w14s.drp_mcrt matches 1.. run function 20w14s:mobs/skylinerw/summon/schedule_start
+
+# Combine shooting arrow scores for pufferfish arrows
+scoreboard players set 20w14s:puff_arrow.shoot temp 0
+scoreboard players operation 20w14s:puff_arrow.shoot temp += @s 20w14s.pa.bow
+scoreboard players operation 20w14s:puff_arrow.shoot temp += @s 20w14s.pa.cbow

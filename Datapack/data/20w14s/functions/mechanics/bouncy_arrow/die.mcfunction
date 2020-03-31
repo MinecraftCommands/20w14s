@@ -9,4 +9,7 @@ execute if score tipped temp matches 1 run summon item ~ ~ ~ {Tags:["20w14s.new_
 execute if score tipped temp matches 1 run data modify entity @e[type=item,tag=20w14s.new_temp,limit=1,sort=nearest] Item.tag.Potion set from entity @s Potion
 execute if score tipped temp matches 1 run tag @e[type=item,tag=20w14s.new_temp] remove 20w14s.new_temp
 
+# Handle pufferfish arrows
+execute if entity @s[tag=20w14s.puff_arrow] run function 20w14s:mechanics/puff_arrow/hit_tile
+
 kill @s
