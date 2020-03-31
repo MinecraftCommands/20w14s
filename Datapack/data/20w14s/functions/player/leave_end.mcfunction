@@ -1,4 +1,3 @@
-say leave end
 advancement revoke @s only 20w14s:enter_end
 gamemode survival @s
 

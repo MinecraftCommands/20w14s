@@ -1,1 +1,1 @@
-effect give @s slow_falling 30 0 true
+effect give @s slow_falling 2 0 true

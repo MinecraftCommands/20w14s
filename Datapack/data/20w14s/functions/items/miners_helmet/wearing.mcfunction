@@ -1,0 +1,1 @@
+execute unless predicate 20w14s:in_end run effect give @s night_vision 12 0 true

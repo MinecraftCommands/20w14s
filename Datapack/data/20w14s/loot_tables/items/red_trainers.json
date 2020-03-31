@@ -18,7 +18,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:32,Unbreakable:1b,display:{color:16711680}}"
+              "tag": "{HideFlags:32,Unbreakable:1b,display:{color:16711680},20w14s:{custom:1b}}"
             },
             {
               "function": "minecraft:set_attributes",

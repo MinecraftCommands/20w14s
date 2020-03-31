@@ -1,5 +1,3 @@
-say respawning dragon
-
 scoreboard players set 20w14s.dragon_loop timer 0
 
 forceload remove -730919 -730824

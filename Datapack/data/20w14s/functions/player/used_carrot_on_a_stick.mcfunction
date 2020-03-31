@@ -1,13 +1,13 @@
-execute if score item_id temp matches 5 run function 20w14s:items/magic_mirror/use
-execute if score item_id temp matches 6 run function 20w14s:items/melon_uzi/fire
-execute if score item_id temp matches 7 run function 20w14s:mechanics/portal_gun/raycast/shoot_blue
-execute if score item_id temp matches 8 run function 20w14s:mechanics/portal_gun/raycast/shoot_orange
-execute if score item_id temp matches 9 run function 20w14s:mechanics/portal_gun/raycast/shoot_red
-execute if score item_id temp matches 10 run function 20w14s:mechanics/portal_gun/raycast/shoot_yellow
-execute if score item_id temp matches 11 run function 20w14s:mechanics/portal_gun/raycast/shoot_light_blue
-execute if score item_id temp matches 12 run function 20w14s:mechanics/portal_gun/raycast/shoot_purple
-execute if score item_id temp matches 13 run function 20w14s:mechanics/portal_gun/remove_portal/blue_orange
-execute if score item_id temp matches 14 run function 20w14s:mechanics/portal_gun/remove_portal/red_yellow
-execute if score item_id temp matches 15 run function 20w14s:mechanics/portal_gun/remove_portal/light_blue_purple
+execute if predicate 20w14s:holding_magic_mirror run function 20w14s:items/magic_mirror/use
+execute if predicate 20w14s:holding_melon_uzi run function 20w14s:items/melon_uzi/fire
+execute if predicate 20w14s:portal_gun/holding_blue run function 20w14s:mechanics/portal_gun/raycast/shoot_blue
+execute if predicate 20w14s:portal_gun/holding_orange run function 20w14s:mechanics/portal_gun/raycast/shoot_orange
+execute if predicate 20w14s:portal_gun/holding_red run function 20w14s:mechanics/portal_gun/raycast/shoot_red
+execute if predicate 20w14s:portal_gun/holding_yellow run function 20w14s:mechanics/portal_gun/raycast/shoot_yellow
+execute if predicate 20w14s:portal_gun/holding_light_blue run function 20w14s:mechanics/portal_gun/raycast/shoot_light_blue
+execute if predicate 20w14s:portal_gun/holding_purple run function 20w14s:mechanics/portal_gun/raycast/shoot_purple
+execute if predicate 20w14s:portal_gun/holding_blue_orange_remover run function 20w14s:mechanics/portal_gun/remove_portal/blue_orange
+execute if predicate 20w14s:portal_gun/holding_red_yellow_remover run function 20w14s:mechanics/portal_gun/remove_portal/red_yellow
+execute if predicate 20w14s:portal_gun/holding_light_blue_purple_remover run function 20w14s:mechanics/portal_gun/remove_portal/light_blue_purple
 
 scoreboard players set @s 20w14s.use_coas 0

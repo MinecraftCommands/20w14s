@@ -10,6 +10,6 @@ execute in the_end run setblock -731031 65 -731031 redstone_block
 function 20w14s:mobs/dragon/respawn
 
 # Progress message
-tellraw @a {"text":"50%","color":"gold"}
+say 50%
 
 execute if score 20w14s.end_gen_progress global matches 2 run scoreboard players set 20w14s.end_gen_progress global 3

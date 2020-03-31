@@ -10,7 +10,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Melon Uzi\",\"color\":\"aqua\",\"italic\":false}'},CustomModelData:2,20w14s:{item_id:6}}"
+                "tag": "{display:{Name:'{\"text\":\"Melon Uzi\",\"color\":\"aqua\",\"italic\":false}'},CustomModelData:2,20w14s:{melon_uzi:1b}}"
               }
             ]
           }
