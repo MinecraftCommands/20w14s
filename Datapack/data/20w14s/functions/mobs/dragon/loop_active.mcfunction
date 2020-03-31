@@ -20,3 +20,4 @@ execute if score dragon_health temp matches 1.. run schedule function 20w14s:mob
 # Check for death
 execute if score dragon_health temp matches 0 run kill 00000000-0000-0004-0000-0000000b2797
 execute if score dragon_health temp matches 0 run loot give @a[tag=20w14s.fighting_red_dragon] loot 20w14s:entity/red_dragon
+execute if score dragon_health temp matches 0 run advancement grant @a[tag=20w14s.fighting_red_dragon] only 20w14s:adventure/red_dragon

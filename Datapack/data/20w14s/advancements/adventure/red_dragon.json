@@ -1,0 +1,24 @@
+{
+    "parent": "20w14s:adventure/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:dragon_head"
+      },
+      "title": {
+        "translate": "advancements.20w14s.red_dragon.title"
+      },
+      "description": {
+        "translate": "advancements.20w14s.red_dragon.description"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "impossible": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+    }
+  }

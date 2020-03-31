@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag: {Tags: ['20w14s.loot_bag', '20w14s.loot_bag.bag_of_bomb_in_a_bags']}}"
+              "tag": "{EntityTag: {Tags: ['20w14s.loot_bag', '20w14s.loot_bag_tier.uncommon', '20w14s.loot_bag.bag_of_bomb_in_a_bags']}}"
             },
             {
               "function": "minecraft:set_name",

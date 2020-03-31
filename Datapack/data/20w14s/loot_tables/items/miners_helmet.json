@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Miner's Helmet",
+                "color": "yellow",
+                "italic": false
+              },
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:32,Unbreakable:1b,CustomModelData:32,display:{color:16776960},20w14s:{miners_helmet:1b,custom:1b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

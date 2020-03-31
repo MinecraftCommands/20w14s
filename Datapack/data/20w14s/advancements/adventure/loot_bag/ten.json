@@ -1,0 +1,51 @@
+{
+  "parent": "20w14s:adventure/loot_bag/first",
+  "display": {
+    "icon": {
+      "item": "minecraft:villager_spawn_egg",
+      "nbt": "{CustomModelData: 9000}"
+    },
+    "title": {
+      "translate": "advancements.20w14s.loot_bag.ten.title"
+    },
+    "description": {
+      "translate": "advancements.20w14s.loot_bag.ten.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "open1": {
+      "trigger": "minecraft:impossible"
+    },
+    "open2": {
+      "trigger": "minecraft:impossible"
+    },
+    "open3": {
+      "trigger": "minecraft:impossible"
+    },
+    "open4": {
+      "trigger": "minecraft:impossible"
+    },
+    "open5": {
+      "trigger": "minecraft:impossible"
+    },
+    "open6": {
+      "trigger": "minecraft:impossible"
+    },
+    "open7": {
+      "trigger": "minecraft:impossible"
+    },
+    "open8": {
+      "trigger": "minecraft:impossible"
+    },
+    "open9": {
+      "trigger": "minecraft:impossible"
+    },
+    "open10": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

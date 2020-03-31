@@ -70,7 +70,11 @@ scoreboard objectives add 20w14s.prtl_lpct dummy
 scoreboard objectives add 20w14s.prtl_ppct dummy
 scoreboard objectives add 20w14s.prtl_anim dummy
 scoreboard objectives add 20w14s.prtl_tp dummy
+scoreboard objectives add 20w14s.stack_c dummy
+scoreboard objectives add 20w14s.nearby_c dummy
 scoreboard objectives add 20w14s.lootbag used:villager_spawn_egg
+scoreboard objectives add 20w14s.mine_brck minecraft.mined:minecraft.end_stone_bricks
+scoreboard objectives add 20w14s.open_bags dummy
 
 scoreboard players set multiplier 20w14s.random 1664525
 scoreboard players set increment 20w14s.random 1013904223
@@ -82,7 +86,7 @@ scoreboard players set 20w14s.cow_count global 20
 scoreboard players set 20w14s.portal_gun_raycast_length global 2560
 execute unless score 20w14s.end_boss_ready global matches ..2147483647 run scoreboard players set 20w14s.end_boss_ready global 1
 
-# initialize structures config
+# Initialize structures config
 execute unless data storage 20w14s:generation/structures debug run data modify storage 20w14s:generation/structures debug set value false
 execute unless data storage 20w14s:generation/structures throttle run data modify storage 20w14s:generation/structures throttle set value 1
 
@@ -123,6 +127,9 @@ execute if score 20w14s.end_gen_progress global matches ..2 run schedule functio
 
 # Schedule loops
 schedule function 20w14s:mobs/dragon/loop_check 5s
+
+# Offline messages
+function 20w14s:mechanics/offline_messages/load
 
 # Message
 tellraw @a {"text":"20w14✧ reloaded","color":"aqua"}

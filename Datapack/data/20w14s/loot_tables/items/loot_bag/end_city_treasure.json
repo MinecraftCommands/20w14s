@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag: {Tags: ['20w14s.loot_bag', '20w14s.loot_bag.end_city_treasure']}}"
+              "tag": "{EntityTag: {Tags: ['20w14s.loot_bag', '20w14s.loot_bag_tier.epic', '20w14s.loot_bag.end_city_treasure']}}"
             },
             {
               "function": "minecraft:set_name",

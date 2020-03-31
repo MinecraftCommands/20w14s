@@ -1,0 +1,24 @@
+{
+    "parent": "20w14s:adventure/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:end_stone_bricks"
+      },
+      "title": {
+        "translate": "advancements.20w14s.mine_bedrock.title"
+      },
+      "description": {
+        "translate": "advancements.20w14s.mine_bedrock.description"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "impossible": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+    }
+  }

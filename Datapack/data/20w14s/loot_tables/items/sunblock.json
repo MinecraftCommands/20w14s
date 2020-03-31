@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {"text":"Sunblock", "italic":false},
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:7,Unbreakable:1b,20w14s:{sunblock:1b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

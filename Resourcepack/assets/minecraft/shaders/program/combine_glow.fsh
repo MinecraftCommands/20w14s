@@ -18,8 +18,4 @@ void main(){
     if (maskTexel.a > 0.5) {
         gl_FragColor = maskTexel;
     }
-
-    if (texCoord.x == 731031.0) { gl_FragColor = texture2D(DiffuseSampler, texCoord); }
-    if (texCoord.x == 731031.0) { gl_FragColor = texture2D(BackgroundSampler, texCoord); }
-    if (texCoord.x == 731031.0) { gl_FragColor = texture2D(MaskSampler, texCoord); }
 }

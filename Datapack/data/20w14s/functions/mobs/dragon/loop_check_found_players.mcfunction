@@ -1,5 +1,3 @@
-say loop check found players
-
 forceload add -731031 -731031 -730790 -730790
 
 # If no dragon, respawn (after killing leftover armorstand)
