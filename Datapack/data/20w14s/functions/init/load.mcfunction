@@ -75,6 +75,7 @@ scoreboard objectives add 20w14s.nearby_c dummy
 scoreboard objectives add 20w14s.lootbag used:villager_spawn_egg
 scoreboard objectives add 20w14s.mine_brck minecraft.mined:minecraft.end_stone_bricks
 scoreboard objectives add 20w14s.drp_mcrt dropped:minecart
+scoreboard objectives add 20w14s.open_bags dummy
 
 scoreboard players set multiplier 20w14s.random 1664525
 scoreboard players set increment 20w14s.random 1013904223
