@@ -4,7 +4,8 @@
     {
       "rolls": 1,
       "entries": [
-        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/shipwreck_treasure", "weight": 10 }
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/shipwreck_treasure", "weight": 94 },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/mystery", "weight": 6 }
       ]
     }
   ]

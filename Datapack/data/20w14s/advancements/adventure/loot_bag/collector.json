@@ -31,6 +31,9 @@
     },
     "legendary": {
       "trigger": "minecraft:impossible"
+    },
+    "mystery": {
+      "trigger": "minecraft:impossible"
     }
   }
 }

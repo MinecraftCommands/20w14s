@@ -33,8 +33,8 @@ execute if score @s 20w14s.obsn_boat matches 1.. run function 20w14s:mechanics/o
 execute if score @s 20w14s.chop_oak matches 1.. run function 20w14s:mechanics/tree_float/oak/chopped_log
 execute if score @s 20w14s.chop_brch matches 1.. run function 20w14s:mechanics/tree_float/birch/chopped_log
 
-# Used a loot bag
-execute if score @s 20w14s.lootbag matches 1.. run function 20w14s:player/used_loot_bag
+# Used a villager spawn egg
+execute if score @s 20w14s.lootbag matches 1.. run function 20w14s:player/loot_bag/check
 
 # Convert airships
 execute if score @s 20w14s.skyship matches 1.. run function 20w14s:mechanics/skyships/convert_to_skyship/as_player
