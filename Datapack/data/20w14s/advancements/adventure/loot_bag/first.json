@@ -1,0 +1,24 @@
+{
+  "parent": "20w14s:adventure/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:villager_spawn_egg",
+      "nbt": "{CustomModelData: 9000}"
+    },
+    "title": {
+      "translate": "advancements.20w14s.loot_bag.first.title"
+    },
+    "description": {
+      "translate": "advancements.20w14s.loot_bag.first.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "any": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

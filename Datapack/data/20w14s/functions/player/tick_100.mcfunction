@@ -26,5 +26,4 @@ execute if score rng temp matches 8..40 run function 20w14s:mechanics/sheep_bloc
 execute if score rng temp matches ..100 as @e[type=area_effect_cloud,tag=20w14s.volcano,distance=..64] at @s run function 20w14s:mechanics/volcanic_erruption/warning
 
 # Get-resourcepack title
-title @s subtitle {"translate":"translation.test.args","with":["Set language to","English (US)"],"color":"aqua"}
-title @s title {"translate":"Get the resourcepack!","color":"aqua"}
+title @s actionbar [{"translate":"Get the resourcepack! ","color":"aqua"},{"translate":"translation.test.args","with":["Set language to","English (US)"],"color":"aqua"}]
