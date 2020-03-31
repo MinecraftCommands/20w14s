@@ -47,6 +47,10 @@
         {
             "predicate": {"custom_model_data": 11},
             "model": "20w14s:item/portal_gun/portal_remover_light_blue_purple"
+        },
+		{
+            "predicate": {"custom_model_data": 12},
+            "model": "20w14s:item/puff_hammer"
         }
     ]
 }
