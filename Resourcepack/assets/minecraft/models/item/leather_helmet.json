@@ -92,6 +92,10 @@
         {
             "predicate": {"custom_model_data": 31},
             "model": "20w14s:entity/cat/small/black"
+        },
+        {
+            "predicate": {"custom_model_data": 32},
+            "model": "20w14s:item/miners_helmet"
         }
     ]
 }

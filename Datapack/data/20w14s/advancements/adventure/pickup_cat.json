@@ -1,0 +1,25 @@
+{
+    "parent": "20w14s:adventure/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:leather_helmet",
+        "nbt": "{CustomModelData:11}"
+      },
+      "title": {
+        "translate": "advancements.20w14s.pickup_cat.title"
+      },
+      "description": {
+        "translate": "advancements.20w14s.pickup_cat.description"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "impossible": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+    }
+  }

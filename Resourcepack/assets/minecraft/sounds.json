@@ -256,5 +256,14 @@
         "name": "20w14s:music_disc.calm4"
       }
     ]
+  },
+
+  "entity.item.pickup": {
+    "replace": true,
+    "sounds": [
+      "random/pop",
+	    "20w14s:pop_low"
+    ],
+    "subtitle": "subtitles.entity.item.pickup"
   }
 }

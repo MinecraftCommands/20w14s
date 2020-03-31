@@ -1,7 +1,7 @@
 {
   "pools": [
     {
-      "rolls": 5,
+      "rolls": 6,
       "entries": [
         {
           "type": "minecraft:item",
@@ -42,6 +42,38 @@
                 "min": 2,
                 "max": 8
               }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_log",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_wool",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
             }
           ]
         }

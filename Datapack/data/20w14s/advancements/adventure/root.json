@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:pufferfish"
+      },
+      "title": {
+        "translate": "advancements.20w14s.root.title"
+      },
+      "description": {
+        "translate": "advancements.20w14s.root.description"
+      },
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false,
+      "background": "minecraft:textures/environment/sun.png"
+    },
+    "criteria": {
+      "instant": {
+        "trigger": "minecraft:location",
+        "conditions": {}
+      }
+    }
+  }

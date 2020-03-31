@@ -20,7 +20,10 @@ execute if score rng temp matches ..512 if score @s 20w14s.mine_skrn matches 1..
 execute if score rng temp matches ..7 if predicate 20w14s:in_overworld align xyz positioned ~0.5 ~ ~0.5 run function 20w14s:mechanics/air_drop/happen
 
 # Sheep block spawn
-execute if score rng temp matches 8..15 run function 20w14s:mechanics/sheep_block/spawn
+execute if score rng temp matches 8..40 run function 20w14s:mechanics/sheep_block/spawn
 
 # Volcano
 execute if score rng temp matches ..100 as @e[type=area_effect_cloud,tag=20w14s.volcano,distance=..64] at @s run function 20w14s:mechanics/volcanic_erruption/warning
+
+# Get-resourcepack title
+title @s actionbar [{"translate":"Get the resourcepack! ","color":"aqua"},{"translate":"translation.test.args","with":["Set language to","English (US)"],"color":"aqua"}]

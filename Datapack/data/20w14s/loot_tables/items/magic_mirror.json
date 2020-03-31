@@ -10,7 +10,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Magic Mirror\",\"color\":\"aqua\",\"italic\":false}'},CustomModelData:1,20w14s:{item_id:5}}"
+                "tag": "{display:{Name:'{\"text\":\"Magic Mirror\",\"color\":\"aqua\",\"italic\":false}'},CustomModelData:1,20w14s:{magic_mirror:1b}}"
               }
             ]
           }

@@ -1,0 +1,2 @@
+execute if score 20w14s.opm.random temp matches 31..35 run function 20w14s:mechanics/offline_messages/player/send_message/messages/31_35
+execute if score 20w14s.opm.random temp matches 36..40 run function 20w14s:mechanics/offline_messages/player/send_message/messages/36_40

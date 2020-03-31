@@ -47,10 +47,14 @@
         { "predicate": {"custom_model_data": 3}, "model": "20w14s:item/old_iron_sword" },
         { "predicate": {"custom_model_data": 4}, "model": "20w14s:item/old_diamond_sword" },
         { "predicate": {"custom_model_data": 5}, "model": "20w14s:item/old_golden_sword" },
+        { "predicate": {"custom_model_data": 6}, "model": "20w14s:item/old_netherite_sword" },
+        { "predicate": {"custom_model_data": 7}, "model": "20w14s:item/sunblock" },
         { "predicate": {"custom_model_data": 1, "blocking": 1}, "model": "20w14s:item/old_wooden_sword_blocking" },
         { "predicate": {"custom_model_data": 2, "blocking": 1}, "model": "20w14s:item/old_stone_sword_blocking" },
         { "predicate": {"custom_model_data": 3, "blocking": 1}, "model": "20w14s:item/old_iron_sword_blocking" },
         { "predicate": {"custom_model_data": 4, "blocking": 1}, "model": "20w14s:item/old_diamond_sword_blocking" },
-        { "predicate": {"custom_model_data": 5, "blocking": 1}, "model": "20w14s:item/old_golden_sword_blocking" }
+        { "predicate": {"custom_model_data": 5, "blocking": 1}, "model": "20w14s:item/old_golden_sword_blocking" },
+        { "predicate": {"custom_model_data": 6, "blocking": 1}, "model": "20w14s:item/old_netherite_sword_blocking" },
+        { "predicate": {"custom_model_data": 7, "blocking": 1}, "model": "20w14s:item/sunblock_blocking" }
     ]
 }

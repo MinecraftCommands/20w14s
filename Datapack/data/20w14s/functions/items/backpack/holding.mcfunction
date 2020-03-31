@@ -1,3 +1,5 @@
+scoreboard players set item_id temp 2
+
 # If holding stack, give message
 execute store result score stack_size temp run data get entity @s SelectedItem.Count
 execute if score stack_size temp matches 2.. run title @s actionbar {"text":"Cannot open stacked backpacks","color":"red"}

@@ -48,6 +48,7 @@ scoreboard objectives add 20w14s.mine_skrn mined:gold_ore
 scoreboard objectives add 20w14s.chop_oak mined:oak_log
 scoreboard objectives add 20w14s.chop_brch mined:birch_log
 scoreboard objectives add 20w14s.obsn_boat used:acacia_boat
+scoreboard objectives add 20w14s.skyship used:birch_boat
 scoreboard objectives add 20w14s.use_coas used:carrot_on_a_stick
 scoreboard objectives add 20w14s.talk_vlgr custom:talked_to_villager
 scoreboard objectives add 20w14s.lnch_rokt trigger
@@ -70,6 +71,11 @@ scoreboard objectives add 20w14s.prtl_lpct dummy
 scoreboard objectives add 20w14s.prtl_ppct dummy
 scoreboard objectives add 20w14s.prtl_anim dummy
 scoreboard objectives add 20w14s.prtl_tp dummy
+scoreboard objectives add 20w14s.stack_c dummy
+scoreboard objectives add 20w14s.nearby_c dummy
+scoreboard objectives add 20w14s.lootbag used:villager_spawn_egg
+scoreboard objectives add 20w14s.mine_brck minecraft.mined:minecraft.end_stone_bricks
+scoreboard objectives add 20w14s.open_bags dummy
 scoreboard objectives add 20w14s.pa.bow used:bow
 scoreboard objectives add 20w14s.pa.cbow used:crossbow
 
@@ -84,7 +90,7 @@ scoreboard players set 20w14s.cow_count global 20
 scoreboard players set 20w14s.portal_gun_raycast_length global 2560
 execute unless score 20w14s.end_boss_ready global matches ..2147483647 run scoreboard players set 20w14s.end_boss_ready global 1
 
-# initialize structures config
+# Initialize structures config
 execute unless data storage 20w14s:generation/structures debug run data modify storage 20w14s:generation/structures debug set value false
 execute unless data storage 20w14s:generation/structures throttle run data modify storage 20w14s:generation/structures throttle set value 1
 
@@ -125,6 +131,9 @@ execute if score 20w14s.end_gen_progress global matches ..2 run schedule functio
 
 # Schedule loops
 schedule function 20w14s:mobs/dragon/loop_check 5s
+
+# Offline messages
+function 20w14s:mechanics/offline_messages/load
 
 # Message
 tellraw @a {"text":"20w14✧ reloaded","color":"aqua"}

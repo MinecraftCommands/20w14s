@@ -1,0 +1,24 @@
+{
+    "parent": "20w14s:adventure/mine_bedrock",
+    "display": {
+      "icon": {
+        "item": "minecraft:air"
+      },
+      "title": {
+        "translate": "advancements.20w14s.fall_through.title"
+      },
+      "description": {
+        "translate": "advancements.20w14s.fall_through.description"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "below_zero": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+    }
+  }

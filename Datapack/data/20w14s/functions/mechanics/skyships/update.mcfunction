@@ -1,0 +1,1 @@
+execute unless data entity @s Passengers[].Passengers[{id:"minecraft:sheep"}] run function 20w14s:mechanics/skyships/convert_to_normal_boat
