@@ -1,0 +1,39 @@
+{
+  "parent": "20w14s:adventure/loot_bag/legendary",
+  "display": {
+    "icon": {
+      "item": "minecraft:villager_spawn_egg",
+      "nbt": "{CustomModelData: 9000}"
+    },
+    "title": {
+      "translate": "advancements.20w14s.loot_bag.collector.title"
+    },
+    "description": {
+      "translate": "advancements.20w14s.loot_bag.collector.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "uncommon": {
+      "trigger": "minecraft:impossible"
+    },
+    "common": {
+      "trigger": "minecraft:impossible"
+    },
+    "rare": {
+      "trigger": "minecraft:impossible"
+    },
+    "epic": {
+      "trigger": "minecraft:impossible"
+    },
+    "legendary": {
+      "trigger": "minecraft:impossible"
+    },
+    "mystery": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

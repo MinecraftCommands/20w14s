@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": [{ "model": "block/jack_o_lantern", "weight": 10 }, { "model": "20w14s:block/searge_o_lantern", "weight": 1}],
+        "facing=south": [{ "model": "block/jack_o_lantern", "weight": 10, "y": 180 }, { "model": "20w14s:block/searge_o_lantern", "weight": 1, "y": 180}],
+        "facing=west":  [{ "model": "block/jack_o_lantern", "weight": 10, "y": 270 }, { "model": "20w14s:block/searge_o_lantern", "weight": 1, "y": 270}],
+        "facing=east":  [{ "model": "block/jack_o_lantern", "weight": 10, "y": 90 }, { "model": "20w14s:block/searge_o_lantern", "weight": 1, "y": 90}]
+    }
+}

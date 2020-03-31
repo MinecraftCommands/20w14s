@@ -1,6 +1,6 @@
 {
-  "translation.test.args": " ",
-  "Get the resourcepack!": " ",
+  "translation.test.args": "",
+  "Get the resourcepack! ": "",
 
   "item.minecraft.experience_bottle": "Pot o' Minecoins",
   "entity.minecraft.experience_bottle": "Thrown Pot o' Minecoins",
@@ -71,6 +71,8 @@
   "block.minecraft.loom": "Lööm",
   "container.loom": "Lööm",
   "stat.minecraft.interact_with_loom":"Interactions with Lööm",
+  
+  "container.barrel": "§f\uE806\uE806\uE806\uE806\uE807\uE807\uE807\uE807\uE807\uE807\uE807\uE807\uE807\uE804\uE807\uE804\uE807\uE804\uE807\uE804\uE807\uE804\uE807\uE804\uE807\uE804\uE807\uE804\uE807\uE804\uE807\uE804\uE806\uE806\uE806\uE806\uE806\uE806\uE806\uE806\uE806\uE806\uE808\uE807\uE808\uE807\uE808\uE807\uE808\uE807\uE808\uE807\uE808\uE807\uE808\uE807\uE808\uE807\uE808\uE807\uE808\uE807\uE808\uE806\uE806\uE806\uE806\uE806\uE806\uE806\uE806\uE806\uE806\uE806\uE807\uE807\uE807\uE807\uE807\uE807\uE807\uE807\uE809\uE807\uE809\uE807\uE809\uE807\uE809\uE807\uE809\uE807\uE809\uE807\uE809\uE807\uE809\uE807\uE809\uE807\uE809\uE806\uE806\uE806\uE806\uE806\uE806\uE806\uE806\uE806\uE806\uE806\uE807\uE807\uE807\uE807\uE807\uE807\uE807\uE807\uE807\uE807\uE807\uE807\uE807\uE807\uE807\uE807\uE807\uE807\uE807\uE807\uE807\uE807\uE807\uE80A\uE807\uE80A\uE807\uE80A\uE807\uE80A\uE807\uE80A\uE807\uE80A\uE807\uE80A\uE807\uE80A\uE807\uE80A\uE807\uE80A\uE807\uE80A\uE807\uE806\uE806\uE806\uE806\uE806\uE806\uE806\uE806\uE806\uE806\uE806\uE806\uE807\uE807\uE807\uE807\uE807\uE807\uE80B\uE807\uE80B\uE807\uE80B\uE807\uE80B\uE807\uE80B\uE807\uE80B\uE807\uE80B\uE807\uE80B\uE807\uE80B\uE807\uE80B\uE807",
   
   "block.minecraft.gold_ore": "Sekernite Ore",
   "block.minecraft.nether_gold_ore": "Nether Sekernite Ore",
@@ -356,6 +358,22 @@
   "advancements.20w14s.red_dragon.description": "Find and kill the red dragon.",
   "advancements.20w14s.pickup_cat.title": "Warm Hugs",
   "advancements.20w14s.pickup_cat.description": "Because just petting your cat isn't enough.",
+  "advancements.20w14s.loot_bag.first.title": "Baby's First Loot Bag",
+  "advancements.20w14s.loot_bag.first.description": "Open a loot bag.",
+  "advancements.20w14s.loot_bag.legendary.title": "Legendary Loot Bag",
+  "advancements.20w14s.loot_bag.legendary.description": "Open a legendary loot bag.",
+  "advancements.20w14s.loot_bag.collector.title": "Loot Bag Collector",
+  "advancements.20w14s.loot_bag.collector.description": "Open every tier of loot bag.",
+  "advancements.20w14s.loot_bag.ten.title": "Loot Bag Opener",
+  "advancements.20w14s.loot_bag.ten.description": "Open 10 loot bags.",
+  "advancements.20w14s.loot_bag.hundred.title": "Loot Bag Obsessed",
+  "advancements.20w14s.loot_bag.hundred.description": "Open 100 loot bags.",
+  "advancements.20w14s.rocket_control_panel.title": "Rocket Control Panel",
+  "advancements.20w14s.rocket_control_panel.description": "Aquire this piece of technology",
+  "advancements.20w14s.launch_rocket.title": "Launch a Rocket",
+  "advancements.20w14s.launch_rocket.description": "Successfully launch a rocket!",
+  "advancements.20w14s.pufferfish_song.title": "Shine",
+  "advancements.20w14s.pufferfish_song.description": "Let it shine! ♫♪♫",
   "advancements.20w14s.stack_overflow.title": "Stack Overflow",
-  "advancements.20w14s.stack_overflow.description": "Are you okay? Please stop!"
+  "advancements.20w14s.stack_overflow.description": "Are you okay? Do you need help?"
 }

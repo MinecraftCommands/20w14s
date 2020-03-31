@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "20w14s:items/loot_bag/_base",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  { "text": "", "color": "dark_gray", "italic": false, "bold": true },
+                  { "text": "Mystery", "obfuscated": true },
+                  " ⭐",
+                  { "text": "⭐⭐", "obfuscated": true },
+                  "⭐",
+                  { "text": "⭐", "obfuscated": true },
+                  "⭐"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

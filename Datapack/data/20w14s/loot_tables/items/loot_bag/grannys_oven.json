@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag: {Tags: ['20w14s.loot_bag', '20w14s.loot_bag.grannys_oven']}}"
+              "tag": "{EntityTag: {Tags: ['20w14s.loot_bag', '20w14s.loot_bag_tier.common', '20w14s.loot_bag.grannys_oven']}}"
             },
             {
               "function": "minecraft:set_name",
