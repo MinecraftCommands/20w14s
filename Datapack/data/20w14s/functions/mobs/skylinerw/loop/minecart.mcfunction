@@ -27,3 +27,6 @@ data modify entity @s Rotation set from storage 20w14s:temp rotation
 
 # Shoot laser at player
 execute if predicate 20w14s:chance_33 if predicate 20w14s:chance_10 facing entity @p eyes run function 20w14s:mobs/skylinerw/shoot_lasers
+
+# Check if clock should run on fast
+execute unless score $fast_clock temp matches 1 store success score $fast_clock temp if entity @a[distance=..40]
