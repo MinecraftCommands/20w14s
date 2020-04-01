@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "20w14s:chests/loot_bags/_technical/enchanted_book/tier_3"
+        }
+      ]
+    },
+    {
+      "rolls": { "min": 1, "max": 4 },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "20w14s:chests/loot_bags/_technical/book_bag_junk",
+          "weight": 67
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "20w14s:chests/loot_bags/_technical/enchanted_book/tier_1",
+          "weight": 11
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "20w14s:chests/loot_bags/_technical/enchanted_book/tier_2",
+          "weight": 11
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "20w14s:chests/loot_bags/_technical/enchanted_book/tier_3",
+          "weight": 11
+        }
+      ]
+    }
+  ]
+}

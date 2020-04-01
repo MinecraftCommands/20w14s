@@ -4,14 +4,29 @@
     {
       "rolls": 1,
       "entries": [
-        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/bomb_in_a_bag", "weight": 38 },
-        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/stronghold_crossing", "weight": 10 },
-        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/the_deli", "weight": 10 },
-        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/sushi_bar", "weight": 10 },
-        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/grannys_oven", "weight": 10 },
-        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/veggie_tray", "weight": 10 },
-        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/soup_kitchen", "weight": 10 },
-        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/mystery", "weight": 2 }
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/book_bag_1" },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/bomb_in_a_bag" },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/stronghold_crossing" },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/the_deli" },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/sushi_bar" },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/grannys_oven" },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/veggie_tray" },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/soup_kitchen" }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "20w14s:items/loot_bag/mystery",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.01
+            }
+          ]
+        }
       ]
     }
   ]

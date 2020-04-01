@@ -4,8 +4,26 @@
     {
       "rolls": 1,
       "entries": [
-        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/shipwreck_treasure", "weight": 94 },
-        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/mystery", "weight": 6 }
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/book_bag_3" },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/shipwreck_treasure" },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/stronghold_search_kit" },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/nether_portal_construction_kit" },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/ocean_monument_raiding_kit" }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "20w14s:items/loot_bag/mystery",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.03
+            }
+          ]
+        }
       ]
     }
   ]

@@ -4,9 +4,26 @@
     {
       "rolls": 1,
       "entries": [
-        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/simple_dungeon", "weight": 48 },
-        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/bag_of_bomb_in_a_bags", "weight": 48 },
-        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/mystery", "weight": 4 }
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/book_bag_2" },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/simple_dungeon" },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/bag_of_bomb_in_a_bags" },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/bag_o_balls" },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/pearl_pouch" }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "20w14s:items/loot_bag/mystery",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.02
+            }
+          ]
+        }
       ]
     }
   ]
