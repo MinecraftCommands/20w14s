@@ -6,15 +6,24 @@ execute if predicate 20w14s:chance_50 run scoreboard players add $rng.a6dee3ff3e
 execute if predicate 20w14s:chance_50 run scoreboard players add $rng.a6dee3ff3e75 temp 4
 execute if predicate 20w14s:chance_50 run scoreboard players add $rng.a6dee3ff3e75 temp 8
 
-execute if score $rng.a6dee3ff3e75 temp matches 0 run fill ~ ~ ~ ~ ~ ~ minecraft:coal_block replace minecraft:air
-execute if score $rng.a6dee3ff3e75 temp matches 1 run fill ~ ~ ~ ~ ~ ~ minecraft:iron_block replace minecraft:air
-execute if score $rng.a6dee3ff3e75 temp matches 2 run fill ~ ~ ~ ~ ~ ~ minecraft:gold_block replace minecraft:air
-execute if score $rng.a6dee3ff3e75 temp matches 3 run fill ~ ~ ~ ~ ~ ~ minecraft:emerald_block replace minecraft:air
-execute if score $rng.a6dee3ff3e75 temp matches 4 run fill ~ ~ ~ ~ ~ ~ minecraft:diamond_block replace minecraft:air
-execute if score $rng.a6dee3ff3e75 temp matches 5 run fill ~ ~ ~ ~ ~ ~ minecraft:lapis_block replace minecraft:air
-execute if score $rng.a6dee3ff3e75 temp matches 6 run fill ~ ~ ~ ~ ~ ~ minecraft:redstone_block replace minecraft:air
-execute if score $rng.a6dee3ff3e75 temp matches 7 run fill ~ ~ ~ ~ ~ ~ minecraft:netherite_block replace minecraft:air
-execute if score $rng.a6dee3ff3e75 temp matches 8 run fill ~ ~ ~ ~ ~ ~ minecraft:tnt[unstable=true] replace minecraft:air
+execute if score $rng.a6dee3ff3e75 temp matches 0 unless block ~ ~ ~ minecraft:air run summon minecraft:item ~ ~0.5 ~ {Item: {id: "minecraft:coal_block", Count: 1b}}
+execute if score $rng.a6dee3ff3e75 temp matches 0 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ minecraft:coal_block
+execute if score $rng.a6dee3ff3e75 temp matches 1 unless block ~ ~ ~ minecraft:air run summon minecraft:item ~ ~0.5 ~ {Item: {id: "minecraft:iron_block", Count: 1b}}
+execute if score $rng.a6dee3ff3e75 temp matches 1 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ minecraft:iron_block
+execute if score $rng.a6dee3ff3e75 temp matches 2 unless block ~ ~ ~ minecraft:air run summon minecraft:item ~ ~0.5 ~ {Item: {id: "minecraft:gold_block", Count: 1b}}
+execute if score $rng.a6dee3ff3e75 temp matches 2 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ minecraft:gold_block
+execute if score $rng.a6dee3ff3e75 temp matches 3 unless block ~ ~ ~ minecraft:air run summon minecraft:item ~ ~0.5 ~ {Item: {id: "minecraft:emerald_block", Count: 1b}}
+execute if score $rng.a6dee3ff3e75 temp matches 3 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ minecraft:emerald_block
+execute if score $rng.a6dee3ff3e75 temp matches 4 unless block ~ ~ ~ minecraft:air run summon minecraft:item ~ ~0.5 ~ {Item: {id: "minecraft:diamond_block", Count: 1b}}
+execute if score $rng.a6dee3ff3e75 temp matches 4 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ minecraft:diamond_block
+execute if score $rng.a6dee3ff3e75 temp matches 5 unless block ~ ~ ~ minecraft:air run summon minecraft:item ~ ~0.5 ~ {Item: {id: "minecraft:lapis_block", Count: 1b}}
+execute if score $rng.a6dee3ff3e75 temp matches 5 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ minecraft:lapis_block
+execute if score $rng.a6dee3ff3e75 temp matches 6 unless block ~ ~ ~ minecraft:air run summon minecraft:item ~ ~0.5 ~ {Item: {id: "minecraft:redstone_block", Count: 1b}}
+execute if score $rng.a6dee3ff3e75 temp matches 6 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ minecraft:redstone_block
+execute if score $rng.a6dee3ff3e75 temp matches 7 unless block ~ ~ ~ minecraft:air run summon minecraft:item ~ ~0.5 ~ {Item: {id: "minecraft:netherite_block", Count: 1b}}
+execute if score $rng.a6dee3ff3e75 temp matches 7 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ minecraft:netherite_block
+execute if score $rng.a6dee3ff3e75 temp matches 8 unless block ~ ~ ~ minecraft:air run summon minecraft:enderman ~ ~0.5 ~ {carriedBlockState: {Name: "minecraft:tnt"}}
+execute if score $rng.a6dee3ff3e75 temp matches 8 if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ minecraft:tnt[unstable=true]
 execute if score $rng.a6dee3ff3e75 temp matches 9 run summon minecraft:phantom ~ ~0.5 ~ {Size: 10, Passengers: [{id: "minecraft:phantom"}]}
 execute if score $rng.a6dee3ff3e75 temp matches 10 run summon minecraft:bat ~ ~0.5 ~ {Passengers: [{id: "minecraft:creeper"}]}
 execute if score $rng.a6dee3ff3e75 temp matches 11 run summon minecraft:guardian ~ ~0.5 ~ {ActiveEffects: [{ShowParticles: false, Duration: 1200, Id: 25b, Amplifier: 0b}]}
