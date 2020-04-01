@@ -375,5 +375,7 @@
   "advancements.20w14s.pufferfish_song.title": "Shine",
   "advancements.20w14s.pufferfish_song.description": "Let it shine! ♫♪♫",
   "advancements.20w14s.stack_overflow.title": "Stack Overflow",
-  "advancements.20w14s.stack_overflow.description": "Are you okay? Do you need help?"
+  "advancements.20w14s.stack_overflow.description": "Are you okay? Do you need help?",
+
+  "multiplayer.disconnect.kicked": "You have been banned."
 }

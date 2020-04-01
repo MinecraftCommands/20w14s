@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "entity_hurt_player": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "equipment": {
+                            "mainhand": {
+                                "nbt": "{20w14s:{puff_hammer:1b}}"
+                            }
+                        }
+                    },
+                    "taken": {
+                        "min": 2,
+                        "max": 9999
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "20w14s:items/puff_hammer/use"
+    }
+}

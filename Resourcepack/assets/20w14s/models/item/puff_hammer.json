@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "20w14s:item/puff_hammer"
+	}
+}

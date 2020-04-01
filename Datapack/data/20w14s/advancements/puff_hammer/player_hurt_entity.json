@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "player_hurt_entity": {
+            "trigger": "minecraft:player_hurt_entity",
+            "entity": {
+                "type": "minecraft:player"
+            },
+            "damage": {
+                "source_entity": {
+                    "equipment": {
+                        "mainhand": {
+                            "nbt": "{20w14s:{puff_hammer:1b}}"
+                        }
+                    }
+                },
+                "dealt": {
+                    "min": 2,
+                    "max": 9999
+                }
+            }
+        }
+    }
+}

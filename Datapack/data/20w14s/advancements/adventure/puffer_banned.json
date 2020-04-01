@@ -1,0 +1,18 @@
+{
+    "parent": "20w14s:adventure/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:12}"
+        },
+        "title": {
+            "text": "§f\uE033 §rBanned"
+        },
+        "description": "Get \"banned\" with a puffhammer."
+    },
+    "criteria": {
+        "through_commands": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

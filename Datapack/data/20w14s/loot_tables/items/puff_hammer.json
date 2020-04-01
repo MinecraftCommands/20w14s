@@ -1,29 +1,34 @@
 {
-    "type": "minecraft:generic",
     "pools": [
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:stone",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_name",
-                            "name": "Big Doo-Doo Stone"
-                        },
-                        {
-                            "function": "minecraft:set_lore",
-                            "lore": [
-                                {"text": "If you have this item, then peerHeer is the big DOO-DOO!", "color": "blue"},
-                                {"text": "Because if he actually implemented this item, you would have been kicked", "color": "blue"},
-                                {"text": "at least 17 times now, and would now be the one to kick others.", "color": "blue"},
-                                {"text": "Or not.", "color": "blue"}
-                            ]
-                        }
-                    ]
-                }
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Unbreakable:1b,Enchantments:[{}],CustomModelData:12,20w14s:{puff_hammer:1b}}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {"text":"Puffhammer", "color":"light_purple", "italic":false},
+                "entity": "this"
+              },
+              {
+                  "function": "minecraft:set_lore",
+                  "lore": [
+                      "",
+                      {"text":"Land a critical hit on other players to \"ban\" them.","color":"gold","italic":false},
+                      {"text":"You can also right-click to \"ban\".","color":"gold","italic":false},
+                      ""
+                  ],
+                  "entity": "this"
+              }
             ]
-        }
+          }
+        ]
+      }
     ]
-}
+  }
