@@ -7,6 +7,3 @@ function 20w14s:mechanics/portal_gun/remove_portal/structure/purple
 
 # Play closing sound
 playsound 20w14s:portal_gun.portal_close ambient @a ~ ~ ~ 1
-
-# Remove portal_main
-kill @s
