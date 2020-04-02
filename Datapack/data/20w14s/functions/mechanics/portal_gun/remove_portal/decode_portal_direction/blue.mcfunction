@@ -18,6 +18,3 @@ execute if score @s 20w14s.prtl_dir matches 11 rotated -90 90 run function 20w14
 
 # Play closing sound
 playsound 20w14s:portal_gun.portal_close ambient @a ~ ~ ~ 1
-
-# Remove portal_main
-kill @s
