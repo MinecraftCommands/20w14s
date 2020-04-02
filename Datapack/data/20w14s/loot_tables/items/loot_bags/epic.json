@@ -4,8 +4,24 @@
     {
       "rolls": 1,
       "entries": [
-        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/end_city_treasure", "weight": 92 },
-        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/mystery", "weight": 8 }
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/book_bag_4" },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/end_city_treasure" },
+        { "type": "minecraft:loot_table", "name": "20w14s:items/loot_bag/wither_prep_kit" }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "20w14s:items/loot_bag/mystery",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.04
+            }
+          ]
+        }
       ]
     }
   ]
