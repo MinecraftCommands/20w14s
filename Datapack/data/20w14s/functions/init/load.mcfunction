@@ -75,9 +75,13 @@ scoreboard objectives add 20w14s.stack_c dummy
 scoreboard objectives add 20w14s.nearby_c dummy
 scoreboard objectives add 20w14s.lootbag used:villager_spawn_egg
 scoreboard objectives add 20w14s.mine_brck minecraft.mined:minecraft.end_stone_bricks
+scoreboard objectives add 20w14s.drp_mcrt dropped:minecart
 scoreboard objectives add 20w14s.open_bags dummy
 scoreboard objectives add 20w14s.pa.bow used:bow
 scoreboard objectives add 20w14s.pa.cbow used:crossbow
+scoreboard objectives add 20w14s.skyw.tgt dummy
+scoreboard objectives add 20w14s.lsr.tmstp dummy
+scoreboard objectives add 20w14s.pffhmr.fl custom:fall_one_cm
 
 scoreboard players set multiplier 20w14s.random 1664525
 scoreboard players set increment 20w14s.random 1013904223
@@ -93,6 +97,9 @@ execute unless score 20w14s.end_boss_ready global matches ..2147483647 run score
 # Initialize structures config
 execute unless data storage 20w14s:generation/structures debug run data modify storage 20w14s:generation/structures debug set value false
 execute unless data storage 20w14s:generation/structures throttle run data modify storage 20w14s:generation/structures throttle set value 1
+
+# Load skylinerw messages
+execute unless data storage 20w14s:mobs/skylinerw queue run function 20w14s:mobs/skylinerw/-reload_storage
 
 # Teams
 team add 20w14s.seker

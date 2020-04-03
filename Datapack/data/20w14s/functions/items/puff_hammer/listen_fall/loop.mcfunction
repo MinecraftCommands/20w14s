@@ -1,0 +1,2 @@
+execute if entity @a[tag=20w14s.puff_hammer.falling,limit=1] run schedule function 20w14s:items/puff_hammer/listen_fall/loop 10t append
+execute as @a[tag=20w14s.puff_hammer.falling] at @s run function 20w14s:items/puff_hammer/listen_fall/player

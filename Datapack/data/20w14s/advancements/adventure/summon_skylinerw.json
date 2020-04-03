@@ -1,0 +1,17 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:sheep_spawn_egg",
+        "nbt": "{CustomModelData:1}"
+      },
+      "title": "Summon Skylinerw",
+      "description": "Summon Skylinerw by drawing a pentagram between sheep and fence posts using leads and throwing two minecarts in the middle",
+      "announce_to_chat": true
+    },
+    "parent": "20w14s:adventure/root",
+    "criteria": {
+      "impossible": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

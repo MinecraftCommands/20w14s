@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Item:{id:"minecraft:minecart"}}] at @s run function 20w14s:mobs/skylinerw/summon/check_general_entities

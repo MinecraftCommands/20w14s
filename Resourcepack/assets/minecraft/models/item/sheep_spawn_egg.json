@@ -2,9 +2,29 @@
     "parent": "20w14s:block/sheep",
     "display": {
         "gui": {
-            "rotation": [ 30, 225, 0 ],
-            "translation": [ 0, -2, 0],
-            "scale":[ 0.625, 0.625, 0.625 ]
+            "rotation": [
+                30,
+                225,
+                0
+            ],
+            "translation": [
+                0,
+                -2,
+                0
+            ],
+            "scale": [
+                0.625,
+                0.625,
+                0.625
+            ]
         }
-    }
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "20w14s:item/skylinerw"
+        }
+    ]
 }

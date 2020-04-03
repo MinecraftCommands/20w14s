@@ -1,7 +1,7 @@
 {
   "translation.test.args": "",
   "Get the resourcepack! ": "",
-
+  "20w14s.server_ip": "51.254.81.131",
   "item.minecraft.experience_bottle": "Pot o' Minecoins",
   "entity.minecraft.experience_bottle": "Thrown Pot o' Minecoins",
   "entity.minecraft.experience_orb": "Minecoin",
@@ -381,5 +381,7 @@
   "advancements.20w14s.pufferfish_song.title": "Shine",
   "advancements.20w14s.pufferfish_song.description": "Let it shine! ♫♪♫",
   "advancements.20w14s.stack_overflow.title": "Stack Overflow",
-  "advancements.20w14s.stack_overflow.description": "Are you okay? Do you need help?"
+  "advancements.20w14s.stack_overflow.description": "Are you okay? Do you need help?",
+
+  "multiplayer.disconnect.kicked": "You have been banned."
 }

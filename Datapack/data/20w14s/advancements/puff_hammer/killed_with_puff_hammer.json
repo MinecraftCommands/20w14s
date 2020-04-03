@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "entity_hurt_player": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "equipment": {
+                        "mainhand": {
+                            "nbt": "{20w14s:{puff_hammer:1b}}"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "20w14s:items/puff_hammer/use"
+    }
+}

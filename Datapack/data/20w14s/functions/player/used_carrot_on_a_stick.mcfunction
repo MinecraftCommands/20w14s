@@ -9,5 +9,7 @@ execute if predicate 20w14s:portal_gun/holding_purple run function 20w14s:mechan
 execute if predicate 20w14s:portal_gun/holding_blue_orange_remover run function 20w14s:mechanics/portal_gun/remove_portal/blue_orange
 execute if predicate 20w14s:portal_gun/holding_red_yellow_remover run function 20w14s:mechanics/portal_gun/remove_portal/red_yellow
 execute if predicate 20w14s:portal_gun/holding_light_blue_purple_remover run function 20w14s:mechanics/portal_gun/remove_portal/light_blue_purple
+execute if predicate 20w14s:holding_puff_hammer run function 20w14s:items/puff_hammer/use
+execute if predicate 20w14s:holding_laser_pointer unless entity @s[tag=20w14s.laser_pointer.active] run function 20w14s:items/laser_pointer/start_activation
 
 scoreboard players set @s 20w14s.use_coas 0
