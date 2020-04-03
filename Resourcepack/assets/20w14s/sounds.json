@@ -128,5 +128,9 @@
 		  "sounds": [
 			  "20w14s:pop_low"
 		  ]
-	  }
+    },
+    
+    "laser.charge": { "sounds": [ "20w14s:laser/charge" ] },
+    
+    "laser.shoot": { "sounds": [ "20w14s:laser/shoot" ] }
 }

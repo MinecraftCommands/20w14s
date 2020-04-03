@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{Unbreakable:1b,Enchantments:[{}],CustomModelData:12,20w14s:{puff_hammer:1b}}"
+                "tag": "{Unbreakable:1b,Enchantments:[{id:'minecraft:knockback',lvl:5s}],CustomModelData:12,20w14s:{puff_hammer:1b}}"
               },
               {
                 "function": "minecraft:set_name",
@@ -19,11 +19,11 @@
               {
                   "function": "minecraft:set_lore",
                   "lore": [
-                      "",
-                      {"text":"Land a critical hit on other players to \"ban\" them.","color":"gold","italic":false},
-                      {"text":"You can also right-click to \"ban\".","color":"gold","italic":false},
-                      ""
-                  ],
+                    "",
+                    {"text":"Used to kick players in a special way.","color":"gold","italic":false},
+                    [{"color":"gold","italic":false,"text":"You can also use "}, {"keybind":"key.use"}, {"text":" to \"ban\"."}],
+                    ""
+                ],
                   "entity": "this"
               }
             ]

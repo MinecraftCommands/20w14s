@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "20w14s:items/puff_hammer"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "20w14s:items/laser_pointer",
+                    "weight": 3
+                }
+            ]
+        }
+    ]
+}

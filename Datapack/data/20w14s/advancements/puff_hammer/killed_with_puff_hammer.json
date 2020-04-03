@@ -2,14 +2,14 @@
     "criteria": {
         "entity_hurt_player": {
             "trigger": "minecraft:entity_killed_player",
-                "damage": {
-                    "entity": {
-                        "equipment": {
-                            "mainhand": {
-                                "nbt": "{20w14s:{puff_hammer:1b}}"
-                            }
+            "conditions": {
+                "entity": {
+                    "equipment": {
+                        "mainhand": {
+                            "nbt": "{20w14s:{puff_hammer:1b}}"
                         }
                     }
+                }
             }
         }
     },

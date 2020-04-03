@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "entity_hurt_player": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "nbt": "{Tags:['20w14s.skylinerw']}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "20w14s:items/puff_hammer/kick_random"
+    }
+}

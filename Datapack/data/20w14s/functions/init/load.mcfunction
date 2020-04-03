@@ -79,6 +79,9 @@ scoreboard objectives add 20w14s.drp_mcrt dropped:minecart
 scoreboard objectives add 20w14s.open_bags dummy
 scoreboard objectives add 20w14s.pa.bow used:bow
 scoreboard objectives add 20w14s.pa.cbow used:crossbow
+scoreboard objectives add 20w14s.skyw.tgt dummy
+scoreboard objectives add 20w14s.lsr.tmstp dummy
+scoreboard objectives add 20w14s.pffhmr.fl custom:fall_one_cm
 
 scoreboard players set multiplier 20w14s.random 1664525
 scoreboard players set increment 20w14s.random 1013904223

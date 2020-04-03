@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Unbreakable:1b,CustomModelData:13,20w14s:{laser_pointer:1b}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Laser Pointer",
+                "color": "light_purple",
+                "italic": false
+              },
+              "entity": "this"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

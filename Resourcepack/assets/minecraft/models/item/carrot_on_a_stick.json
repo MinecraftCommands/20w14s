@@ -51,6 +51,10 @@
 		{
             "predicate": {"custom_model_data": 12},
             "model": "20w14s:item/puff_hammer"
+        },
+		{
+            "predicate": {"custom_model_data": 13},
+            "model": "20w14s:item/laser_pointer"
         }
     ]
 }
