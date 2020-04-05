@@ -23,14 +23,14 @@
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
-                  "attribute": "generic.maxHealth",
+                  "attribute": "generic.max_health",
                   "name": "a",
                   "amount": 12,
                   "operation": "addition",
                   "slot": "head"
                 },
                 {
-                  "attribute": "generic.armorToughness",
+                  "attribute": "generic.armor_toughness",
                   "name": "b",
                   "amount": 2,
                   "operation": "addition",

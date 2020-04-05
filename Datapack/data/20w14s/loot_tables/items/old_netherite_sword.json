@@ -11,14 +11,14 @@
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
-                  "attribute": "generic.attackDamage",
+                  "attribute": "generic.attack_damage",
                   "name": "a",
                   "amount": 8,
                   "operation": "addition",
                   "slot": "mainhand"
                 },
                 {
-                  "attribute": "generic.attackSpeed",
+                  "attribute": "generic.attack_speed",
                   "name": "b",
                   "amount": 731031,
                   "operation": "addition",

@@ -24,7 +24,7 @@
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
-                  "attribute": "generic.armorToughness",
+                  "attribute": "generic.armor_toughness",
                   "name": "a",
                   "amount": 2,
                   "operation": "addition",
@@ -42,7 +42,7 @@
                   ]
                 },
                 {
-                  "attribute": "generic.maxHealth",
+                  "attribute": "generic.max_health",
                   "name": "c",
                   "amount": 4,
                   "operation": "addition",
