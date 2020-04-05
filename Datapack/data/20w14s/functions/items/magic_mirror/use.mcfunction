@@ -6,10 +6,7 @@ gamerule doImmediateRespawn true
 gamerule keepInventory true
 gamerule showDeathMessages false
 kill @s
-gamerule doImmediateRespawn false
-gamerule keepInventory false
-gamerule showDeathMessages true
 
-# Set gamemode back in 8 ticks
+# Set gamemode back in 16 ticks
 tag @s add 20w14s.temp_using_magic_mirror
-schedule function 20w14s:items/magic_mirror/refind_spectators 8t
+schedule function 20w14s:items/magic_mirror/refind_spectators 16t
