@@ -27,7 +27,9 @@ execute anchored eyes as @e[type=area_effect_cloud,tag=20w14s.temp,limit=1] run 
 data modify entity @s Rotation set from storage 20w14s:temp rotation
 
 # Shoot laser at player
-execute unless entity @s[tag=20w14s.skylinerw.shooting_lasers] if entity @a[tag=20w14s.skylinerw.target,limit=1] if predicate 20w14s:chance_50 if predicate 20w14s:chance_50 run function 20w14s:mobs/skylinerw/shoot_lasers/schedule
+execute unless score $20w14s.skylinerw.lasercount global matches 1.. run tag @s remove 20w14s.skylinerw.shooting_lasers
+execute unless entity @s[tag=20w14s.skylinerw.shooting_lasers] if score $has_target temp matches 1 if predicate 20w14s:chance_50 if predicate 20w14s:chance_50 run function 20w14s:mobs/skylinerw/shoot_lasers/schedule
+
 
 # Check if clock should run on fast
 execute unless score $fast_clock temp matches 1 store success score $fast_clock temp if entity @a[distance=..40]
